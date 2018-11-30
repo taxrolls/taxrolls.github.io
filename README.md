@@ -1,7 +1,7 @@
 # Tax Rolls of Medieval Paris
 Welcome to the Tax Rolls of Medieval Paris project.  
 
-Please view the styled HTML prototype at: [https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html](https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html)
+A prototype is available for a small portion of the 1313 Tax Roll. Please view the styled HTML version at: [https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html](https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html)
 
 A full-featured website for the Tax Rolls that includes the available digitized manuscript images via IIIF is currently in deveopment.
 

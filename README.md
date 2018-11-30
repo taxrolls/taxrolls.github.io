@@ -1,7 +1,7 @@
 # Tax Rolls of Medieval Paris
-Welcome to the Tax Rolls of Medieval Paris project.  
+Welcome to the Tax Rolls of Medieval Paris Digital Edition project.  
 
-A prototype is available for a small portion of the 1313 Tax Roll. Please view the styled HTML version at: [https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html](https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html)
+A prototype is available for a small portion of the 1313 Tax Roll. Please view the styled HTML edition at: [https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html](https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html)
 
 A full-featured website for the Tax Rolls that includes the available digitized manuscript images via IIIF is currently in deveopment.
 
@@ -52,14 +52,14 @@ The markup for a typical entry looks like this:
 
 ### Notes
 - There is currently no TEI markup for unnamed persons, including wives and children, e.g. `La fame feu Guillaume de biaufou`
-- Places are currently given placeholder XML IDs; ultimately these should connect to GeoNames or similar Linked Open Data authority file
+- Geographic locations are currently given placeholder XML IDs; ultimately these should connect to GeoNames or a similar Linked Open Data authority file
 - The XSL transformation file does not currently render or hide marginal notes, which consequently appear randomly throughout the HTML version of the edition
 
 
 ### Files
 The prototype currently consists of the following files:
 * `TaxRoll_1313_TEI.xml` - The marked up TEI/XML file for a small portion of the 1313 Parisian Tax Roll
-* `TaxRoll_1313_TEI.html` - A rendered HTML version of the marked up TEI file. A handful of analytics are found at the bottom of the file
+* `TaxRoll_1313_TEI.html` - A rendered HTML edition of the marked up TEI file. A handful of analytics are found at the bottom of the edition
 * `TaxRoll_Transform.xsl` - An XSL Transformation file that converts the TEI/XML version of the Tax Roll into HTML
 * `TaxRoll_Style.css` - A CSS file used to render the HTML
 

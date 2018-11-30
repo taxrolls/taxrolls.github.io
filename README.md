@@ -38,14 +38,14 @@ The markup for a typical entry looks like this:
   <seg type="entry">
     <persName ref="#BC01">
       <forename>Bertaut</forename>
-   			<nameLink>de</nameLink>
- 					<surname>compiegne</surname>
-				</persName>
-				<rs ref="#BC01" role="poulailler" type="occupation">poullaillier</rs>.
-		</seg>
-		<measureGrp>
-		  <measure quantity="2" unit="sous">ii.s.</measure>
-				<measure quantity="6" unit="deniers">vi.d p.</measure>
+      <nameLink>de</nameLink>
+      <surname>compiegne</surname>
+    </persName>
+    <rs ref="#BC01" role="poulailler" type="occupation">poullaillier</rs>.
+  </seg>
+  <measureGrp>
+    <measure quantity="2" unit="sous">ii.s.</measure>
+    <measure quantity="6" unit="deniers">vi.d p.</measure>
   </measureGrp>
 </item>
 ```

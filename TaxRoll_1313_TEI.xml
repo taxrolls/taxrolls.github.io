@@ -1,0 +1,4142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<?xml-model href="tei_taille.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T1313">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<p>Statement</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier xml:lang="fr">
+						<country>France</country>
+						<settlement>Paris</settlement>
+						<institution>Bibliothèque nationale de France</institution>
+						<repository>Departement des manuscrits</repository>
+						<collection>Français</collection>
+						<idno>6736</idno>
+						<altIdentifier>
+							<collection>Supplément français</collection>
+							<idno>178</idno>
+						</altIdentifier>
+						<msName>Le livre de la taille des dis mile livres deuz au Roy nostre sires pour la chevalerie le roy de Navarre, son ainzné filz, assise en la meson Estienne Barbete,... l'an de grace mil trois cenz et troize</msName>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+	</teiHeader>
+	<facsimile>
+		<graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9063202d/"/>
+	</facsimile>
+
+	<text>
+		<body facs="1rA">
+
+			<div type="incipit">
+				<head>
+					<g type="initial">C</g>est le livre de la Taille des dis<lb/>
+					mile livres deuz au
+					<name ref="#PhilipIV">roy nostre<lb/>
+						sires</name>
+					pour la chevalerie
+					<name ref="#LouisX">Le Roy<lb/>
+						de
+						<placeName ref="#geo_Navarre">Navarre</placeName>
+					</name>
+					son ainz ne filz assise en la meson
+					<lb/>
+					<persName ref="#EB01">
+						<forename>Estienne</forename>
+						<surname>barbete<ptr type="footnote" target="#note1"/></surname>
+					</persName>
+					en greve. par
+					<persName ref="#JB01">
+						<forename>Jehan</forename>
+						<surname>barbete</surname>
+					</persName>.<lb/>
+					<persName ref="#JB02">
+						<forename>Jacques</forename>
+						<surname>bourdon</surname>
+					</persName>.
+					<persName ref="#JQ01">
+						<forename>Jehan<ptr type="footnote" target="#note2"/></forename>
+						<nameLink>le</nameLink>
+						<surname>
+							<roleName>queu</roleName>
+						</surname>
+					</persName>
+					<rs ref="#JQ01" role="orfevre" type="occupation">
+						orfevre
+					</rs>.
+					<persName ref="#VP01" role="poissonnier de mer">
+						<forename>Vi<ex>n</ex>ce<ex>n</ex>t</forename>
+						<lb/>
+						<nameLink>le</nameLink>
+						<surname>
+							<roleName>
+								<rs ref="#VP01" role="poissonnier" type="occupation">
+									poisson<ex>n</ex>ier de mer
+								</rs>
+							</roleName>
+						</surname>
+					</persName>.
+					<persName ref="#JM01">
+						<forename>Jehan</forename>
+						<nameLink>de</nameLink>
+						<surname>
+							<placeName ref="#geo_Montreuil,_Seine-Saint-Denis">monterueil</placeName>
+						</surname>
+					</persName>
+					<rs ref="#JM01" role="tisserand" type="occupation">
+						tesser<lb break="no"/>ant<ptr type="footnote" target="#note3"/>
+					</rs>.
+					<persName ref="#TN01">
+						<forename>Thomas</forename>
+						<nameLink>de</nameLink>
+						<surname>
+							<placeName ref="#geo_Noisy">Noisy</placeName>
+						</surname>
+					</persName>
+					<rs ref="#TN01" role="vinetier" type="occupation">
+						vinetier
+					</rs>.
+					<persName ref="#GG01">
+						<forename>Gerart</forename>
+						<surname>Go<lb break="no"/>defroy</surname>
+					</persName>
+					<rs ref="#GG01" role="épicier" type="occupation">
+						espicier
+					</rs>.
+					<persName ref="#JM02">
+						<forename>Jehan</forename>
+						<surname>maillart</surname>
+					</persName>
+					<rs ref="#JM02" role="changeur" type="occupation">
+						changeeur
+					</rs>.
+					<persName ref="#SSB01">
+						<forename>Symo<ex>n</ex>
+						</forename>
+						<lb/>
+						<nameLink>de</nameLink>
+						<surname>saint benoit</surname>
+					</persName>
+					<rs ref="#SSB01" role="drapier" type="occupation">
+						drapier
+					</rs>.
+					<persName ref="#GT01">
+						<forename>Guill<ex>aum</ex>e</forename>
+						<nameLink>de</nameLink>
+						<surname>
+							<placeName ref="#geo_Trie">trie<ptr type="footnote" target="#note4"/></placeName>
+						</surname>
+					</persName>.
+					<rs ref="#GT01" role="pelletier" type="occupation">
+						pelletier
+					</rs>.<lb/>
+					<persName ref="#ST01">
+						<forename>Symon</forename>
+						<surname>tybert</surname>
+					</persName>
+					<rs ref="#ST01" role="boucher" type="occupation">
+						bouchier
+					</rs>.
+					<persName ref="#NA01">
+						<forename>Nicolas</forename>
+						<surname>Arrode</surname>
+					</persName>.
+					<persName ref="#SC01">
+						<forename>Symo<ex>n</ex>
+						</forename>
+						<lb/>
+						<nameLink>de</nameLink>
+						<surname>chatou</surname>
+					</persName>
+					<rs ref="#SC01" role="mercier" type="occupation">
+						mercier
+					</rs>.
+					<persName ref="#RL01">
+						<forename>Robert</forename>
+						<nameLink>de</nameLink>
+						<surname>
+							<placeName ref="#geo_Linay">Linays</placeName>
+						</surname>
+					</persName>
+					<rs ref="#RL01" role="courroier" type="occupation">
+						courraier
+					</rs>.<lb/>
+					<persName ref="#EL01">
+						<forename>Evroin</forename>
+						<surname>ligier</surname>
+					</persName>
+					<rs ref="#EL01" role="talemelier" type="occupation">
+						talmelier
+					</rs>. et
+					<persName ref="#GF01">
+						<forename>Guill<ex>aum</ex>e</forename>
+						<surname>franque<unclear>in</unclear>
+						</surname>
+					</persName><lb/>
+					<rs ref="#GF01" role="sellier" type="occupation">
+						sellier
+					</rs>.
+					<date when="1313">Lan de grace. mil. trois cenz et troize</date>.
+				</head>
+			</div>
+
+			<lb/>
+
+			<div type="parish">
+				<div type="quête" n="1">
+					<head type="quête_title"><locus target="#bib_buchon" n="1"/>
+						<rs ref="#st_germain_lauxerrois_Q1">
+							<g type="initial">L</g>a premiere queste. S<ex>aint</ex>
+							Germain laucerrois</rs>
+					</head>
+
+					<div type="street">
+						<head>
+							<rs ref="#street_Rue_St-Honoré #streetSeg_Rue_St-Honoré_dehors">si com<ex>m</ex>ance de la
+								<placeName ref="#topo_Porte_St-Honoré">porte saint honore</placeName>
+								de hors le mur jusques aus
+								<placeName ref="#bldg_Hôpital_Quinze-Vingts">a<g type="W">vu</g>gles</placeName>
+							</rs>.</head>
+
+						<lb/>
+
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#EQL01">
+										<forename>Estienne</forename>
+										<surname>
+											<roleName>queue levee</roleName>
+										</surname>
+									</persName>
+									<rs ref="#EQL01" role="cavatier" type="occupation">
+										cavatier
+									</rs>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#RF01">
+										<forename>Robert</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Fresviau">fresviau</placeName>
+										</surname>
+									</persName>
+									<rs ref="#RF01" role="regratier" type="occupation">
+										regratier
+									</rs>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PP01">
+										<forename>Perronelle</forename>
+										<surname>poree</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d. p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<del rend="strikethrough">
+										<persName ref="#TF01">
+											<forename>Thierrion</forename>
+											<nameLink>de la</nameLink>
+											<surname>
+												<unclear reason="illegible">fauverte</unclear>
+											</surname>
+										</persName>
+									</del>
+								</seg>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JC01">
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>cras</addName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="15" unit="sous">xv.s. p</measure>
+							</item>
+
+							<lb/>
+
+							<item><locus target="#bib_buchon" n="2"/>
+								<seg type="entry">
+									<persName ref="#JB03">
+										<forename>Jehan</forename>
+										<surname>brecart</surname>
+									</persName>.
+								</seg>
+								<measure quantity="2" unit="sous">ii.s. p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#RP01">
+										<forename>Rogier</forename>
+										<surname>piquet</surname>
+									</persName>
+									<g type="tyronian_et">
+										et</g>
+									son gendre.
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s p</measure>
+								<note place="inline">
+									<unclear reason="illegible">
+										x p.</unclear>
+								</note>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GC01">
+										<forename>Geffroy</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Champeaux">champiaus</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="24" unit="sous">xxiiii.s. p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JC02">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Chaumont">chaumont</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="9" unit="sous">ix.s</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PVN01">
+										<forename>Pierre</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="30" unit="sous">xxx. s. p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">Le gendre du dit
+									<persName ref="#PVN01">
+										<forename>pierre</forename>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="sous">ix. s. p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GSH01">
+										<forename>Guillaume</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_St-Honore">saint honore</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d. p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#HC01">
+										<forename>Heloys</forename>
+										<nameLink>la</nameLink>
+										<surname>courande</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">.iii. s. p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PR01">
+										<forename>Phelippe</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Reims">Reins</placeName>
+										</surname>
+									</persName>.
+									<rs ref="#PR01" role="chandelier" type="occupation">
+										chandelier
+									</rs>.
+								</seg>
+								<measure quantity="6" unit="sous">vi. s p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GT02">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>du</nameLink>
+										<surname>
+											<placeName ref="#geo_Til">tilg</placeName>
+										</surname>
+									</persName>
+									<rs ref="#GT02" role="tailleur_de_pierre" type="occupation">
+										taillieur de pierre
+									</rs>.
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="sous">iiii.s</measure>.<measure quantity="6" unit="deniers">vi d. p</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PB01">
+										<forename>Pierre</forename>
+										<surname>blancernoul</surname>
+									</persName>.
+								</seg>
+								<measure quantity="4" unit="sous">iii.s. .p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#HF01">
+										<forename>Huitace</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#HF01" role="fevre" type="occupation">
+													fevre
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="livres">iiii.lb.</measure>
+									<measure quantity="10" unit="sous">x.s. p</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PC01">
+										<forename>Perronelle</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PC01" role="chandelier" type="occupation">
+													chandeliere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi. s. .p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#LB01">
+										<forename>Lucas</forename>
+										<surname>bourge</surname>
+									</persName>.
+								</seg>
+								<measure quantity="6" unit="sous">vi. s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GD01">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>devin</addName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="15" unit="sous">xv. s. p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#SS01">
+										<forename>Symon</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#SS01" role="sergent" type="occupation">
+													sergent
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi. s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#RP02">
+										<forename>Rogier</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#RP02" role="potier" type="occupation">
+													potier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">.ii.s.</measure>
+									<measure quantity="6" unit="deniers">vi.d. p.</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#RU01">
+										<forename>Robert</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#RU01" role="huilier" type="occupation">
+													uillier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GT03">
+										<forename>Gervaise</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GT03" role="tailleur" type="occupation">
+													taillieur
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s. p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#HB01">
+										<forename>Hernon</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Bretagne">breton</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="7" unit="sous">vii.s.</measure>
+									<measure quantity="6" unit="deniers">vi d. p.</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GP01">
+										<forename>Geffroy</forename>
+										<nameLink>de</nameLink>
+										<surname>pons</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GM01">
+										<forename>Godefroy</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GM01" role="marchand" type="occupation">
+													marchant
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#AC01">
+										<forename>Agnes</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AC01" role="cordier" type="occupation">
+													cordiere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="21" unit="deniers">xxi. d. p.</measure>
+							</item>
+
+							<cb facs="1rB"/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#RPR01">
+										<forename>Robert</forename>
+										<nameLink>du</nameLink>
+										<surname>
+											<placeName ref="#geo_Pont_la_Reyne">pont la rayne</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="livres">ix. lb. p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">La seur a la fame
+									<persName ref="#PT01">
+										<forename>pierre</forename>
+										<nameLink>du</nameLink>
+										<surname>tref</surname>
+									</persName>.
+								</seg>
+								<measure quantity="6" unit="sous">vi.s
+								</measure>
+							</item>
+
+							<note place="inline"><unclear reason="facsimile"/></note>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JVN01">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
+										</surname>
+									</persName>
+									<rs ref="#JVN01" role="maître_des_aveugles" type="occupation">
+										mestre des a<g type="W">vu</g>egles
+									</rs>
+									<g type="tyronian_et">et</g>
+									son gend<ex>r</ex>
+									<seg rend="superscript">e</seg>.
+								</seg>
+								<measure quantity="30" unit="sous">xxx s p
+								</measure>
+							</item>
+
+							<note place="inline"><unclear reason="facsimile"/></note>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#AP01">
+										<forename>Aalis</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AP01" role="patrice" type="occupation" cert="low">
+													patrice
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="60" unit="sous">Lx.s. .p.</measure>
+							</item>
+
+							<lb/>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Quai_de_Seine_du_Louvre">Des
+								<placeName ref="#topo_Tuileries">tuilleries</placeName>
+								jusques au
+								<placeName ref="#bldg_Louvre">louvre</placeName>
+							</rs>.</head>
+						<lb/>
+
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#GB01">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>de</nameLink>
+										<surname>biauveoir</surname>
+									</persName>.
+									<rs ref="#GB01" role="taillieur des robes" type="occupation">
+										taillieur de robes
+									</rs>
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s .p.
+								</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#RP03">
+										<forename>Raol</forename>
+										<surname>poree</surname>
+									</persName>.
+									<rs ref="#RP03" role="vallet" type="occupation">
+										vallet
+										<persName ref="#JE01">
+											<forename>jehan</forename>
+											<nameLink>l</nameLink>
+											<surname>escuillier</surname>
+										</persName>
+									</rs>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PB02">
+										<forename>Pierre</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Bonneuil_sur_Marne" cert="medium">bonueil</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="7" unit="livres">vii.lb.</measure>
+									<measure quantity="10" unit="sous">x.s. p.</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#EHM01">
+										<forename>Ernol</forename>
+										<nameLink>de la</nameLink>
+										<surname>haute meson</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="livres">iiii.lb.</measure>
+									<measure quantity="10" unit="sous">x.s p.</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JL01">
+										<forename>Jehanne</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JL01" role="lavandrier" type="occupation">
+													lavendiere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">xii.s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JH01">
+										<forename>Jehan</forename>
+										<nameLink>du</nameLink>
+										<surname>hamel</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">xii.s p.</measure>
+							</item>
+
+							<lb/>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Froit_Mantel #streetSeg_Rue_Froit_Mantel_E">Froit mantel le renc devers le
+								<placeName ref="#bldg_Louvre">louvre</placeName>
+							</rs>.</head>
+
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#EB02">
+										<forename>Estienne</forename>
+										<surname>bourde</surname>
+									</persName>
+									<rs ref="#EB02" role="tavernier" type="occupation">
+										tav<ex>er</ex>nier
+									</rs>
+									dit
+									<persName ref="#EB02">
+										<addName>porte chappe</addName>
+									</persName>.
+								</seg>
+								<measure quantity="3" unit="sous">.iii. s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#AC02">
+										<forename>Adan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AC02" role="chandelier" type="occupation">
+													chandelier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s. p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#AD01">
+										<forename>Anesot</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Dammartin-en-Goële">danmart</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JB04">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Biaumont">biaumont</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="sous">ix.s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#EU01">
+										<forename>Estienne</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#EU01" role="huilier" type="occupation">
+													uillier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#LG01">
+										<forename>Lorenz</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Guoy">gouy</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="27" unit="deniers">xxvii.d
+								</measure>
+							</item>
+
+							<lb/>
+
+							<note place="margin"><unclear reason="illegible"/></note>
+
+							<item><locus target="#bib_buchon" n="3"/>
+								<seg type="entry">
+									<persName ref="#H01">
+										<forename>Hechebren</forename>
+									</persName><ptr type="footnote" target="#note5"/></seg>
+								<measure quantity="12" unit="sous">xii.s p.
+								</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JP01">
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JP01" role="pelletier" type="occupation">
+													pelle<seg rend="superscript">o</seg>tier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">.xii.s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GP02">
+										<forename>Guerin</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GP02" role="pelletier" type="occupation">
+													pele<seg rend="superscript">o</seg>tier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">xii.s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#G01">
+										<forename>Gtrumiau</forename>
+									</persName><ptr type="footnote" target="#note6"/></seg>
+								<measure quantity="3" unit="sous">iii.s. p.</measure>
+							</item>
+
+							<lb/>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Froit_Mantel #streetSeg_Rue_Froit_Mantel_W">Lautre renc de froit mantel</rs>.</head>
+
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#BC01">
+										<forename>Bertaut</forename>
+										<nameLink>de</nameLink>
+										<surname>compiegne</surname>
+									</persName>
+									<rs ref="#BC01" role="poulailler" type="occupation">
+										poullaillier
+									</rs>.
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s.</measure>
+									<measure quantity="6" unit="deniers">vi.d p.</measure>
+								</measureGrp>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#HB02">
+										<forename>Henri</forename>
+										<surname>becaire</surname>
+									</persName>
+									<rs ref="#HB02" role="queux" type="occupation">
+										queu la
+										<name ref="#Margaret_of_Burgundy,_Queen_of_France">rayne de navarre</name>
+									</rs>
+								</seg>
+								<measure quantity="9" unit="livres">ix.lb.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PB03">
+										<forename>Phelippe</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>bracheur</roleName>
+										</surname>
+									</persName>
+									<rs ref="#PB03" role="tapissier" type="occupation">
+										tapicier
+									</rs>.
+								</seg>
+								<measure quantity="15" unit="sous">xv.s p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#TB01">
+										<forename>Thomas</forename>
+										<nameLink>le</nameLink>
+										<surname>borgne</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<name ref="#ANON01">Le
+										<rs ref="#ANON01" role="concierge" type="occupation">
+											concierge
+										</rs>
+										a
+										<name ref="#Robert_V,_Count_of_Dreux">Conte de dreus</name>
+									</name>.
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.
+								</measure>
+							</item>
+
+							<lb/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#GH01">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GH01" role="hasteur" type="occupation">
+													hasteur
+													<name ref="#Philip_IV_of_France">le Roy</name>
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s. p.</measure>
+							</item>
+
+							<lb/>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Biauvoir #streetSeg_Rue_Biauvoir_S">La rue de biauveoir. le renc dev<ex>er</ex>s le
+								<placeName ref="#bldg_Louvre">louvre</placeName>
+							</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#JG01">
+										<forename>Jehan</forename>
+										<surname>groignet</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RR01">
+										<forename>Robert</forename>
+										<surname>roussiau</surname>
+									</persName>
+									.</seg>
+								<measure quantity="3" unit="sous">iii.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GV01">
+										<forename>Guiglout</forename>
+										<nameLink>de</nameLink>
+										<surname>vicours</surname>
+									</persName>.</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>
+									<measure quantity="6" unit="deniers">vi.d p.</measure>
+								</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GC02">
+										<forename>Guillaume</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GC02" role="cordier" type="occupation">
+													cordier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.</seg>
+								<measure quantity="5" unit="sous">v.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#TM01">
+										<forename>Thomas<unclear>
+												<seg rend="superscript">ine</seg>
+											</unclear>
+										</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#TM01" role="meunier" type="occupation">
+													muniere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>.</measureGrp>
+							</item>
+						</list>
+					</div>
+
+					<pb facs="1vA"/>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Biauvoir #streetSeg_Rue_Biauvoir_N">Lautre renc</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#JB05">
+										<forename>Jourdain</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JB05" role="buffetier" type="occupation">
+													buffetier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.</seg>
+								<measure quantity="3" unit="sous">.iii.s p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<rs ref="#street_Rue_Jean_St-Denis">La rue jehan de S<ex>aint</ex>.denys</rs>
+						</head>
+						<p>Nich<ex>il</ex>
+						</p>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_du_Chantre">La rue au chantre</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#GF02">
+										<forename>Gautier</forename>
+										<nameLink>de la</nameLink>
+										<surname>fourriere</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi. s</measure>
+								<note place="margin"><unclear reason="facsimile"/>fourriere</note>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#HV01">
+										<forename>Houdet</forename>
+										<nameLink>de</nameLink>
+										<surname>viceours</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="sous">iiii.s</measure>
+									<measure quantity="6" unit="deniers">vi d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GF03">
+										<forename>Guillaume</forename>
+										<nameLink>de</nameLink>
+										<surname>feuquerel</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#AN01">
+										<roleName>Dame</roleName>
+										<forename>agnes</forename>
+										<nameLink>de</nameLink>
+										<surname>neelle</surname>
+									</persName>
+								</seg>
+								<measure quantity="45" unit="sous">xlv.s</measure>
+								<note place="inline">non
+									<unclear reason="illegible">apr<lb/>
+										chan[d..]</unclear>
+								</note>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RE01">
+										<forename>Robert</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<placeName ref="#geo_Scotland">escot</placeName>
+										</surname>
+									</persName>
+									<rs ref="#RE01" role="pelletier" type="occupation">
+										pelletier
+									</rs>
+								</seg>
+								<measure quantity="6" unit="sous">vi. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#HC02">
+										<forename>Huitace</forename>
+										<nameLink>de</nameLink>
+										<surname>chevreuse</surname>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#HC02" role="cirier" type="occupation">ciriere</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s. p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Champ-Fleury #streetSeg_Rue_Champ-Fleury_A">La rue de champfleuri</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#PH01">
+										<forename>Pierre</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PH01" role="hote" type="occupation">
+													hote
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.</seg>
+								<measure quantity="18" unit="deniers">.xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#AC03">
+										<forename>Andri</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AC03" role="courtepointier" type="occupation">
+													coutepointier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.</seg>
+								<measure quantity="26" unit="deniers">.xxvi.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#TF02">
+										<forename>Thiece</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#TF02" role="fileresse de soie" type="occupation">
+													fillerresse de saie
+												</rs>
+											</roleName>
+										</surname>
+									</persName>.</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>. p</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#CB01">
+										<forename>Colin</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#CB01" role="barbier" type="occupation">
+													barbier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PC02">
+										<forename>Perrete</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PC02" role="couturier" type="occupation">
+													cousturiere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#CP01">
+										<forename>Colin</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Picardie">picart</placeName>
+										</surname>
+									</persName>.</seg>
+								<measure quantity="9" unit="livres">.ix.lb p</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head><locus target="#bib_buchon" n="4"/>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Champ-Fleury #streetSeg_Rue_Champ-Fleury_B">Lautre renc</rs>.
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#GC03">
+										<forename>Guillaume</forename>
+										<nameLink>de la</nameLink>
+										<surname>chapelle</surname>
+									</persName>
+									<rs ref="#GC03" role="buffetier" type="occupation">
+										buffetier
+									</rs>
+								</seg>
+								<measureGrp>.<measure quantity="2" unit="sous">ii s</measure>.<measure quantity="6" unit="deniers">vi d</measure>. p.</measureGrp>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_du_Coq #streetSeg_Rue_du_Coq_E">La rue de richebourc. le renc par dev<ex>er</ex>s
+								<rs ref="#topo_Porte_St-Honoré">la porte</rs>
+							</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#A01">
+										<forename>Aleinete</forename>
+									</persName>
+									<rs ref="#A01" role="fileresse de soie" type="occupation">
+										fillerresse de saye
+									</rs>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RM01">
+										<forename>Revost</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#RM01" role="mercier" type="occupation">
+													mercier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="4" unit="sous">iiii.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JH02">
+										<forename>Jehan</forename>
+										<surname>hache</surname>
+									</persName>
+									<rs ref="#JH02" role="tisserand" type="occupation">
+										tesserrant
+									</rs>
+								</seg>
+								<measure quantity="9" unit="sous">ix.s. p</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_du_Coq #streetSeg_Rue_du_Coq_W">Lautre renc</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#EV01">
+										<forename>Ernaut</forename>
+										<surname>viras</surname>
+									</persName>.</seg>
+								<measureGrp>.<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi d</measure>
+									p</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SB01">
+										<roleName>Mestre</roleName>
+										<forename>Symon</forename>
+										<nameLink>du</nameLink>
+										<surname>bouclier</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#HB03">
+										<forename>Hervi</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Bretaigne">breton</placeName>
+										</surname>
+									</persName>
+									dit
+									<persName ref="#HB03">
+										<addName>bon repos</addName>
+									</persName>
+									<g type="tyronian_et">et</g>
+									son gend<ex>r</ex>
+									<seg rend="superscript">e</seg>.</seg>
+								<measure quantity="12" unit="sous">xii.s p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="sum">
+						<ab>
+							<seg type="sum_desc">Som<ex>m</ex>e de la p<ex>re</ex>miere queste</seg>
+							<measureGrp>
+								<measure quantity="72" unit="livres">lxxii lb</measure>
+								<measure quantity="5" unit="deniers">v d</measure>
+							</measureGrp>
+						</ab>
+					</div>
+
+					<note place="margin">usq<ex>ue</ex>
+						hic lxxviii f<ex>oci</ex>
+					</note>
+
+				</div>
+
+				<cb facs="1vB"/>
+
+				<div type="quête" n="2">
+					<head type="quête_title">
+						<g type="initial">L</g>a seconde queste .S<ex>aint</ex>. G<ex>er</ex>main.</head>
+
+					<div type="street">
+						<head>
+							<rs ref="#street_Rue_St-Honoré #streetSeg_Rue_St-Honoré_dedans">Si com<ex>m</ex>ance de la
+								<rs ref="#topo_Porte_St-Honoré">porte saint honore</rs>
+								dedanz les murs. Jusques au coing devant la
+								<rs ref="#topo_Croix_du_Trahoir">croiz du tirouer</rs>
+							</rs>.
+						</head>
+
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#AL01">
+										<forename>Aalis</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AL01" role="linier" type="occupation">
+													liniere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s. p</measure>
+							</item>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#PP02">
+										<forename>Pierre</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PP01" role="pâtissier" type="occupation">
+													pastaier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#NA02">
+										<forename>Nicolas</forename>
+										<nameLink>d</nameLink>
+										<surname>avion</surname>
+									</persName>
+								</seg>
+								<measure quantity="36" unit="sous">xxxvi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JV01">
+										<forename>Juliane</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JV01" role="vannier" type="occupation">
+													vaniere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PP03">
+										<forename>Pierre</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Picardie">picart</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="livres">vi.lb. p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JP02">
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>petit</addName>
+										</surname>
+									</persName>
+									<rs ref="#JP02" role="tapissier" type="occupation">
+										tapicier
+									</rs>
+								</seg>
+								<measureGrp>
+									<measure quantity="10" unit="livres">x.lb</measure>.<measure quantity="10" unit="sous">x.s</measure>
+									p</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#ER01">
+										<forename>Estienne</forename>
+										<nameLink>de</nameLink>
+										<surname>recloses</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="7" unit="livres">vii.lb</measure>.<measure quantity="10" unit="sous">x.s</measure>
+								</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JL03">
+										<forename>Jaques</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>ladre</addName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="livres">.ix.lb.</measure>
+								<note place="inline">vii<lb/>
+									x.s p
+									<lb/>
+									<unclear>p<ex>re</ex>seirem[...]</unclear>
+								</note>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#TC01">
+										<forename>Thiebaut</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#TC01" role="cordonnier" type="occupation">
+													cordoanier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+									et son filz.</seg>
+								<measure quantity="18" unit="sous">xviii s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GT04">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<surname>tristan</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="livres">xviii.
+									<unclear>lb</unclear>
+									p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#MP01">
+										<forename>Michiel</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#MP01" role="peintre" type="occupation">
+													peintre
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="30" unit="sous">xxx s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#AF01">
+										<forename>Alein</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AF01" role="fournier" type="occupation">
+													fournier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JB07">
+										<roleName>Dame</roleName>
+										<forename>Jehanne</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JB07" role="boucher" type="occupation">
+													bouchiere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="livres">vi. lb p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RN02">
+										<forename>Robert</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Nogent">nogent</placeName>
+										</surname>
+									</persName>
+									<rs ref="#RN02" role="sergent du guet" type="occupation">
+										sergient du guiet
+									</rs>.</seg>
+								<measure quantity="6" unit="sous">vi.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JM03">
+										<forename>Jehan</forename>
+										<nameLink>du</nameLink>
+										<surname>
+											<placeName ref="#geo_Mesnil">mesnil</placeName>
+										</surname>
+									</persName>
+									<rs ref="#JM03" role="hôtelier" type="occupation">
+										hostelier
+									</rs>
+								</seg>
+								<measure quantity="60" unit="sous">lx. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#NH01">
+										<forename>Nicolas</forename>
+										<nameLink>de la</nameLink>
+										<surname>haie</surname>
+									</persName>
+									<rs ref="#NH01" role="talemelier" type="occupation">
+										tallemelier
+									</rs>
+								</seg>
+								<measure quantity="30" unit="sous">xxx. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#TL01">
+										<forename>Thomas</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<placeName ref="#geo_Angleterre">anglois</placeName>
+										</surname>
+									</persName>
+									<rs ref="#TL01" role="talemelier" type="occupation">
+										tallemelier
+									</rs>
+								</seg>
+								<measure quantity="15" unit="sous">xv.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JP03">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Pontoise">pontaise</placeName>
+										</surname>
+									</persName>
+									<rs ref="#JP03" role="serrurier" type="occupation">
+										serreurier
+									</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+							<item><locus target="#bib_buchon" n="5"/>
+								<seg type="entry">
+									<persName ref="#MP02">
+										<forename>Milet</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#MP02" role="potier" type="occupation">
+													potier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="24" unit="sous">xxiiii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PM01">
+										<roleName>Mestre</roleName>
+										<forename>Ph<ex>elipp</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PM01" role="maréchal" type="occupation">
+													mareschal
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="60" unit="sous">lx.s p.</measure>
+							</item>
+
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_lArbre_Sec">Du coing du
+								<rs ref="#PM01">mareschal</rs>
+								devant
+								<rs ref="#topo_Croix_du_Trahoir">la Croiz</rs>
+								jusques à la
+								<rs ref="#topo_Place_aux_Marchands">Place aus Marcheanz</rs>
+							</rs>.
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#LS01">
+										<forename>Lucas</forename>
+										<surname>saussete</surname>
+									</persName>
+									<rs ref="#LS01" role="couturier" type="occupation">
+										couturier
+									</rs>
+								</seg>
+								<measure quantity="12" unit="sous">xii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JT01">
+										<roleName>Dame</roleName>
+										<forename>Jehanne</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Termes">t<ex>er</ex>mes</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="45" unit="sous">xlv.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PB04">
+										<forename>Perronelle</forename>
+										<nameLink>la</nameLink>
+										<surname type="unknown">bidaude</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PF01">
+										<forename>Ph<ex>elipp</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>ferpier</roleName>
+										</surname>
+									</persName>
+									<rs ref="#PF01" role="tavernier" type="occupation">
+										tav<ex>er</ex>nier
+									</rs>
+								</seg>
+								<measure quantity="60" unit="sous">lx.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#HB04">
+										<forename>Hervi</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Bretaigne">breton</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="15" unit="sous">xv.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RO01">
+										<forename>Richart</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#RO01" role="ouvrier" type="occupation">
+													ouvrier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#HM01">
+										<forename>Hue</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#HM01" role="maréchal" type="occupation">
+													marichal
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="45" unit="sous">xlv.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SC02">
+										<forename>Symonet</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Craonville">craoville<ptr type="footnote" target="#note7"/></placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#DC01">
+										<forename>Domien</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#DC01" role="cordonnier" type="occupation">
+													cordoanier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="sous">ix.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RC02">
+										<forename>Richart</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Cornwall">corn<seg rend="superscript">o</seg>aille</placeName>
+										</surname>
+									</persName>
+									<rs ref="#RC02" role="couturier" type="occupation">
+										costurier
+									</rs>
+								</seg>
+								<measureGrp>
+									<measure quantity="3" unit="sous">iii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RA01">
+										<forename>Renaut</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<placeName ref="#geo_Angleterre">anglois</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi. s. p.</measure>
+							</item>
+							<pb facs="2rA"/>
+							<item>
+								<seg type="entry">
+									<persName ref="#GP04">
+										<forename>Guillaume</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GP04" role="pelletier" type="occupation">
+													pelletier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#CP02">
+										<forename>Colin</forename>
+										<surname>plagar</surname>
+									</persName>
+									<rs ref="#CP02" role="couturier" type="occupation">
+										cousturier
+									</rs>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#LB02">
+										<forename>Ligart</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<addName>borgne</addName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="5" unit="sous">v. s p.</measure>
+							</item>
+							<item>
+								<note place="inline">.f.
+								</note>
+								<seg type="entry">
+									<del rend="strikethrough">
+										<persName ref="#JT02">
+											<forename>Jehan</forename>
+											<nameLink>de</nameLink>
+											<surname>
+												<placeName ref="#geo_Trocy_en_Multien">troci</placeName>
+											</surname>
+										</persName>
+										<rs ref="#JT02" role="monnayeur" type="occupation">
+											monoier
+										</rs>
+										<g type="tyronian_et">et</g>
+										<rs ref="#JT02" role="tavernier" type="occupation">
+											tav<ex>er</ex>nier
+										</rs>
+									</del>
+								</seg>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#G02">
+										<forename>Guillaume</forename>
+									</persName>
+									<rs ref="#G02" role="paumier du four gauquelin" type="occupation">
+										paumier du
+										<placeName ref="#topo_Four_Gauquelin">four gauq<ex>ue</ex>lin</placeName><ptr type="footnote" target="#note8"/>
+									</rs>
+								</seg>
+								<measureGrp>.<measure quantity="7" unit="livres">vii.l</measure>.<measure quantity="10" unit="sous">x.s</measure>.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#MT01">
+										<forename>Maci</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#MT01" role="tailleur" type="occupation">
+													tailleur
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="sous">ix s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#OB01">
+										<forename>Oudart</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#OB01" role="boursier" type="occupation">
+													boursier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>.<measure quantity="4" unit="livres">iiii.lb</measure>.<measure quantity="10" unit="sous">x s</measure>. p</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JP04">
+										<forename>Jaquet</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>preudo<ex>m</ex>me</addName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#W01">
+										<forename>Wafflart</forename>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#J01">
+										<forename>Jehanne</forename>
+									</persName>
+									<rs ref="#J01" role="fileresse de soie" type="occupation">
+										filleresse de soie
+									</rs>
+								</seg>
+								<measure quantity="9" unit="sous">ix s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#FT01">
+										<forename>Frederic</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#FT01" role="tavernier" type="occupation">
+													tav<ex>er</ex>nier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="30" unit="sous">xxx s p.</measure>
+								<note place="margin">double a s<ex>aint</ex>. G<ex>er</ex>main.</note>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RB02">
+										<forename>Raol</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<nameLink>
+												<rs ref="#RB02" role="barbier" type="occupation">
+													barbier
+												</rs>
+											</nameLink>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#F01">Frederic</persName>
+									filz a
+									<name ref="#G01">celui dou
+										<placeName ref="#topo_Four_Gauquelin">four gauq<ex>ue</ex>lin</placeName>
+									</name>
+								</seg>
+								<measure quantity="30" unit="sous">.xxx.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JT03">
+										<forename>Jehan</forename>
+										<surname>taupin</surname>
+									</persName>
+									<rs ref="#JT03" role="boucher" type="occupation">
+										buchier
+									</rs>
+								</seg>
+								<measure quantity="60" unit="sous">lx.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RG02">
+										<forename>Robert</forename>
+										<nameLink>de</nameLink>
+										<surname>gaigni</surname>
+									</persName>
+									et sa fame.</seg>
+								<measure quantity="60" unit="sous">lx.s p</measure>
+								<note place="inline">p<ex>ou</ex>r elle
+									<measure quantity="30" unit="sous">xxx s<ex>ous</ex>
+									</measure>
+								</note>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SG01">
+										<forename>Symo<ex>n</ex>
+										</forename>
+										<surname>Gencien</surname>
+									</persName>
+									<rs ref="#SG01" role="marchand de merrain" type="occupation">
+										m<ex>a</ex>rchea<ex>n</ex>t de m<ex>er</ex>rien
+									</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">La dame
+									<persName ref="#SG01">
+										<forename>Symon</forename>
+										<surname>Gencien</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="12" unit="livres">xii.lb</measure>
+									<measure quantity="10" unit="sous">x s.</measure>
+								</measureGrp>
+							</item>
+						</list>
+
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_de_lÉcole_St-Germain">Sus
+								<rs ref="#geo_Seine">la riviere</rs>
+							</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#RB01">
+										<forename>Renaut</forename>
+										<surname>boscheron</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SN01">
+										<forename>Symon</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Normandie">normant</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">xii.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JB06">
+										<roleName>Mestre</roleName>
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JB06" role="boursier" type="occupation">
+													boursier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="livres">vi.lb p</measure>
+							</item>
+							<item>
+								<seg type="entry">La fame feu
+									<persName ref="#GB02">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Beaufou">biaufou</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="60" unit="sous">lx.s</measure>
+								<note place="inline">non
+									<unclear reason="illegible">[...]<lb/>[...]</unclear>
+								</note>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GB03">
+										<forename>Geffroy</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Bretaigne">breton</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="7" unit="sous">vii s</measure>.<measure quantity="6" unit="deniers">vi d</measure>
+									p</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GP03">
+										<forename>Girart</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GP03" role="passeur" type="occupation">
+													passeur
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SB02">
+										<forename>Symon</forename>
+										<surname>bataille</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">xii.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JL02">
+										<forename>Jehanne</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JL02" role="lavandrier" type="occupation">
+													lavandiere
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head><locus target="#bib_buchon" n="6"/>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_dAutriche">La rue dotheriche</rs>.
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#GF04">
+										<forename>Geffroy</forename>
+										<nameLink>de la</nameLink>
+										<surname>fruiterie</surname>
+									</persName>
+								</seg>
+								<measure quantity="15" unit="sous">.xv.s p.</measure>
+							</item>
+							<item>
+								<note place="margin">mort
+								</note>
+								<seg type="entry">
+									<del rend="strikethrough">
+										<persName ref="#RC01">
+											<forename>Raol</forename>
+											<surname>curout</surname>
+										</persName>
+									</del>
+								</seg>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RG01">
+										<forename>Richart</forename>
+										<surname>godet</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="3" unit="sous">iii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JR01">
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>Roy</addName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RN01">
+										<forename>Raol</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#RN01" role="nasseur" type="occupation">
+													nasseur
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="5" unit="sous">v.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GC04">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GC04" role="charretier" type="occupation">
+													charretier
+												</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_des_Fossés_St-Germain #streetSeg_Rue_des_Fossés_St-Germain_A">Le fosse saint Germain. du barbier jusques au
+								<lb/>
+								Carrefour au
+								<rs ref="#bldg_Hôtel_de_Comte_de_Ponthieu">conte de pontif</rs>.</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#JL04">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Laon">Laon</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="15" unit="sous">xv.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SE01">
+										<forename>Salomon</forename>
+										<nameLink>l</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#SE01" role="échanson" type="occupation">eschancon</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#DP01">
+										<forename>Durant</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Picardie">picart</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JD01">
+										<forename>Jehan</forename>
+										<surname>desismes</surname>.
+										<nameLink>du</nameLink>
+										<addName>noier</addName>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii s. p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JB08">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Baubigny">baubigny</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="livres">ix.lb p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PE01">
+										<roleName>Mestre</roleName>
+										<forename>pierre</forename>
+										<nameLink>de l</nameLink>
+										<surname>escole</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SSG01">
+										<forename>Sanson</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_St-Geneviève">Sainte Genevieve</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii.d. p</measure>
+							</item>
+
+							<cb facs="2rB"/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#JC03">
+										<forename>Jaqueline</forename>
+										<nameLink>la</nameLink>
+										<del rend="expunctuate">cie</del>
+										<surname>
+											<roleName>
+												<rs ref="#JC03" role="cirier" type="occupation">ciriere</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="24" unit="sous">xxiiii.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#CM01">
+										<forename>Colin</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#CM01" role="mire" type="occupation">mire</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#ED01">
+										<forename>Edeline</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#ED01" role="déchargeur" type="occupation">dechargerresse</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="sous">ix.s. p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#EC01">
+										<forename>Estienne</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Cormeilles">Cormeilles</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#OS01">
+										<forename>Oudin</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Soissons">Soissons</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>.<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#E01">
+										<forename>Edeline</forename>
+									</persName>
+									fame
+									<persName ref="#JP05">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Poigny">Poigny</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JV02">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Vanves">Vauves</placeName>
+										</surname>
+									</persName><ptr target="#note9"/></seg>
+								<measure quantity="30" unit="livres">xxx.lb.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PV01">
+										<forename>Pierre</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Vanves">Vauves</placeName>
+										</surname>
+									</persName>
+									son filz
+								</seg>
+								<measure quantity="20" unit="livres">xx.lb</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#AB01">
+										<forename>Aalis</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Baubigny">Baubigny</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="livres">iiii.lb</measure>.<measure quantity="10" unit="sous">x.s</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">Les enfans
+									<persName ref="#JT04">
+										<forename>Jehan</forename>
+										<nameLink>du</nameLink>
+										<surname>
+											<placeName ref="#geo_Til">til</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JA01">
+										<forename>Jehan</forename>
+										<nameLink>L</nameLink>
+										<surname>
+											<placeName ref="#geo_Angleterre">anglois</placeName>
+										</surname>
+									</persName>
+									<rs ref="#JA01" role="tavernier" type="occupation">tav<ex>er</ex>nier</rs>
+								</seg>
+								<measureGrp>.<measure quantity="4" unit="livres">iiii.lb</measure>.
+									<measure quantity="10" unit="sous">x s</measure>. p.</measureGrp>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_des_Fossés_St-Germain #streetSeg_Rue_des_Fossés_St-Germain_B">Lautre renc du fosse saint G<ex>er</ex>main.</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#AT01">
+										<forename>Adan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#AT01" role="talemelier" type="occupation">tallemelier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JG02">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Guilly">guilly</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JG03">
+										<forename>Jaques</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<addName>grant</addName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JC04">
+										<forename>Jaquemart</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JC04" role="cordonnier" type="occupation">cordoanier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JM04">
+										<forename>Jehan</forename>
+										<surname>mordret</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JD02">
+										<forename>Jehan</forename>
+										<surname>douin</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#TB02">
+										<forename>Thomas</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Biaufo">biaufo</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="livres">iiii.lb</measure>.<measure quantity="10" unit="sous">x.s</measure>
+									.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GP05">
+										<forename>Guillaume</forename>
+										<surname>phe<ex>lippe</ex>
+										</surname>
+									</persName>
+									<rs ref="#GP05" role="maçon" type="occupation">macon</rs>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#MB01">
+										<forename>Martin</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Bar_sur_Aube">bar sur aube</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JM05">
+										<forename>Jehanne</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JM05" role="monnayeur" type="occupation">monoiere</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SP01">
+										<forename>Sanson</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#SP01" role="pelletier" type="occupation">pelletier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PP04">
+										<forename>Pierres</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PP04" role="pelletier" type="occupation">peletier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PP05">
+										<forename>Phe<ex>lippe</ex>
+										</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#PP05" role="peintre" type="occupation">peintre</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SG02">
+										<forename>Symon</forename>
+										<surname>Guerin</surname>
+									</persName>
+									<rs ref="#SG02" role="pelletier" type="occupation">peletier</rs>
+								</seg>
+								<measure quantity="16" unit="sous">xvi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#YN01">
+										<addName>Dame</addName>
+										<forename>ysabiau</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Neelle">neelle</placeName>
+										</surname>.
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="4" unit="livres">iiii.lb</measure>
+									<measure quantity="10" unit="sous">x s</measure>
+								</measureGrp>
+							</item>
+							<item><locus target="#bib_buchon" n="7"/>
+								<seg type="entry">
+									<persName ref="#GB04">
+										<forename>Giles</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Ballay">ballay</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GB05">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Bruyères">bruieres</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GT05">
+										<forename>Guillaume</forename>
+										<surname>toutain</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s</measure>
+							</item>
+						</list>
+					</div>
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_des_Poulies #streetSeg_Rue_des_Poulies_W">La rue des poulies. le renc dev<ex>er</ex>s la
+								<rs ref="#topo_Porte_St-Honoré">porte saint honore</rs>
+							</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#PC03">
+										<forename>Pierre</forename>
+										<surname>chaitain</surname>
+									</persName>
+									<rs ref="#PC03" role="couturier" type="occupation">couturier</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#ML01">
+										<forename>Marie</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Lorrez">lorrez</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="24" unit="sous">xxiiii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PD01">
+										<forename>Pierre</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Dammartin">danmartin</placeName>
+										</surname>
+									</persName>
+									<rs ref="#PD01" role="cordonnier" type="occupation">corduanier</rs>
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GT06">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<surname>tassiau</surname>
+									</persName>.
+								</seg>
+								<measure quantity="60" unit="sous">lx. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RN03">
+										<forename>Richart</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Normandie">normant</placeName>
+										</surname>
+									</persName>
+									<rs ref="#RN03" role="hôtelier" type="occupation">hostelier</rs>
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#AG01">
+										<forename>Aaliz</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<addName>grant</addName>
+										</surname>
+									</persName>
+									<rs ref="#AG01" role="hôtelier" type="occupation">hosteliere</rs>
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GH02">
+										<forename>Guillaume</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Haqueville">haqueville</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JC05">
+										<forename>Jehan</forename>
+										<surname>cainel</surname>
+									</persName>
+									<rs ref="#JC05" role="charpentier" type="occupation">charpentier</rs>
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s. p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#NC01">
+										<forename>Nicolas</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Chesay">chesay</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="sous">xviii s p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_des_Poulies #streetSeg_Rue_des_Poulies_E">Lautre renc de la rue des poulies.</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#MB02">
+										<forename>Marguerite</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<addName>bocue</addName>
+										</surname>
+									</persName>
+									<rs ref="#MB02" role="couturier" type="occupation">cousturiere</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s.</measure>
+							</item>
+
+							<pb facs="2vA"/>
+
+							<item>
+								<seg type="entry">
+									<persName ref="#MSD01">
+										<forename>Marie</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Saint-Denis">saint denys</placeName>
+										</surname>
+									</persName>
+									<rs ref="#MSD01" role="lainier" type="occupation">lainere</rs>
+								</seg>
+								<measureGrp>.<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>
+								</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JH03">
+										<forename>Jehan</forename>
+										<surname>hardi</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#RP04">
+										<forename>Richart</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#RP04" role="pelletier" type="occupation">pelletier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii. d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#BT01">
+										<forename>Bienvenue</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#BT01" role="trompeur" type="occupation" cert="low">tromperresse</rs>
+											</roleName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="sous">xviii. s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#NH02">
+										<forename>Nicolas</forename>
+										<surname>helyes</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#OR01">
+										<forename>Oudin</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Rueil">rueil</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi d</measure>. p</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JG04">
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JG04" role="gâtelier" type="occupation">gastelier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="5" unit="sous">v.s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#YC01">
+										<forename>Ysabiau</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#YC01" role="couturier" type="occupation">cousturiere</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_dAvron #streetSeg_Rue_dAvron_S">La rue
+								<del rend="expunctuate">davron</del>
+								daveron. le renc dev<ex>er</ex>s
+								<rs ref="#street_Rue_des_Fossés_St-Germain">le fosse
+									<lb/>
+									saint Germain</rs>.</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#JM06">
+										<forename>Jaques</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Mante">Mante</placeName>
+										</surname>
+									</persName>
+									<rs ref="#JM06" role="cavatier" type="occupation">Cavatier</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#ASJ01">
+										<forename>Aalis</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_St-Josse">saint joce</placeName>
+										</surname>
+									</persName>
+									<g type="tyronian_et">et</g>
+									sa co<ex>m</ex>pai<ex>n</ex>gne
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JL05">
+										<forename>Jaques</forename>
+										<nameLink>de la</nameLink>
+										<surname>lant<ex>er</ex>ne</surname>
+									</persName>
+								</seg>
+								<measure quantity="60" unit="sous">lx.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GC05">
+										<forename>Guiot</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GC05" role="cavatier" type="occupatoin">Cavatier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>.<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GF05">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>fruitier</roleName>
+										</surname>
+									</persName>
+									<rs ref="#GF05" role="recouvreur" type="occupation">recouvreur</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s. p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JM07">
+										<forename>Jehan</forename>
+										<surname>moriau</surname>
+									</persName>
+									<rs ref="#JM07" role="pelletier" type="occupation">peletier</rs>.
+								</seg>
+								<measure quantity="15" unit="sous">xv. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#DL01">
+										<forename>Drouet</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Laon">laon</placeName>
+										</surname>
+									</persName>
+									<rs ref="#DL01" role="corretier" type="occupation">corretier</rs>
+								</seg>
+								<measure quantity="6" unit="sous">vi.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#MD01">
+										<forename>Marie</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Dreux">dreus</placeName>
+										</surname>
+									</persName>
+									<rs ref="#MD01" role="hôtelier" type="occupation">hosteliere</rs>
+								</seg>
+								<measure quantity="30" unit="sous">xxx.s p</measure>
+							</item>
+						</list>
+					</div>
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_dAvron #streetSeg_Rue_dAvron_N">Lautre renc de la rue daveron.</rs>
+						</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#JD03">
+										<forename>Jehan</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JD03" role="déchargeur" type="occupation">dechargeur</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="12" unit="sous">xii. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#R01">
+										<forename>Raolet</forename>
+									</persName>
+									<rs ref="#R01" role="corretier des chevaux" type="occupation">Corretier de chevaus</rs>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JN01">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Nantueil">nantueil</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p</measure>
+							</item>
+							<item><locus target="#bib_buchon" n="8"/>
+								<seg type="entry">
+									<persName ref="#NP01">
+										<forename>Noel</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#NP01" role="peintre" type="occupation">peintre</rs>
+											</roleName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="9" unit="sous">ix. s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#NP02">
+										<forename>Nicolas</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#NP02" role="peintre" type="occupation">peintre</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d. p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Jean_Tison #streetSeg_Rue_Jean_Tison_A">La rue gentil hom</rs>.</head>
+						<list type="payers">
+							<item>
+								<del rend="erased">Guill<ex>aum</ex>e le normant</del>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GL01">
+										<forename>Guillaume</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName>limaire</placeName>
+										</surname>
+									</persName>
+									tav<ex>er</ex>nier
+								</seg>
+								<measure quantity="3" unit="sous">iii. s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JR02">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Rueil">rueil</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="6" unit="sous">vi. s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GQ01">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Quatremare">quatremares</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JF01">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Fleury">fleuri</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GC06">
+										<forename>G<del rend="expunctuated">u</del>illot</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#GC06" role="charretier" type="occupation">charretier</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="3" unit="sous">iii. s</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JF02">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Fleury">fleuri</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JG05">
+										<forename>Jehan</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Gentilly">Gentilli</placeName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi.d</measure>
+									p.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#GN01">
+										<forename>Guill<ex>aum</ex>e</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Normandie">normant</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="6" unit="sous">vi. s p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Jean_Tison #streetSeg_Rue_Jean_Tison_B">Lautre renc</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#JS01">
+										<forename>Jehan</forename>
+										<surname>selles</surname>
+									</persName>
+									<rs ref="#JC01" role="charpentier" type="occupation">charpentier</rs>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#HE01">
+										<forename>Hervi</forename>
+										<nameLink>l</nameLink>
+										<surname>escroier</surname>
+									</persName>
+								</seg>
+								<measure quantity="9" unit="sous">ix. s p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#MP03">
+										<forename>Maci</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#MP03" role="porteur" type="occupation">porteur</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#PR02">
+										<forename>Pierre</forename>
+										<nameLink>de</nameLink>
+										<surname>
+											<placeName ref="#geo_Rueil">rueil</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+						</list>
+					</div>
+
+					<cb facs="2vB"/>
+
+					<div type="street">
+						<head>
+							<g ref="#2E3F">¶</g>
+							<rs ref="#street_Rue_Col_de_Bacon">La rue de col de bacon</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#R02">Raol</persName>
+									<rs ref="#R02" role="porteur d'eux" type="occupation">porteur dyaue</rs>
+								</seg>
+								<measure quantity="18" unit="deniers">xviii.d p</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="street">
+						<head>
+							<rs ref="#street_Encloitre_St-Germain">Lancloistre saint Germain</rs>.</head>
+						<list type="payers">
+							<item>
+								<seg type="entry">
+									<persName ref="#MCP01">
+										<forename>Macy</forename>
+										<surname>chace pie</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="sous">xviii.s p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#JC06">
+										<forename>Jehanne</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#JC06" role="chandelier" type="occupation">chandeliere</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measureGrp>
+									<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="4" unit="deniers">iiii.d p</measure>.</measureGrp>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#MC01">
+										<forename>Maheut</forename>
+										<nameLink>la</nameLink>
+										<surname>
+											<roleName>
+												<rs ref="#MC01" role="chandelier" type="occupation">chandeliere</rs>
+											</roleName>
+										</surname>
+									</persName>
+								</seg>
+								<measure quantity="22" unit="deniers">xxii. d p.</measure>
+							</item>
+							<item>
+								<seg type="entry">
+									<persName ref="#SN02">
+										<forename>Symon</forename>
+										<nameLink>le</nameLink>
+										<surname>
+											<placeName ref="#geo_Normandie">normant</placeName>
+										</surname>
+									</persName>.
+								</seg>
+								<measure quantity="18" unit="sous">xviii. s. p.</measure>
+							</item>
+						</list>
+					</div>
+
+					<div type="misc">
+						<p>
+							<del rend="strikethrough">usq<ex>u</ex>e hic lxvi f<ex>oci</ex>
+							</del>
+						</p><lb/>
+						<p>usq<ex>ue</ex>
+							hic lxvi f<ex>oci</ex>
+						</p>
+					</div>
+
+					<div type="sum">
+						<ab>
+							<seg type="sum_desc">So<ex>m</ex>me de la seconde queste</seg>
+							<measureGrp>
+								<measure quantity="249" unit="livres">ii<seg rend="superscript">C</seg>
+									xlix lb</measure>
+								<measure quantity="4" unit="sous">iiii s</measure>
+								<measure quantity="4" unit="deniers">iiii d</measure>
+							</measureGrp>
+						</ab>
+					</div>
+
+				</div>
+			</div>
+
+		</body>
+
+		<!-- Back Matter -->
+
+		<back>
+
+			<!-- Bibliography -->
+			<div type="bibliography">
+				<listBibl>
+					<bibl xml:id="bib_buchon">J. A Buchon, Chronique Metrique</bibl>
+					<bibl xml:id="bib_mich01">Michaelson, Livre de la Taille de 1313</bibl>
+					<bibl xml:id="bib_sarrut01">Germain Sarut, Paris pittoresque, t. 1</bibl>
+				</listBibl>
+			</div>
+
+			<!-- Footnotes -->
+			<div type="footnotes">
+				<note xml:id="note1" resp="#ND">Échevin de Paris in 1293 and 1296</note>
+				<note xml:id="note2" resp="#JAB">Buchon: "Jacques"</note>
+				<note xml:id="note3" resp="#JAB">Buchon: "tisserant"</note>
+				<note xml:id="note4" resp="#ND">Unclear if part of noble de Trie family</note>
+				<note xml:id="note5" resp="#JAB">Buchon: "Hoche-Bren"</note>
+				<note xml:id="note6" resp="#JAB">Buchon: "Strumiau"</note>
+				<note xml:id="note7" resp="#JAB">Buchon: "Craonville"</note>
+				<note xml:id="note8" resp="#ND">Sarrut, 75: Four l'Évêque, Rue d'Arbre-Sec</note>
+				<note xml:id="note9" resp="#KM">Michaelson: Vanves</note>
+			</div>
+
+			<!-- Place Authority -->
+			<div type="place_authority">
+
+				<!-- Parishes -->
+				<listPlace type="parishes">
+					<place type="parish" xml:id="parish_st_germain_lauxerrois">
+						<placeName>Paroisse St-Germain l'Auxerrois</placeName>
+						<location>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+				</listPlace>
+
+				<!-- Quêtes -->
+				<listPlace type="quêtes">
+					<place type="quête" xml:id="st_germain_lauxerrois_Q1">
+						<placeName>Première quête St-Germain l'Auxerrois</placeName>
+						<location>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+					<place type="quête" xml:id="st_germain_lauxerrois_Q2">
+						<placeName>Deuxième quête St-Germain l'Auxerrois</placeName>
+						<location>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+				</listPlace>
+
+				<!-- Streets -->
+				<listPlace type="streets">
+
+					<place type="street" xml:id="street_Rue_St-Honoré">
+						<placeName>Rue St-Honoré</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_St-Honoré_dehors">
+							<placeName>Rue St-Honoré dehors les murs</placeName>
+							<desc xml:lang="en">Rue St-Honoré, from Porte St-Honoré to Hôpital Quinze-Vingts</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_St-Honoré_dedans">
+							<placeName>Rue St-Honoré dedans les murs</placeName>
+							<desc xml:lang="en">Rue St-Honoré, from Porte St-Honoré to the Croix du Trahoir</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Quai_de_Seine_du_Louvre">
+						<placeName>Quai de Seine du Louvre aux Tuileries</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Rue_Froit_Mantel">
+						<placeName>Rue Froit Mantel</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Froit_Mantel_E">
+							<placeName>Rue Froit Mantel</placeName>
+							<desc>Rue Froit Mantel, East Side (toward the Louvre)</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Froit_Mantel_W">
+							<placeName>Rue Froit Mantel</placeName>
+							<desc>Rue Froit Mantel, West Side</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_Biauvoir">
+						<placeName>Rue Biauvoir</placeName>
+						<placeName when="1313">rue de biauveoir</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Biauvoir_S">
+							<placeName>Rue Biauvoir</placeName>
+							<desc>Rue Biauvoir, South Side (toward the Louvre)</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Biauvoir_N">
+							<placeName>Rue Biauvoir</placeName>
+							<desc>Rue Biauvoir, North Side</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_Jean_St-Denis">
+						<placeName>Rue Jean St-Denis</placeName>
+						<placeName when="1313">Rue Jehan de St-Denis</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Rue_du_Chantre">
+						<placeName>Rue du Chantre</placeName>
+						<placeName when="1313">Rue au Chantre</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Rue_Champ-Fleury">
+						<placeName>Rue Champ-Fleury</placeName>
+						<placeName when="1313">rue de champfleuri</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Champ-Fleury_A">
+							<placeName>Rue Champ-Fleury</placeName>
+							<desc>Rue Champ-Fleury, Side A</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Champ-Fleury_B">
+							<placeName>Rue Champ-Fleury</placeName>
+							<desc>Rue Champ-Fleury, Side B</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_du_Coq">
+						<placeName>Rue du Coq</placeName>
+						<placeName when="1313">rue de richebourc</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_du_Coq_E">
+							<placeName>Rue du Coq</placeName>
+							<desc>Rue du Coq, East Side (toward Porte St-Honoré)</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_du_Coq_W">
+							<placeName>Rue du Coq</placeName>
+							<desc>Rue du Coq, West Side</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q1">Première quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_lArbre_Sec">
+						<placeName>Rue l'Arbre Sec</placeName>
+						<placeName when="1313">Rue de la Croix du Trahoir</placeName>
+						<desc>From the Croix du Trahoir to the Place aux Marchands</desc>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Rue_de_lÉcole_St-Germain">
+						<placeName>Rue de l'Ecole St-Germain</placeName>
+						<desc>Along the river</desc>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Rue_dAutriche">
+						<placeName>Rue d'Autriche</placeName>
+						<placeName when="1313">rue dotheriche</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Rue_des_Fossés_St-Germain">
+						<placeName>Rue des Fossés St-Germain</placeName>
+						<placeName when="1313">Le Fossé St-Germain</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_des_Fossés_St-Germain_A">
+							<placeName>Rue des Fossés St-Germain</placeName>
+							<desc>Rue des Fossés St-Germain, Side A (from the barber to the crossroads of the Count de Ponthieu)</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_des_Fossés_St-Germain_B">
+							<placeName>Rue des Fossés St-Germain</placeName>
+							<desc>Rue des Fossés St-Germain, Side B (from the barber to the crossroads of the Count de Ponthieu)</desc>
+							<location>
+								<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+								<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+								<settlement>Paris</settlement>
+								<country>France</country>
+								<geo>Coords go here</geo>
+							</location>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_des_Poulies">
+						<placeName>Rue des Poulies</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_des_Poulies_W">
+							<placeName>Rue des Poulies</placeName>
+							<desc>Rue des Poulies, W Side (toward Porte St-Honoré)</desc>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_des_Poulies_E">
+							<placeName>Rue des Poulies</placeName>
+							<desc>Rue des Poulies, E Side</desc>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_dAvron">
+						<placeName>Rue d'Avron</placeName>
+						<placeName when="1313">Rue d'Averon</placeName>
+						<placeName>Rue de Bailleul</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_dAvron_S">
+							<placeName>Rue d'Avron</placeName>
+							<desc>Rue d'Avron, S Side (toward Rue des Fossés St-Germain)</desc>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_dAvron_N">
+							<placeName>Rue d'Avron</placeName>
+							<desc>Rue d'Avron, N Side</desc>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_Jean_Tison">
+						<placeName>Rue Jean Tison</placeName>
+						<placeName from="1292" to="1300">Rue Jehan Tison</placeName>
+						<placeName when="1313">Rue Gentil Hom</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Jean_Tison_A">
+							<placeName>Rue Jean Tison</placeName>
+							<desc>Rue Jean Tison, Side A</desc>
+						</place>
+						<place type="street" subtype="streetSeg" xml:id="streetSeg_Rue_Jean_Tison_B">
+							<placeName>Rue Jean Tison</placeName>
+							<desc>Rue Jean Tison, Side B</desc>
+						</place>
+					</place>
+
+					<place type="street" xml:id="street_Rue_Col_de_Bacon">
+						<placeName>Rue Col de Bacon</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+					<place type="street" xml:id="street_Encloitre_St-Germain">
+						<placeName>Encloître St-Germain l'Auxerrois</placeName>
+						<placeName when="1313">Ancloistre Saint Germain</placeName>
+						<location>
+							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête St-Germain l'Auxerrois</district>
+							<district type="parish" ref="#parish_st_germain_lauxerrois">Paroisse St-Germain l'Auxerrois</district>
+							<settlement>Paris</settlement>
+							<country>France</country>
+							<geo>Coords go here</geo>
+						</location>
+					</place>
+
+				</listPlace>
+
+				<!-- Buildings, Topography, and Geography -->
+				<listPlace type="topographic_feature">
+					<place xml:id="topo_Porte_St-Honoré">
+						<placeName>Porte St-Honoré</placeName>
+					</place>
+					<place xml:id="topo_Tuileries">
+						<placeName>Tuileries</placeName>
+					</place>
+					<place xml:id="topo_Croix_du_Trahoir">
+						<placeName>Croix du Trahoir</placeName>
+					</place>
+					<place xml:id="topo_Place_aux_Marchands">
+						<placeName>Place aux Marchands</placeName>
+					</place>
+					<place xml:id="topo_Four_Gauquelin">
+						<placeName>Four Gauquelin</placeName>
+						<placeName>Four l'Évêque</placeName>
+						<placeName>Four Franc</placeName>
+					</place>
+				</listPlace>
+
+				<listPlace type="buildings">
+					<place type="hospital" xml:id="bldg_Hôpital_Quinze-Vingts">
+						<placeName>Hôpital Quinze-Vingts</placeName>
+					</place>
+					<place type="royal" xml:id="bldg_Louvre">
+						<placeName>Palais du Louvre</placeName>
+					</place>
+					<place type="hotel" xml:id="bldg_Hôtel_de_Comte_de_Ponthieu">
+						<placeName>Hôtel de Comte de Ponthieu</placeName>
+					</place>
+				</listPlace>
+
+				<listPlace type="geographic_feature">
+					<place type="river" xml:id="geo_Seine">
+						<geogName>Seine</geogName>
+					</place>
+				</listPlace>
+
+			</div>
+		</back>
+	</text>
+
+</TEI>

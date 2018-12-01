@@ -21,7 +21,7 @@ Named persons are tagged with the following:
 #### Occupations
 Occupations tied to individual people are noted by the `<rs>` tag with the following attributes:
 * `ref` - Referring to the XML ID of the related person
-* `role` - A normalized rendering of the occupation
+* `role` - A normalized rendering/spelling of the occupation
 * `type` - `occupation`
 
 An occupational `<rs>` tag may be placed within a `<rollName>` tag to indicate occupational surnames.

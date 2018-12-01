@@ -32,7 +32,11 @@ Tax payments are tagged with `<measure>` or `<measureGrp>` (if containing multip
 * `quantity` - The numbered amount of the unit
 
 ### Sample Markup
-The markup for a typical entry looks like this:
+The markup for a typical entry
+
+`Bertaut de compiegne poullaillier ii.s. vi.d p.`
+
+looks like this:
 ```
 <item>
   <persName ref="#BC01">

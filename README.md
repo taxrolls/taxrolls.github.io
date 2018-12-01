@@ -32,7 +32,7 @@ Tax payments are tagged with `<measure>` or `<measureGrp>` (if containing multip
 * `quantity` - The numbered amount of the unit
 
 ### Sample Markup
-The markup for a typical entry
+The markup for a typical entry, e.g.:
 
 `Bertaut de compiegne poullaillier ii.s. vi.d p.`
 

@@ -27,7 +27,7 @@ Occupations tied to individual people are noted by the `<rs>` tag with the follo
 An occupational `<rs>` tag may be placed within a `<rollName>` tag to indicate occupational surnames.
 
 #### Tax Payments
-Tax payments are tagged with `<measure>` or `<measureGrp>` and the following attributes:
+Tax payments are tagged with `<measure>` or `<measureGrp>` (if containing multiple units) and the following attributes:
 * `unit` - Either `livres`, `sous`, or `deniers`
 * `quantity` - The numbered amount of the unit
 

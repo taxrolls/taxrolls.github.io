@@ -10,7 +10,7 @@ The basic TEI Markup of the individual tax payments in the rolls currently inclu
 
 #### People
 Named persons are tagged with the following:
-* `<PersName>` - with a `ref` attribute to the XML ID of the person 
+* `<persName>` - with a `ref` attribute to the XML ID of the person 
   * `<forename>`
   * `<nameLink>`
   * `<surname>`

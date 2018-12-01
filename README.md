@@ -53,7 +53,7 @@ looks like this:
 ```
 
 ### Notes
-- There is currently no TEI markup for unnamed persons, including wives and children, e.g. `La fame feu Guillaume de biaufou`
+- There is currently no TEI markup for unnamed persons, frequently wives and children, e.g. `La fame feu Guillaume de biaufou`
 - Geographic locations are currently given placeholder XML IDs; ultimately these should connect to GeoNames or a similar Linked Open Data authority file
 - The XSL transformation file does not currently render or hide marginal manuscript notes, which consequently appear randomly throughout the HTML version of the edition
 

@@ -3,7 +3,7 @@ Welcome to the Tax Rolls of Medieval Paris Digital Edition project.
 
 A prototype is available for a small portion of the 1313 Tax Roll. Please view the styled HTML edition at: [https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html](https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html)
 
-A full-featured website for the Tax Rolls that includes the available digitized manuscript images via IIIF is currently in deveopment.
+A full-featured website for the Tax Rolls that includes the available digitized manuscript images via IIIF is currently in deveopment. The manuscript containing the 1313 Roll can be found on Gallica at: [https://gallica.bnf.fr/ark:/12148/btv1b9063202d](https://gallica.bnf.fr/ark:/12148/btv1b9063202d)
 
 ### TEI Markup
 The basic TEI Markup of the individual tax payments in the rolls currently includes the following:

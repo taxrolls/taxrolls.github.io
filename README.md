@@ -36,7 +36,7 @@ The markup for a typical entry, e.g.:
 
 `Bertaut de compiegne poullaillier ii.s. vi.d p.`
 
-looks like this:
+is rendered as:
 ```
 <item>
   <persName ref="#BC01">

@@ -5,6 +5,8 @@ A prototype is available for a small portion of the 1313 Tax Roll. Please view t
 
 A full-featured website for the Tax Rolls that includes the available digitized manuscript images via IIIF is currently in development. The manuscript containing the 1313 Tax Roll can be found on Gallica at: [https://gallica.bnf.fr/ark:/12148/btv1b9063202d](https://gallica.bnf.fr/ark:/12148/btv1b9063202d)
 
+Slides from the DEPCHA AHA 2019 Workshop are available in this repository at: [https://github.com/nadaniels/taxrolls/blob/gh-pages/2018_01_03%20Daniels%20DEPCHA%20Slides.pptx](https://github.com/nadaniels/taxrolls/blob/gh-pages/2018_01_03%20Daniels%20DEPCHA%20Slides.pptx)
+
 ### TEI Markup
 The basic TEI Markup of the individual tax payments in the rolls currently includes the following:
 

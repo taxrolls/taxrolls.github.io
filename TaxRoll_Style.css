@@ -1,15 +1,13 @@
-/* CSS Encoding for TaxRoll_1313_HTML.html */
-
-
+        
         @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700');
-
+        
         body {
             font-family:"Old Standard TT", Garamond, serif;
             font-size: 16px;
             margin: 20px;
             background-color: whitesmoke;
         }
-
+        
         .container {
             margin: auto;
             margin-top: 30px;
@@ -19,91 +17,109 @@
             box-shadow: 4px 6px 4px #AAA;
             background-color: white;
         }
-
+        
         p.incipit {
             font-style: italic;
         }
-
+        
         .expan {
             font-style: italic;
         }
-
+        
         .incipit .expan {
             font-style: normal;
         }
-
+        
         .strikethrough {
             text-decoration: line-through;
         }
-
+        
         .exp {
             text-decoration: underline dashed;
         }
-
+        
         ul {
             list-style-type: none;
             padding: 0 20px;
         }
-
-
+        
+       
         .sum {
             font-weight: bold;
             padding: 1em 0;
         }
-
-
+        
+         
         .num {
             font-variant: small-caps;
         /*    font-size: 80%;*/
             text-transform: lowercase;
         }
-
-
-        a {
+        
+        
+        a { 
             color: navy;
-            border-bottom-style: dotted;
-            border-bottom-width: 1px;
+            border-bottom-style: dotted; 
+            border-bottom-width: 1px; 
             text-decoration: none;
         }
-
+        
         a:hover {
             border-bottom-style: solid;
             color: #000
         }
-
+        
         .n {
             font-size: 0.75rem;
             color: #777;
         }
-
-
+        
+        
 /* Tables */
         table {
             width: 100%
         }
-
+        
         table, tr, td {
         /*    border: 1px solid black;*/
         /*    vertical-align: center;*/
         }
-
+        
         td.list_num {
             width: 1px;
             padding-right: 5px;
         }
-
+        
         td.table_amount {
             width: 20%;
         }
-
-
+    
+    
 /* Occupations */
         li.occ {
             font-weight: bold;
             padding-bottom: 5px;
         }
-
+        
         li.occ_variant {
             font-weight: normal;
         /*    font-style: italic;*/
+        }
+        
+/* Thumbnails */        
+        .container .thumbnail {
+            margin-left: -245px;
+/*            margin-top: 1.33em;*/
+            float: left;
+            margin-top: 0;
+            padding: 12px;
+            text-align: -webkit-center;
+        }
+        
+        .thumbnail-img {
+            margin-bottom: 8px;
+        }
+        
+        .thumbnail-caption {
+            margin: 0px;
         }

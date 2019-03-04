@@ -21,12 +21,12 @@ Named persons are tagged with the following:
   * `<addName>`
 
 #### Occupations
-Occupations tied to individual people are noted by the `<rs>` tag with the following attributes:
+Occupations tied to individual people are noted by the `<roleName>` tag with the following attributes:
 * `ref` - Referring to the XML ID of the related person
 * `role` - A normalized rendering/spelling of the occupation
 * `type` - `occupation`
 
-An occupational `<rs>` tag may be placed within a `<rollName>` tag to indicate occupational surnames.
+An occupational surname that does not appear to indicate occupation (e.g. `ferpier` in `Phelippe le ferpier tavernier`) is placed within a `<roleName>` tag without the additional attributes.
 
 #### Tax Payments
 Tax payments are tagged with `<measure>` or `<measureGrp>` (if containing multiple units) and the following attributes:
@@ -46,7 +46,7 @@ is rendered as:
     <nameLink>de</nameLink>
     <surname>compiegne</surname>
   </persName>
-  <rs ref="#BC01" role="poulailler" type="occupation">poullaillier</rs>.
+  <roleName ref="#BC01" role="poulailler" type="occupation">poullaillier</roleName>.
   <measureGrp>
     <measure quantity="2" unit="sous">ii.s.</measure>
     <measure quantity="6" unit="deniers">vi.d p.</measure>

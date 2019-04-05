@@ -2327,7 +2327,9 @@
             </person>
 
             <person xml:id="R03">
-               <persName/>
+               <persName>
+                  <forename>Richart</forename>
+               </persName>
                <occupation>vallet to <persName ref="#TB03">Tierri biaudehors</persName>
                </occupation>
             </person>

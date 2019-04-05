@@ -108,8 +108,10 @@
                                                 </a>
                                             </xsl:when>
                                         </xsl:choose>
-
-                                        <xsl:copy-of select="tei:source(@source)"/>
+                                        <xsl:variable name="source" select="substring(@source, 2)"/>
+                                        <xsl:variable name="doc" select="base-uri(collection('?select=taxroll_*.xml')[descendant::item[@xml:id = $source]])"/>
+                                        <xsl:variable name="date" select="document($doc)//date/@when"/>
+                                        <xsl:copy-of select="tei:source(@source, $date)"/>
                                     </p>
 
                                 </xsl:for-each>
@@ -215,16 +217,18 @@
             <xsl:text> </xsl:text>
         </xsl:for-each>
         <xsl:text>in </xsl:text>
-        <xsl:value-of select="./desc[@type = '#bk:when']"/>
-        <xsl:copy-of select="tei:source(@source)"/>
+        <xsl:variable name="date" select="./desc[@type = '#bk:when']"/>
+        <xsl:value-of select="$date"/>
+        <xsl:copy-of select="tei:source(@source, $date)"/>
     </xsl:template>
 
     <!-- Add a Source -->
     <xsl:function name="tei:source">
         <xsl:param name="source"/>
+        <xsl:param name="date"/>
         <span class="source">
             <xsl:text> (</xsl:text>
-            <a href="roll_1313.html{$source}">source</a>
+            <a href="roll_{$date}.html{$source}">source</a>
             <xsl:text>)</xsl:text>
         </span>
     </xsl:function>

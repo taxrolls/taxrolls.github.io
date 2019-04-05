@@ -1,0 +1,2906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="personography">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="A01">
+               <persName>
+                  <forename>Aleinete</forename>
+               </persName>
+               <occupation>fileresse de soie</occupation>
+            </person>
+
+            <person xml:id="AB01">
+               <persName>
+                  <forename>Aalis</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Baubigny">Baubigny</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="AC01">
+               <persName>
+                  <forename>Agnes</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>cordiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>cordier</occupation>
+            </person>
+
+            <person xml:id="AC02">
+               <persName>
+                  <forename>Adan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>chandelier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>chandelier</occupation>
+            </person>
+
+            <person xml:id="AC03">
+               <persName>
+                  <forename>Andri</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>coutepointier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>courtepointier</occupation>
+            </person>
+
+            <person xml:id="AD01">
+               <persName>
+                  <forename>Anesot</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Dammartin-en-Goële">danmart</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="AF01">
+               <persName>
+                  <forename>Alein</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>fourrier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>fourrier</occupation>
+            </person>
+
+            <person xml:id="AG01">
+               <persName>
+                  <forename>Aaliz</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <addName>grant</addName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>hôtelier</occupation>
+            </person>
+
+            <person xml:id="AGRP001">
+               <persName type="anonymous_group" key="Unnamed Group (#AGRP001)">Les enfans</persName>
+            </person>
+
+            <person xml:id="AL01">
+               <persName>
+                  <forename>Aalis</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>liniere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>linier</occupation>
+            </person>
+
+            <person xml:id="AN01">
+               <persName>
+                  <roleName>Dame</roleName>
+                  <forename>agnes</forename>
+                  <nameLink>de</nameLink>
+                  <surname>neelle</surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON001">
+               <persName type="anonymous" key="Unnamed Person (#ANON001)">
+                  <roleName>
+                     <nameLink>Le</nameLink> concierge a <persName>
+                        <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
+                        </roleName>
+                     </persName>
+                  </roleName>
+               </persName>
+               <sex value="male"/>
+               <occupation>concierge to <persName ref="#R05">Robert V, comte de Dreux</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="ANON002">
+               <persName type="anonymous" key="Unnamed Person (#ANON002)">son gendre</persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="ANON003">
+               <persName type="anonymous" key="Unnamed Person (#ANON003)">Le gendre</persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="ANON004">
+               <persName type="anonymous" key="Unnamed Person (#ANON004)">La seur</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON005">
+               <persName type="anonymous" key="Unnamed Person (#ANON005)">la fame</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON006">
+               <persName type="anonymous" key="Unnamed Person (#ANON006)">son gendre</persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="ANON007">
+               <persName type="anonymous" key="Unnamed Person (#ANON007)">son gendre</persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="ANON008">
+               <persName type="anonymous" key="Unnamed Person (#ANON008)">son filz</persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="ANON009">
+               <persName type="anonymous" key="Unnamed Person (#ANON009)">sa fame</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON010">
+               <persName type="anonymous" key="Unnamed Person (#ANON010)">La dame</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON011">
+               <persName type="anonymous" key="Unnamed Person (#ANON011)">La fame</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON012">
+               <persName type="anonymous" key="Unnamed Person (#ANON012)">sa compaingne</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="ANON013">
+               <persName type="anonymous" key="Unnamed Person (#ANON013)">La fame</persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="AP01">
+               <persName>
+                  <forename>Aalis</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <addName>patrice</addName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="AP02">
+               <persName>
+                  <forename>Adam</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>potier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>potier</occupation>
+            </person>
+
+            <person xml:id="ASJ01">
+               <persName>
+                  <forename>Aalis</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_St-Josse">saint joce</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="AT01">
+               <persName>
+                  <forename>Adan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>tallemelier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>talemelier</occupation>
+            </person>
+
+            <person xml:id="BC01">
+               <persName>
+                  <forename>Bertaut</forename>
+                  <nameLink>de</nameLink>
+                  <surname>compiegne</surname>
+               </persName>
+               <occupation>poulailler</occupation>
+            </person>
+
+            <person xml:id="BT01">
+               <persName>
+                  <forename>Bienvenue</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>tromperresse</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>trompeur</occupation>
+            </person>
+
+            <person xml:id="CB01">
+               <persName>
+                  <forename>Colin</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>barbier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>barbier</occupation>
+            </person>
+
+            <person xml:id="CM01">
+               <persName>
+                  <forename>Colin</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mire</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>mire</occupation>
+            </person>
+
+            <person xml:id="CP01">
+               <persName>
+                  <forename>Colin</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Picardie">picart</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="CP02">
+               <persName>
+                  <forename>Colin</forename>
+                  <surname>plagar</surname>
+               </persName>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="DC01">
+               <persName>
+                  <forename>Domien</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>cordoanier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>cordonnier</occupation>
+            </person>
+
+            <person xml:id="DL01">
+               <persName>
+                  <forename>Drouet</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Laon">laon</placeName>
+                  </surname>
+               </persName>
+               <occupation>corretier</occupation>
+            </person>
+
+            <person xml:id="DP01">
+               <persName>
+                  <forename>Durant</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Picardie">picart</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="E01">
+               <persName>
+                  <forename>Edeline</forename>
+               </persName>
+            </person>
+
+            <person xml:id="EB01">
+               <persName type="reg" key="Étienne Barbette">
+                        <forename>Étienne</forename>
+                        <surname>Barbette</surname>
+                    </persName>
+               <persName>
+                  <forename>Estienne</forename>
+                  <surname>barbete</surname>
+               </persName>
+               <sex value="male"/>
+               <birth type="circa" when="1250"/>
+               <death when="1321-12-19"/>
+               <state type="office" from="1298" to="1304">
+                  <label type="style">Prévôt des marchands de <placeName ref="#geo_Paris">Paris</placeName>
+                  </label>
+               </state>
+               <state type="office" from="1314" to="1318">
+                  <label type="style">Prévôt des marchands de <placeName ref="#geo_Paris">Paris</placeName>
+                  </label>
+               </state>
+               <state type="office" from="1293" to="1296">
+                  <label type="style">Échevin de <placeName ref="#geo_Paris">Paris</placeName>
+                  </label>
+               </state>
+            </person>
+
+            <person xml:id="EB02">
+               <persName>
+                  <forename>Estienne</forename>
+                  <surname>bourde</surname>
+               </persName>
+               <persName>
+                  <addName>porte chappe</addName>
+               </persName>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="EC01">
+               <persName>
+                  <forename>Estienne</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Cormeilles">Cormeilles</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="ED01">
+               <persName>
+                  <forename>Edeline</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>dechargerresse</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>déchargeur</occupation>
+            </person>
+
+            <person xml:id="ED02">
+               <persName>
+                  <forename>Estienne</forename>
+                  <surname>dechaufour</surname>
+               </persName>
+            </person>
+
+            <person xml:id="EHM01">
+               <persName>
+                  <forename>Ernol</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>haute meson</surname>
+               </persName>
+            </person>
+
+            <person xml:id="EL01">
+               <persName>
+                  <forename>Evroin</forename>
+                  <surname>ligier</surname>
+               </persName>
+               <occupation>talemelier</occupation>
+            </person>
+
+            <person xml:id="EQL01">
+               <persName>
+                  <forename>Estienne</forename>
+                  <surname>
+                     <roleName>queue levee</roleName>
+                  </surname>
+               </persName>
+               <occupation>cavatier</occupation>
+            </person>
+
+            <person xml:id="ER01">
+               <persName>
+                  <forename>Estienne</forename>
+                  <nameLink>de</nameLink>
+                  <surname>recloses</surname>
+               </persName>
+            </person>
+
+            <person xml:id="EU01">
+               <persName>
+                  <forename>Estienne</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <roleName>uillier</roleName>
+                  </surname>
+               </persName>
+               <occupation>huilier</occupation>
+            </person>
+
+            <person xml:id="EV01">
+               <persName>
+                  <forename>Ernaut</forename>
+                  <surname>viras</surname>
+               </persName>
+            </person>
+
+            <person xml:id="F01">
+               <persName>
+                  <forename>Frederic</forename>
+               </persName>
+            </person>
+
+            <person xml:id="FT01">
+               <persName>
+                  <forename>Frederic</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>tavernier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="G01">
+               <persName>
+                  <forename>Guillaume</forename>
+               </persName>
+               <occupation>paumier du four gauquelin to <persName ref="#F01">Frederic</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="GB01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>biauveoir</surname>
+               </persName>
+               <occupation>taillieur des robes</occupation>
+            </person>
+
+            <person xml:id="GB02">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Beaufou">biaufou</placeName>
+                  </surname>
+               </persName>
+               <death notAfter="1313" source="#item_lh5_2zg_ghb"/>
+            </person>
+
+            <person xml:id="GB03">
+               <persName>
+                  <forename>Geffroy</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bretaigne">breton</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="GB04">
+               <persName>
+                  <forename>Giles</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Ballay">ballay</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GB05">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bruyères">bruieres</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GC01">
+               <persName>
+                  <forename>Geffroy</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Champeaux">champiaus</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GC02">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>cordier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>cordier</occupation>
+            </person>
+
+            <person xml:id="GC03">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>chapelle</surname>
+               </persName>
+               <occupation>buffetier</occupation>
+            </person>
+
+            <person xml:id="GC04">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>charretier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>charretier</occupation>
+            </person>
+
+            <person xml:id="GC05">
+               <persName>
+                  <forename>Guiot</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>Cavatier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>cavatier</occupation>
+            </person>
+
+            <person xml:id="GC06">
+               <persName>
+                  <forename>Gillot</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>charretier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>charretier</occupation>
+            </person>
+
+            <person xml:id="GC07">
+               <persName>
+                  <forename>Garnier</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_chaumont">chaumont</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GC08">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>culpercie</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GD01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>devin</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="GF01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>franquein</surname>
+               </persName>
+               <occupation>sellier</occupation>
+            </person>
+
+            <person xml:id="GF02">
+               <persName>
+                  <forename>Gautier</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>fourriere</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GF03">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>feuquerel</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GF04">
+               <persName>
+                  <forename>Geffroy</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>fruiterie</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GF05">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>fruitier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>recouvreur</occupation>
+            </person>
+
+            <person xml:id="GG01">
+               <persName>
+                  <forename>Gerart</forename>
+                  <surname>Godefroy</surname>
+               </persName>
+               <occupation>épicier</occupation>
+            </person>
+
+            <person xml:id="GH01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>hasteur <persName>
+                           <roleName>le Roy</roleName>
+                        </persName>
+                     </roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>hasteur to <persName ref="#P04">Philippe IV 'le Bel', roi de France Philippe IV</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="GH02">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Haqueville">haqueville</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GL01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName>limaire</placeName>
+                  </surname>
+               </persName>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="GM01">
+               <persName>
+                  <forename>Godefroy</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>marchant</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>marchand</occupation>
+            </person>
+
+            <person xml:id="GM02">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mareschal</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>maréchal to <persName ref="#QUEENIE">la vielle royne</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="GM03">
+               <persName>
+                  <forename>Guerin</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>macon</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>maçon</occupation>
+            </person>
+
+            <person xml:id="GN01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Normandie">normant</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="GP01">
+               <persName>
+                  <forename>Geffroy</forename>
+                  <nameLink>de</nameLink>
+                  <surname>pons</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GP02">
+               <persName>
+                  <forename>Guerin</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>pelotier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="GP03">
+               <persName>
+                  <forename>Girart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>passeur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>passeur</occupation>
+            </person>
+
+            <person xml:id="GP04">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>pelletier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="GP05">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>phelippe</surname>
+               </persName>
+               <occupation>maçon</occupation>
+            </person>
+
+            <person xml:id="GQ01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Quatremare">quatremares</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GR01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>richart</surname>
+               </persName>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="GSH01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_St-Honore">saint honore</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="GT01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Trie">trie</placeName>
+                  </surname>
+               </persName>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="GT02">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>du</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Til">tilg</placeName>
+                  </surname>
+               </persName>
+               <occupation>tailleur_de_pierre</occupation>
+            </person>
+
+            <person xml:id="GT03">
+               <persName>
+                  <forename>Gervaise</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>taillieur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tailleur</occupation>
+            </person>
+
+            <person xml:id="GT04">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>tristan</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GT05">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>toutain</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GT06">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>tassiau</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GT07">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>trumiau</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GV01">
+               <persName>
+                  <forename>Guiglout</forename>
+                  <nameLink>de</nameLink>
+                  <surname>vicours</surname>
+               </persName>
+            </person>
+
+            <person xml:id="H01">
+               <persName>
+                  <forename>Hechebren</forename>
+               </persName>
+            </person>
+
+            <person xml:id="HB01">
+               <persName>
+                  <forename>Hernon</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bretagne">breton</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="HB02">
+               <persName>
+                  <forename>Henri</forename>
+                  <surname>becaire</surname>
+               </persName>
+               <occupation>cuisinier to <persName ref="#MB03">Marguerite de Bourgogne, reine de France</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="HB03">
+               <persName>
+                  <forename>Hervi</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bretaigne">breton</placeName>
+                  </surname>
+               </persName>
+               <persName>
+                  <addName>bon repos</addName>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="HB04">
+               <persName>
+                  <forename>Hervi</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bretaigne">breton</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="HC01">
+               <persName>
+                  <forename>Heloys</forename>
+                  <nameLink>la</nameLink>
+                  <surname>courande</surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="HC02">
+               <persName>
+                  <forename>Huitace</forename>
+                  <nameLink>de</nameLink>
+                  <surname>chevreuse</surname>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>ciriere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>cirier</occupation>
+            </person>
+
+            <person xml:id="HE01">
+               <persName>
+                  <forename>Hervi</forename>
+                  <nameLink>l</nameLink>
+                  <surname>escroier</surname>
+               </persName>
+            </person>
+
+            <person xml:id="HF01">
+               <persName>
+                  <forename>Huitace</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>fevre</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>fevre</occupation>
+            </person>
+
+            <person xml:id="HM01">
+               <persName>
+                  <forename>Hue</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>marichal</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>maréchal</occupation>
+            </person>
+
+            <person xml:id="HP01">
+               <persName>
+                  <forename>Hebert</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>poulaillier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>poulailler</occupation>
+            </person>
+
+            <person xml:id="HV01">
+               <persName>
+                  <forename>Houdet</forename>
+                  <nameLink>de</nameLink>
+                  <surname>viceours</surname>
+               </persName>
+            </person>
+
+            <person xml:id="J01">
+               <persName>
+                  <forename>Jehanne</forename>
+               </persName>
+               <occupation>fileresse de soie</occupation>
+            </person>
+
+            <person xml:id="JA01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>L</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Angleterre">anglois</placeName>
+                  </surname>
+               </persName>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="JB01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>barbete</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JB02">
+               <persName>
+                  <forename>Jacques</forename>
+                  <surname>bourdon</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JB03">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>brecart</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JB04">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Biaumont">biaumont</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JB05">
+               <persName>
+                  <forename>Jourdain</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>buffetier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>buffetier</occupation>
+            </person>
+
+            <person xml:id="JB06">
+               <persName>
+                  <roleName>Mestre</roleName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>boursier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>boursier</occupation>
+            </person>
+
+            <person xml:id="JB07">
+               <persName>
+                  <roleName>Dame</roleName>
+                  <forename>Jehanne</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>bouchiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>boucher</occupation>
+            </person>
+
+            <person xml:id="JB08">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Baubigny">baubigny</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JC01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>cras</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>charpentier</occupation>
+            </person>
+
+            <person xml:id="JC02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Chaumont">chaumont</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JC03">
+               <persName>
+                  <forename>Jaqueline</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>ciriere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>cirier</occupation>
+            </person>
+
+            <person xml:id="JC04">
+               <persName>
+                  <forename>Jaquemart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>cordoanier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>cordonnier</occupation>
+            </person>
+
+            <person xml:id="JC05">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>cainel</surname>
+               </persName>
+               <occupation>charpentier</occupation>
+            </person>
+
+            <person xml:id="JC06">
+               <persName>
+                  <forename>Jehanne</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>chandeliere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>chandelier</occupation>
+            </person>
+
+            <person xml:id="JC07">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>cordier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>cordier</occupation>
+            </person>
+
+            <person xml:id="JD01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>desismes</surname>
+                  <nameLink>du</nameLink>
+                  <addName>noier</addName>
+               </persName>
+            </person>
+
+            <person xml:id="JD02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>douin</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JD03">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>dechargeur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>déchargeur</occupation>
+            </person>
+
+            <person xml:id="JE01">
+               <persName>
+                  <forename>jehan</forename>
+                  <nameLink>l</nameLink>
+                  <surname>escuillier</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JF01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Fleury">fleuri</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JF02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Fleury">fleuri</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JG01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>groignet</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JG02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Guilly">guilly</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JG03">
+               <persName>
+                  <forename>Jaques</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>grant</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="JG04">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>gastelier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>gâtelier</occupation>
+            </person>
+
+            <person xml:id="JG05">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Gentilly">Gentilli</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JH01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>du</nameLink>
+                  <surname>hamel</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JH02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>hache</surname>
+               </persName>
+               <occupation>tisserand</occupation>
+            </person>
+
+            <person xml:id="JH03">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>hardi</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JL01">
+               <persName>
+                  <forename>Jehanne</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>lavendiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>lavandrier</occupation>
+            </person>
+
+            <person xml:id="JL02">
+               <persName>
+                  <forename>Jehanne</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>lavandiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>lavandrier</occupation>
+            </person>
+
+            <person xml:id="JL03">
+               <persName>
+                  <forename>Jaques</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>ladre</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="JL04">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Laon">Laon</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JL05">
+               <persName>
+                  <forename>Jaques</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>lanterne</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JL06">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>lirais</surname>
+               </persName>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="JM01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Montreuil,_Seine-Saint-Denis">monterueil</placeName>
+                  </surname>
+               </persName>
+               <occupation>tisserand</occupation>
+            </person>
+
+            <person xml:id="JM02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>maillart</surname>
+               </persName>
+               <occupation>changeur</occupation>
+            </person>
+
+            <person xml:id="JM03">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>du</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Mesnil">mesnil</placeName>
+                  </surname>
+               </persName>
+               <occupation>hôtelier</occupation>
+            </person>
+
+            <person xml:id="JM04">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>mordret</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JM05">
+               <persName>
+                  <forename>Jehanne</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>monoiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>monnayeur</occupation>
+            </person>
+
+            <person xml:id="JM06">
+               <persName>
+                  <forename>Jaques</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Mante">Mante</placeName>
+                  </surname>
+               </persName>
+               <occupation>cavatier</occupation>
+            </person>
+
+            <person xml:id="JM07">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>moriau</surname>
+               </persName>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="JM08">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mesagier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>messager</occupation>
+            </person>
+
+            <person xml:id="JN01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Nantueil">nantueil</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JP01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>pelotier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="JP02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>petit</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tapissier</occupation>
+            </person>
+
+            <person xml:id="JP03">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Pontoise">pontaise</placeName>
+                  </surname>
+               </persName>
+               <occupation>serrurier</occupation>
+            </person>
+
+            <person xml:id="JP04">
+               <persName>
+                  <forename>Jaquet</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>preudomme</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="JP05">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Poigny">Poigny</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JQ01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>queu</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>orfevre</occupation>
+            </person>
+
+            <person xml:id="JR01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <addName>Roy</addName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="JR02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Rueil">rueil</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JS01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>selles</surname>
+               </persName>
+            </person>
+
+            <person xml:id="JT01">
+               <persName>
+                  <roleName>Dame</roleName>
+                  <forename>Jehanne</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Termes">termes</placeName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="JT02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Trocy_en_Multien">troci</placeName>
+                  </surname>
+               </persName>
+               <occupation>monnayeur</occupation>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="JT03">
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>taupin</surname>
+               </persName>
+               <occupation>boucher</occupation>
+            </person>
+
+            <person xml:id="JT04">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>du</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Til">til</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JV01">
+               <persName>
+                  <forename>Juliane</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>vaniere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>vannier</occupation>
+            </person>
+
+            <person xml:id="JV02">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Vanves">Vauves</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JVN01">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
+                  </surname>
+               </persName>
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
+                  </surname>
+               </persName>
+               <occupation>maître_des_aveugles to <persName ref="#ANON006">son gendre</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="L10">
+               <persName type="reg" key="Louis X 'le Hutin', roi de France">
+                        <forename>Louis</forename>
+                        <genName>X</genName>
+                        <addName>le Hutin</addName>
+                        <nameLink>de</nameLink>
+                        <placeName>France</placeName>
+                    </persName>
+               <persName type="short" key="Louis X"/>
+               <persName>
+                  <roleName>Le Roy de <placeName ref="#geo_Navarre">Navarre</placeName>
+                  </roleName>
+               </persName>
+               <sex value="male"/>
+               <birth when="1289-10-04"/>
+               <death when="1316-06-05"/>
+               <state type="office" from="1314-11-29" to="1316-06-05">
+                  <label type="style">Roi de <placeName ref="#geo_France">France</placeName>
+                  </label>
+               </state>
+               <state type="office" from="1305-04-04" to="1316-06-05">
+                  <label type="style">Roi de <placeName ref="#Navarre">Navarre</placeName>
+                  </label>
+               </state>
+            </person>
+
+            <person xml:id="LB01">
+               <persName>
+                  <forename>Lucas</forename>
+                  <surname>bourge</surname>
+               </persName>
+            </person>
+
+            <person xml:id="LB02">
+               <persName>
+                  <forename>Ligart</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <addName>borgne</addName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="LB03">
+               <persName>
+                  <forename>Lambequin</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Brebam">brebam</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="LG01">
+               <persName>
+                  <forename>Lorenz</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Guoy">gouy</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="LS01">
+               <persName>
+                  <forename>Lucas</forename>
+                  <surname>saussete</surname>
+               </persName>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="MB01">
+               <persName>
+                  <forename>Martin</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bar_sur_Aube">bar sur aube</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="MB02">
+               <persName>
+                  <forename>Marguerite</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <addName>bocue</addName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="MB03">
+               <persName type="reg" key="Marguerite de Bourgogne, reine de France">
+                        <forename>Marguerite</forename>
+                        <nameLink>de</nameLink>
+                        <placeName>Bourgogne</placeName>
+                    </persName>
+               <persName>
+                  <roleName>la rayne de <placeName ref="#geo_Navarre">navarre</placeName>
+                  </roleName>
+               </persName>
+               <sex value="female"/>
+               <birth when="1290"/>
+               <death when="1315-04-30"/>
+               <state type="office" from="1314-11-29" to="1315-04-30">
+                  <label type="style">Reine de <placeName ref="#geo_France">France</placeName>
+                  </label>
+               </state>
+               <state type="office" from="1305-09-21" to="1315-04-30">
+                  <label type="style">Reine de <placeName ref="#Navarre">Navarre</placeName>
+                  </label>
+               </state>
+            </person>
+
+            <person xml:id="MC01">
+               <persName>
+                  <forename>Maheut</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>chandeliere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>chandelier</occupation>
+            </person>
+
+            <person xml:id="MCP01">
+               <persName>
+                  <forename>Macy</forename>
+                  <surname>chace pie</surname>
+               </persName>
+            </person>
+
+            <person xml:id="MD01">
+               <persName>
+                  <forename>Marie</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Dreux">dreus</placeName>
+                  </surname>
+               </persName>
+               <occupation>hôtelier</occupation>
+            </person>
+
+            <person xml:id="ML01">
+               <persName>
+                  <forename>Marie</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Lorrez">lorrez</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="MP01">
+               <persName>
+                  <forename>Michiel</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>peintre</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>peintre</occupation>
+            </person>
+
+            <person xml:id="MP02">
+               <persName>
+                  <forename>Milet</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>potier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>potier</occupation>
+            </person>
+
+            <person xml:id="MP03">
+               <persName>
+                  <forename>Maci</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>porteur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>porteur</occupation>
+            </person>
+
+            <person xml:id="MSD01">
+               <persName>
+                  <forename>Marie</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Saint-Denis">saint denys</placeName>
+                  </surname>
+               </persName>
+               <occupation>lainier</occupation>
+            </person>
+
+            <person xml:id="MT01">
+               <persName>
+                  <forename>Maci</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>tailleur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tailleur</occupation>
+            </person>
+
+            <person xml:id="NA01">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <surname>Arrode</surname>
+               </persName>
+            </person>
+
+            <person xml:id="NA02">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <nameLink>d</nameLink>
+                  <surname>avion</surname>
+               </persName>
+            </person>
+
+            <person xml:id="NC01">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Chesay">chesay</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="NH01">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>haie</surname>
+               </persName>
+               <occupation>talemelier</occupation>
+            </person>
+
+            <person xml:id="NH02">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <surname>helyes</surname>
+               </persName>
+            </person>
+
+            <person xml:id="NP01">
+               <persName>
+                  <forename>Noel</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>peintre</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>peintre</occupation>
+            </person>
+
+            <person xml:id="NP02">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>peintre</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>peintre</occupation>
+            </person>
+
+            <person xml:id="OB01">
+               <persName>
+                  <forename>Oudart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>boursier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>boursier</occupation>
+            </person>
+
+            <person xml:id="OR01">
+               <persName>
+                  <forename>Oudin</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Rueil">rueil</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="OS01">
+               <persName>
+                  <forename>Oudin</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Soissons">Soissons</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="P04">
+               <persName type="reg" key="Philippe IV 'le Bel', roi de France">
+                        <forename>Philippe</forename>
+                        <genName>IV</genName>
+                        <addName>le Bel</addName>
+                        <nameLink>de</nameLink>
+                        <placeName>France</placeName>
+                    </persName>
+               <persName type="short" key="Philippe IV"/>
+               <persName>
+                  <roleName>roy nostre sires</roleName>
+               </persName>
+               <persName>
+                  <roleName>le Roy</roleName>
+               </persName>
+               <sex value="male"/>
+               <birth from="1268-04" to="1268-06"/>
+               <death when="1314-11-29"/>
+               <state type="office" from="1285-10-05" to="1314-11-29">
+                  <label type="style">Roi de <placeName ref="#geo_France">France</placeName>
+                  </label>
+               </state>
+               <state type="office" from="1284-08-16" to="1305-04-04">
+                  <label type="style">Roi de <placeName ref="#Navarre">Navarre</placeName>
+                  </label>
+               </state>
+            </person>
+
+            <person xml:id="PB01">
+               <persName>
+                  <forename>Pierre</forename>
+                  <surname>blancernoul</surname>
+               </persName>
+            </person>
+
+            <person xml:id="PB02">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Bonneuil_sur_Marne" cert="medium">bonueil</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="PB03">
+               <persName>
+                  <forename>Phelippe</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>bracheur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tapissier</occupation>
+            </person>
+
+            <person xml:id="PB04">
+               <persName>
+                  <forename>Perronelle</forename>
+                  <nameLink>la</nameLink>
+                  <surname type="unknown">bidaude</surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+            <person xml:id="PC01">
+               <persName>
+                  <forename>Perronelle</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>chandeliere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>chandelier</occupation>
+            </person>
+
+            <person xml:id="PC02">
+               <persName>
+                  <forename>Perrete</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>cousturiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="PC03">
+               <persName>
+                  <forename>Pierre</forename>
+                  <surname>chaitain</surname>
+               </persName>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="PC04">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>coffrier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>coffrier</occupation>
+            </person>
+
+            <person xml:id="PD01">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Dammartin">danmartin</placeName>
+                  </surname>
+               </persName>
+               <occupation>cordonnier</occupation>
+            </person>
+
+            <person xml:id="PE01">
+               <persName>
+                  <roleName>Mestre</roleName>
+                  <forename>pierre</forename>
+                  <nameLink>de l</nameLink>
+                  <surname>escole</surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="PF01">
+               <persName>
+                  <forename>Phelippe</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>ferpier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="PH01">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>hote</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>hote</occupation>
+            </person>
+
+            <person xml:id="PM01">
+               <persName>
+                  <roleName>Mestre</roleName>
+                  <forename>Phelippe</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mareschal</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>maréchal</occupation>
+            </person>
+
+            <person xml:id="PN01">
+               <persName>
+                  <roleName>Mestre</roleName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Nonancourt">nonancourt</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="PP01">
+               <persName>
+                  <forename>Perronelle</forename>
+                  <surname>poree</surname>
+               </persName>
+               <occupation>pâtissier</occupation>
+            </person>
+
+            <person xml:id="PP02">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>pastaier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="PP03">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Picardie">picart</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="PP04">
+               <persName>
+                  <forename>Pierres</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>peletier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="PP05">
+               <persName>
+                  <forename>Phelippe</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>peintre</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>peintre</occupation>
+            </person>
+
+            <person xml:id="PR01">
+               <persName>
+                  <forename>Phelippe</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Reims">Reins</placeName>
+                  </surname>
+               </persName>
+               <persName cert="medium">
+                  <forename>Phellippe</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>chandelier</roleName>
+                  </surname>
+               </persName>
+               <occupation>chandelier</occupation>
+            </person>
+
+            <person xml:id="PR02">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Rueil">rueil</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="PT01">
+               <persName>
+                  <forename>pierre</forename>
+                  <nameLink>du</nameLink>
+                  <surname>tref</surname>
+               </persName>
+            </person>
+
+            <person xml:id="PV01">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Vanves">Vauves</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="PVN01">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
+                  </surname>
+               </persName>
+               <persName>
+                  <forename>pierre</forename>
+               </persName>
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="QUEENIE">
+               <persName>
+                  <roleName>la vielle royne</roleName>
+               </persName>
+               <sex value="female"/>
+               <state type="office">
+                  <label type="style">queen</label>
+               </state>
+            </person>
+
+            <person xml:id="R01">
+               <persName>
+                  <forename>Raolet</forename>
+               </persName>
+               <occupation>corretier des chevaux</occupation>
+            </person>
+
+            <person xml:id="R02">
+               <persName>
+                  <forename>Raol</forename>
+               </persName>
+               <occupation>porteur d'eux</occupation>
+            </person>
+
+            <person xml:id="R03">
+               <persName/>
+               <occupation>vallet to <persName ref="#TB03">Tierri biaudehors</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="R05">
+               <persName type="reg" key="Robert V, comte de Dreux">
+                        <forename>Robert</forename>
+                        <genName>V</genName>
+                        <nameLink>de</nameLink>
+                        <placeName>Dreux</placeName>
+                    </persName>
+               <persName>
+                  <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
+                  </roleName>
+               </persName>
+               <sex value="male"/>
+               <birth type="circa" when="1293"/>
+               <death datingMethod="#julian_France"
+                      when-custom="1329-03-22"
+                      when="1330-03-22"/>
+               <state type="office"
+                      from="1309"
+                      datingMethod="#julian_France"
+                      to-custom="1329-03-22"
+                      to="1330-03-22">
+                  <label type="style">Comte de <placeName ref="#geo_Dreux">Dreux</placeName>
+                  </label>
+               </state>
+            </person>
+
+            <person xml:id="RA01">
+               <persName>
+                  <forename>Renaut</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Angleterre">anglois</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="RB01">
+               <persName>
+                  <forename>Renaut</forename>
+                  <surname>boscheron</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RB02">
+               <persName>
+                  <forename>Raol</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName> barbier </roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>barbier</occupation>
+            </person>
+
+            <person xml:id="RC01">
+               <persName>
+                  <forename>Raol</forename>
+                  <surname>curout</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RC02">
+               <persName>
+                  <forename>Richart</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Cornwall">cornoaille</placeName>
+                  </surname>
+               </persName>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="RE01">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Scotland">escot</placeName>
+                  </surname>
+               </persName>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="RF01">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Fresviau">fresviau</placeName>
+                  </surname>
+               </persName>
+               <persName cert="medium">
+                  <forename>Robert</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>regratier</roleName>
+                  </surname>
+               </persName>
+               <occupation>regratier</occupation>
+            </person>
+
+            <person xml:id="RG01">
+               <persName>
+                  <forename>Richart</forename>
+                  <surname>godet</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RG02">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>gaigni</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RL01">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Linay">Linays</placeName>
+                  </surname>
+               </persName>
+               <occupation>courroier</occupation>
+            </person>
+
+            <person xml:id="RM01">
+               <persName>
+                  <forename>Revost</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mercier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>mercier</occupation>
+            </person>
+
+            <person xml:id="RN01">
+               <persName>
+                  <forename>Raol</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>nasseur</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>nasseur</occupation>
+            </person>
+
+            <person xml:id="RN02">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Nogent">nogent</placeName>
+                  </surname>
+               </persName>
+               <occupation>sergent du guet</occupation>
+            </person>
+
+            <person xml:id="RN03">
+               <persName>
+                  <forename>Richart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Normandie">normant</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>hôtelier</occupation>
+            </person>
+
+            <person xml:id="RN04">
+               <persName>
+                  <forename>Remi</forename>
+                  <nameLink>des</nameLink>
+                  <surname>napes</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RO01">
+               <persName>
+                  <forename>Richart</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <roleName>ouvrier</roleName>
+                  </surname>
+               </persName>
+               <occupation>ouvrier</occupation>
+            </person>
+
+            <person xml:id="RP01">
+               <persName>
+                  <forename>Rogier</forename>
+                  <surname>piquet</surname>
+               </persName>
+               <persName>
+                  <forename>Rogier</forename>
+                  <surname>piquet</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RP02">
+               <persName>
+                  <forename>Rogier</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>potier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>potier</occupation>
+            </person>
+
+            <person xml:id="RP03">
+               <persName>
+                  <forename>Raol</forename>
+                  <surname>poree</surname>
+               </persName>
+               <occupation>vallet to <persName ref="#JE01">jehan
+											lescuillier</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="RP04">
+               <persName>
+                  <forename>Richart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>pelletier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="RP05">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>porte</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RPR01">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>du</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Pont_la_Reyne">pont la rayne</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="RR01">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>roussiau</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RR02">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>rueill</surname>
+               </persName>
+            </person>
+
+            <person xml:id="RU01">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <roleName>uillier</roleName>
+                  </surname>
+               </persName>
+               <occupation>huilier</occupation>
+            </person>
+
+            <person xml:id="SB01">
+               <persName>
+                  <roleName>Mestre</roleName>
+                  <forename>Symon</forename>
+                  <nameLink>du</nameLink>
+                  <surname>bouclier</surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="SB02">
+               <persName>
+                  <forename>Symon</forename>
+                  <surname>bataille</surname>
+               </persName>
+            </person>
+
+            <person xml:id="SC01">
+               <persName>
+                  <forename>Symon</forename>
+                  <nameLink>de</nameLink>
+                  <surname>chatou</surname>
+               </persName>
+               <occupation>mercier</occupation>
+            </person>
+
+            <person xml:id="SC02">
+               <persName>
+                  <forename>Symonet</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Craonville">craoville</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="SE01">
+               <persName>
+                  <forename>Salomon</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <roleName>eschancon</roleName>
+                  </surname>
+               </persName>
+               <occupation>échanson</occupation>
+            </person>
+
+            <person xml:id="SG01">
+               <persName>
+                  <forename>Symon</forename>
+                  <surname>Gencien</surname>
+               </persName>
+               <persName>
+                  <forename>Symon</forename>
+                  <surname>Gencien</surname>
+               </persName>
+               <occupation>marchand de merrain</occupation>
+            </person>
+
+            <person xml:id="SG02">
+               <persName>
+                  <forename>Symon</forename>
+                  <surname>Guerin</surname>
+               </persName>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="SN01">
+               <persName>
+                  <forename>Symon</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Normandie">normant</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="SN02">
+               <persName>
+                  <forename>Symon</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Normandie">normant</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="SP01">
+               <persName>
+                  <forename>Sanson</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>pelletier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>pelletier</occupation>
+            </person>
+
+            <person xml:id="SS01">
+               <persName>
+                  <forename>Symon</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>sergent</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>sergent</occupation>
+            </person>
+
+            <person xml:id="SSB01">
+               <persName>
+                  <forename>Symon</forename>
+                  <nameLink>de</nameLink>
+                  <surname>saint benoit</surname>
+               </persName>
+               <occupation>drapier</occupation>
+            </person>
+
+            <person xml:id="SSG01">
+               <persName>
+                  <forename>Sanson</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_St-Geneviève">Sainte Genevieve</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="ST01">
+               <persName>
+                  <forename>Symon</forename>
+                  <surname>tybert</surname>
+               </persName>
+               <occupation>boucher</occupation>
+            </person>
+
+            <person xml:id="TA01">
+               <persName>
+                  <forename>Tibaut</forename>
+                  <nameLink>d</nameLink>
+                  <surname>
+                     <placeName ref="#geo_aubigny">aubigni</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="TB01">
+               <persName>
+                  <forename>Thomas</forename>
+                  <nameLink>le</nameLink>
+                  <surname>borgne</surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
+            <person xml:id="TB02">
+               <persName>
+                  <forename>Thomas</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Biaufo">biaufo</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="TB03">
+               <persName>
+                  <forename>Tierri</forename>
+                  <surname>biaudehors</surname>
+               </persName>
+            </person>
+
+            <person xml:id="TC01">
+               <persName>
+                  <forename>Thiebaut</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>cordoanier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>cordonnier to <persName ref="#ANON008">son filz</persName>
+               </occupation>
+            </person>
+
+            <person xml:id="TF01">
+               <persName>
+                  <forename>Thierrion</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>fauverte</surname>
+               </persName>
+            </person>
+
+            <person xml:id="TF02">
+               <persName>
+                  <forename>Thiece</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>fillerresse de saie</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>fileresse de soie</occupation>
+            </person>
+
+            <person xml:id="TL01">
+               <persName>
+                  <forename>Thomas</forename>
+                  <nameLink>l</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Angleterre">anglois</placeName>
+                  </surname>
+               </persName>
+               <occupation>talemelier</occupation>
+            </person>
+
+            <person xml:id="TM01">
+               <persName>
+                  <forename>Thomasine</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>muniere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>meunier</occupation>
+            </person>
+
+            <person xml:id="TN01">
+               <persName>
+                  <forename>Thomas</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Noisy">Noisy</placeName>
+                  </surname>
+               </persName>
+               <occupation>vinetier</occupation>
+            </person>
+
+            <person xml:id="VP01">
+               <persName>
+                  <forename>Vincent</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>poissonnier de mer</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>poissonnier</occupation>
+            </person>
+
+            <person xml:id="W01">
+               <persName>
+                  <forename>Wafflart</forename>
+               </persName>
+            </person>
+
+            <person xml:id="YC01">
+               <persName>
+                  <forename>Ysabiau</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>cousturiere</roleName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>couturier</occupation>
+            </person>
+
+            <person xml:id="YN01">
+               <persName>
+                  <roleName>Dame</roleName>
+                  <forename>ysabiau</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Neelle">neelle</placeName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
+         </listPerson>
+      </body>
+   </text>
+</TEI>

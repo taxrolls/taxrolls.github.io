@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
+    <xsl:output method="xml" encoding="UTF-8" indent="yes" doctype-system="about:legacy-compact"/>
+
+    <xsl:variable name="doc" select="collection('?select=taxroll_*.xml')"/>
+    <xsl:variable name="refs" select="$doc//persName | $doc//rs[@type='person']"/>
+    <xsl:key name="persID" match="persName" use="@ref"/>
+
+    <xsl:template match="/">
+
+        
+        <html>
+            <head>
+                <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+                <link rel="stylesheet" type="text/css" href="../enc.css"/>
+            </head>
+
+            <body>
+                <!-- Header Links -->
+                <xsl:copy-of select="document('./html/header.html')"/>
+
+                <!-- Person Index -->
+                <div class="container">
+                    <h2>People</h2>
+                    <p>Unique Entries: <xsl:value-of select="count(distinct-values($doc//persName/@ref | $doc//rs[@type='person']/@ref))"/></p>
+                    <ul class="name_index">
+                        <xsl:for-each-group select="$refs" group-by="@ref">
+                            <xsl:sort select="@ref"/>
+                            <li>
+                                <xsl:value-of select="@ref"/>
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="current()"/>
+                            </li>
+                        </xsl:for-each-group>
+                    </ul>
+                </div>
+
+
+                <!-- Occupation Index -->
+                <div class="container">
+                    <h2>Occupations</h2>
+                    <ul>
+                        <xsl:for-each-group select="$doc//roleName[@type = 'occupation']" group-by="@role">
+                            <xsl:sort select="./@role" lang="fr-FR"/>
+                            <li class="occ">
+                                <xsl:variable name="count" select="count(current-group())"/>
+
+                                <xsl:value-of select="current-grouping-key()"/>
+                                <xsl:if test="count(current-group()) &gt; 1"> (<xsl:value-of select="count(current-group())"/>) </xsl:if>
+                                <ul>
+                                    <xsl:for-each-group select="current-group()" group-by="normalize-space(.)" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes">
+                                        <xsl:sort select="count(current-group())" order="descending"/>
+                                        <xsl:sort select="." collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
+                                        <li class="occ_variant">
+                                            <xsl:value-of select="current-grouping-key()"/>
+                                            <xsl:if test="count(current-group()) != $count and count(current-group()) != 1"> (<xsl:value-of select="count(current-group())"/>) </xsl:if>
+                                            <ul>
+                                                <xsl:for-each select="current-group()">
+                                                    <xsl:sort select="key('persID', @ref)[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
+                                                    <xsl:variable name="persRef" select="@ref"/>
+                                                    <li>
+                                                        <xsl:value-of select="key('persID', @ref)"/>
+                                                    </li>
+                                                </xsl:for-each>
+
+
+
+                                            </ul>
+
+                                        </li>
+                                    </xsl:for-each-group>
+                                </ul>
+                            </li>
+                        </xsl:for-each-group>
+                    </ul>
+                </div>
+
+
+                <!-- Names Index -->
+                <div class="container">
+                    <h2>Names</h2>
+                    <h3>Given Names</h3>
+                    <ul>
+                        <xsl:for-each-group select="$refs" group-by="forename" collation="http://saxon.sf.net/collation?ignore-case=yes">
+                            <xsl:sort select="forename" lang="fr-FR"/>
+                            <li>
+                                <xsl:variable name="count" select="count(current-group())"/>
+                                <xsl:value-of select="current-grouping-key()"/>
+                                <xsl:if test="count(current-group()) &gt; 1"> (<xsl:value-of select="count(current-group())"/>) </xsl:if>
+                            </li>
+                        </xsl:for-each-group>
+                    </ul>
+                    <h3>Toponyms</h3>
+                    <ul>
+                        <xsl:for-each-group select="$refs" group-by="descendant::placeName" collation="http://saxon.sf.net/collation?ignore-case=yes">
+                            <xsl:sort select="descendant::placeName" lang="fr-FR"/>
+                            <li>
+                                <xsl:variable name="count" select="count(current-group())"/>
+                                <xsl:value-of select="descendant::placeName"/>
+                                <xsl:if test="descendant::nameLink"> (<xsl:value-of select="descendant::nameLink"/>)</xsl:if>
+                                <xsl:if test="count(current-group()) &gt; 1"> (<xsl:value-of select="count(current-group())"/>) </xsl:if>
+                            </li>
+                        </xsl:for-each-group>
+                    </ul>
+                </div>
+            </body>
+        </html>
+    </xsl:template>
+
+</xsl:stylesheet>

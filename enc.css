@@ -1,0 +1,161 @@
+        
+        @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700');
+/*        @import url('./KJV1611.otf');*/
+        
+        body {
+            font-family:"Old Standard TT", Garamond, serif;
+            font-size: 16px;
+            margin: 20px;
+            background-color: whitesmoke;
+        }
+        
+        .container {
+            margin: auto;
+            margin-top: 30px;
+            max-width: 550px;
+            border: 1px solid;
+            padding: 20px 50px;
+            box-shadow: 4px 6px 4px #AAA;
+            background-color: white;
+        }
+        
+        p.incipit {
+            font-style: italic;
+        }
+        
+        .expan {
+            font-style: italic;
+        }
+        
+        .incipit .expan {
+            font-style: normal;
+        }
+        
+        .strikethrough {
+            text-decoration: line-through;
+        }
+        
+        .exp {
+            text-decoration: underline dashed;
+        }
+        
+        /*span {
+            display: inline-block;
+        }*/
+        
+        ul {
+            list-style-type: none;
+            padding: 0 20px;
+        }
+        
+       
+        .sum {
+            font-weight: bold;
+            padding: 1em 0;
+        }
+        
+         
+        .num {
+            font-variant: small-caps;
+        /*    font-size: 80%;*/
+            text-transform: lowercase;
+        }
+        
+        
+        a { 
+            color: navy;
+            border-bottom-style: dotted; 
+            border-bottom-width: 1px; 
+            text-decoration: none;
+        }
+        
+        a:hover {
+            border-bottom-style: solid;
+            color: #000
+        }
+        
+        .n {
+            font-size: 0.75rem;
+            color: #777;
+        }
+        
+        .source {
+            font-size: 0.75rem;
+        }
+        
+        
+/* Tables */
+        table {
+            width: 100%
+        }
+        
+        table, tr, td {
+        /*    border: 1px solid black;*/
+        /*    vertical-align: center;*/
+        }
+        
+        td.list_num {
+            width: 1px;
+            padding-right: 5px;
+        }
+        
+        td.table_amount {
+            width: 20%;
+        }
+    
+    
+/* Occupations */
+        li.occ {
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        li.occ_variant {
+            font-weight: normal;
+        /*    font-style: italic;*/
+        }
+        
+/* Thumbnails */        
+        .container .thumbnail {
+            margin-left: -245px;
+/*            margin-top: 1.33em;*/
+            float: left;
+            margin-top: 0;
+            padding: 12px;
+            text-align: -webkit-center;
+        }
+        
+        .thumbnail-img {
+            margin-bottom: 8px;
+        }
+        
+        .thumbnail-caption {
+            margin: 0px;
+        }
+
+/* Header */
+        .header {
+            background-color: white;
+            text-align: center;
+            border: black solid 1px;
+            padding: 10px;
+        }
+
+.initial {
+  float: left;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+@font-face{
+    font-family: KJV1611;
+    src: url('./assets/KJV1611.otf');
+}
+
+.capitulum {
+    font-family: KJV1611;
+    font-size: .75rem;
+}

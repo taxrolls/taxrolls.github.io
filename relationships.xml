@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="taxrolls.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>External Relationship Information</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Taxonomy of Declared Relationships</desc>
+                    <category xml:id="hasChild" corresp="#hasParent"><catDesc>Child</catDesc></category>
+                    <category xml:id="hasParent" corresp="#hasChild"><catDesc>Parent</catDesc></category>
+                    <category xml:id="hasSpouse" corresp="#hasSpouse"><catDesc>Spouse</catDesc></category>
+                    <category xml:id="hasSibling" corresp="#hasSibling"><catDesc>Sibling</catDesc></category>
+                    <category xml:id="hasCompanion" corresp="#hasCompanion"><catDesc>Companion</catDesc></category>
+                    <category xml:id="hasEmployer" corresp="#hasEmployee"><catDesc>Employer</catDesc></category>
+                    <category xml:id="hasEmployee" corresp="#hasEmployer"><catDesc>Employee</catDesc></category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listRelation>
+                <relation source="#head_gd4_qbh_ghb" type="personal" name="#hasChild" active="#P04" passive="#L10"/>
+                <relation source="#item_rc5_2zg_ghb" type="personal" name="#hasChild" active="#RP01" passive="#ANON002"/>
+                <relation source="#item_vc5_2zg_ghb" type="personal" name="#hasChild" active="#PVN01" passive="#ANON003"/>
+                <relation source="#item_od5_2zg_ghb" type="personal" name="#hasSibling" mutual="#ANON004 #ANON005"/>
+                <relation source="#item_od5_2zg_ghb" type="personal" name="#hasSpouse" mutual="#ANON005 #PT01"/>
+                <relation source="#item_pd5_2zg_ghb" type="personal" name="#hasChild" active="#JVN01" passive="#ANON006"/>
+                <relation source="#item_sd5_2zg_ghb" type="professional" name="#hasEmployer" active="#RP03" passive="#JE01"/>
+                <relation source="#item_i25_2zg_ghb" type="professional" name="#hasEmployer" active="#HB02" passive="#MB03"/>
+                <relation source="#item_l25_2zg_ghb" type="professional" name="#hasEmployer" active="#ANON001" passive="#R05"/>
+                <relation source="#item_m25_2zg_ghb" type="professional" name="#hasEmployer" active="#GH01" passive="#P04"/>
+                <relation source="#item_lf5_2zg_ghb" type="personal" name="#hasChild" active="#HB03" passive="#ANON007"/>
+                <relation source="#item_uf5_2zg_ghb" type="personal" name="#hasChild" active="#TC01" passive="#ANON008"/>
+                <relation source="#item_dh5_2zg_ghb" type="personal" name="#hasChild" active="#G01" passive="#F01" cert="medium"/>
+                <relation source="#item_fh5_2zg_ghb" type="personal" name="#hasSpouse" mutual="#ANON009 #RG02"/>
+                <relation source="#item_hh5_2zg_ghb" type="personal" name="#hasSpouse" mutual="#ANON010 #SG01" cert="low"/>
+                <relation source="#item_lh5_2zg_ghb" type="personal" name="#hasSpouse" mutual="#ANON011 #GB02"/>
+                <relation source="#item_i35_2zg_ghb" type="personal" name="#hasSpouse" mutual="#E01 #JP05"/>
+                <relation source="#item_k35_2zg_ghb" type="personal" name="#hasChild" active="#JV02" passive="#PV01"/>
+                <relation source="#item_k35_2zg_ghb" type="personal" name="#hasChild" active="#JT04" passive="#AGRP001"/>
+                <relation source="#item_zj5_2zg_ghb" type="personal" name="#hasCompanion" mutual="#ASJ01 #ANON012"/>
+                <!--1297--><relation source="#" type="professional" name="#hasEmployer" active="#GM02" passive="#QUEENIE"/>
+                <relation source="#" type="personal" name="#hasSpouse" mutual="#ANON013 #AP02"></relation>
+                <relation source="#" type="professional" name="#hasEmployer" active="#R03" passive="#TB03"/>
+            </listRelation>
+        </body>
+    </text>
+</TEI>

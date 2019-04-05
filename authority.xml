@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="taxrolls.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="personography">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>External Authority Information</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+
+                <person corresp="#EB01" resp="#ND">
+                    <persName type="reg" key="Étienne Barbette">
+                        <forename>Étienne</forename>
+                        <surname>Barbette</surname>
+                    </persName>
+                    
+                    <idno type="viaf">https://viaf.org/viaf/24676758</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q56312617</idno>
+                    
+                    <sex value="male"/>
+                    <birth type="circa" when="1250"/>
+                    <death when="1321-12-19"/>
+                    
+                    <state type="office" from="1298" to="1304">
+                        <label type="style">Prévôt des marchands de <placeName ref="#geo_Paris">Paris</placeName></label>
+                    </state>
+                    <!-- Maybe to 1321? Possibly 1312-21 *Haucour, L'hotel de Ville (1900), 30*-->
+                    <state type="office" from="1314" to="1318">
+                        <label type="style">Prévôt des marchands de <placeName ref="#geo_Paris">Paris</placeName></label>
+                    </state>
+                    <!-- Minimum dates -->
+                    <state type="office" from="1293" to="1296">
+                        <label type="style">Échevin de <placeName ref="#geo_Paris">Paris</placeName></label>
+                    </state>
+                </person>
+
+                <person corresp="#L10" resp="#ND">
+                    <persName type="reg" key="Louis X 'le Hutin', roi de France">
+                        <forename>Louis</forename>
+                        <genName>X</genName>
+                        <addName>le Hutin</addName>
+                        <nameLink>de</nameLink>
+                        <placeName>France</placeName>
+                    </persName>
+                    <persName type="short" key="Louis X"/>
+                    
+                    <idno type="viaf">https://viaf.org/viaf/24676758</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q8384</idno>
+                    
+                    <sex value="male"/>
+                    <birth when="1289-10-04"/>
+                    <death when="1316-06-05"/>
+                    
+                    <state type="office" from="1314-11-29" to="1316-06-05">
+                        <label type="style">Roi de <placeName ref="#geo_France">France</placeName></label>
+                    </state>
+                    <state type="office" from="1305-04-04" to="1316-06-05">
+                        <label type="style">Roi de <placeName ref="#Navarre">Navarre</placeName></label>
+                    </state>
+                </person>
+   
+                <person corresp="#MB03" resp="#ND">
+                    <persName type="reg" key="Marguerite de Bourgogne, reine de France">
+                        <forename>Marguerite</forename>
+                        <nameLink>de</nameLink>
+                        <placeName>Bourgogne</placeName>
+                    </persName>
+                    <idno type="viaf">https://viaf.org/viaf/43584824</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q70590</idno>
+                    
+                    <sex value="female"/>
+                    <birth when="1290"/>
+                    <death when="1315-04-30"/>
+                    
+                    <state type="office" from="1314-11-29" to="1315-04-30">
+                        <label type="style">Reine de <placeName ref="#geo_France">France</placeName></label>
+                    </state>
+                    <state type="office" from="1305-09-21" to="1315-04-30">
+                        <label type="style">Reine de <placeName ref="#Navarre">Navarre</placeName></label>
+                    </state>
+                </person>
+                
+   
+                <person corresp="#P04" resp="#ND">
+                    <persName type="reg" key="Philippe IV 'le Bel', roi de France">
+                        <forename>Philippe</forename>
+                        <genName>IV</genName>
+                        <addName>le Bel</addName>
+                        <nameLink>de</nameLink>
+                        <placeName>France</placeName>
+                    </persName>
+                    <persName type="short" key="Philippe IV"/>
+
+                    <idno type="viaf">https://viaf.org/viaf/89086248</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q130969</idno>
+
+                    <sex value="male"/>
+                    <birth from="1268-04" to="1268-06"/>
+                    <death when="1314-11-29"/>
+
+                    <state type="office" from="1285-10-05" to="1314-11-29">
+                        <label type="style">Roi de <placeName ref="#geo_France">France</placeName></label>
+                    </state>
+                    <state type="office" from="1284-08-16" to="1305-04-04">
+                        <label type="style">Roi de <placeName ref="#Navarre">Navarre</placeName></label>
+                    </state>
+                    
+                </person>
+                
+                <person corresp="#R05" resp="#ND">
+                    <persName type="reg" key="Robert V, comte de Dreux">
+                        <forename>Robert</forename>
+                        <genName>V</genName>
+                        <nameLink>de</nameLink>
+                        <placeName>Dreux</placeName>
+                    </persName>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q2315331</idno>
+                    
+                    <sex value="male"/>
+                    <birth type="circa" when="1293"/>
+                    <death datingMethod="#julian_France" when-custom="1329-03-22" when="1330-03-22"/>
+  
+                    <state type="office" from="1309" datingMethod="#julian_France" to-custom="1329-03-22" to="1330-03-22">
+                        <label type="style">Comte de <placeName ref="#geo_Dreux">Dreux</placeName></label>
+                    </state>
+                    
+                </person>
+                
+                <person corresp="#GB02" resp="#ND">
+                    <death notAfter="1313" source="#item_lh5_2zg_ghb"/>
+                </person>
+                
+            </listPerson>
+        </body>
+    </text>
+</TEI>

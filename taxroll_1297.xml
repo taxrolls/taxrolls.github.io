@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<?xml-model href="taxrolls.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="taille_1313">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p>Statement</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier xml:lang="fr">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives nationales de France</institution>
+                        <collection>KK 283</collection>
+                        <idno>ff. 37-96</idno>
+                        
+                        <msName>Cest le livre de la taille des cent mille livres tournois pour la quinte annee assise lan mcc iiiixx et dis et sept</msName>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <ab>
+                    <rs ref="#P04" ana="#bk:to"/>
+                </ab>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/"/>
+    </facsimile>
+    
+    <text>
+        <body>
+            <pb n="37r" type="recto"/>
+            <cb n="A"/>
+            <div type="incipit">
+                <head><locus target="#bib_Mich1297" n="1"/>Cest le livre de la taille des cent mille livres tournois pour la q<ex>u</ex>inte annee assise <date when="1297" ana="#bk:when">l'an mcc iiii<seg rend="superscript">xx</seg> et dis et sept</date></head>
+            </div>
+            <div type="parish">
+                <div type="quête" n="1">
+                    <head type="quête_title"><rs ref="#st_germain_lauxerrois_Q1">La p<ex>re</ex>miere q<ex>ue</ex>ste S<ex>aint</ex> G<ex>er</ex>main</rs></head>
+                    
+                    <div type="street">
+                        <head>Premierement de la <rs ref="#street_Rue_St-Honoré #streetSeg_Rue_St-Honoré_dehors">
+                            <placeName ref="#topo_Porte_St-Honoré">porte s<ex>aint</ex> honore</placeName> a senestre jusques as <placeName ref="#bldg_Hôpital_Quinze-Vingts">aveugles</placeName></rs></head>
+                     
+                        <list type="payers">
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#RP05" ana="#bk:from"><forename>Robert</forename> <nameLink>de la</nameLink> <surname>porte</surname></persName></seg> <seg type="payment"><measure quantity="8" unit="deniers">viii s</measure></seg> <seg type="status">p</seg></item>
+                            <!-- This is bad --> 
+                            <item ana="#bk:entry"><locus target="#bib_Mich1297" n="2"/><seg type="entry"><persName ref="#GM02" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename> <nameLink>le</nameLink> <surname><roleName ref="#GM02" type="occupation" role="maréchal">mareschal</roleName></surname></persName> qui fu a <rs ref="#QUEENIE" type="person"><roleName ref="#QUEENIE" type="office" role="queen">la vielle royne</roleName></rs></seg> <seg type="payment"><measure quantity="16" unit="sous">xvi s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#RR02" ana="#bk:from"><forename>Robert</forename> <nameLink>de</nameLink> <surname>rueill</surname></persName></seg> <seg type="payment"><measureGrp><measure commodity="currency" quantity="4" unit="livres">iiii l</measure> <measure quantity="12" unit="sous">xii s</measure></measureGrp></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#RF01" ana="#bk:from" cert="medium"><forename>Robert</forename> <nameLink>le</nameLink> <surname><roleName ref="#RF01" type="occupation" role="regratier">regratier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="20" unit="sous">xx s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><note rend="between the lines"/><seg type="entry"><persName ref="#TA01" ana="#bk:from"><forename>Tibaut</forename> <nameLink>d</nameLink><surname><placeName ref="#geo_aubigny">aubigni</placeName></surname></persName></seg> <seg type="payment"><measure quantity="20" unit="sous">xx s</measure></seg><seg type="status"> p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#GC07" ana="#bk:from"><forename>Garnier</forename> <nameLink>de</nameLink> <surname><placeName ref="#geo_chaumont">chaumont</placeName></surname></persName></seg> <seg type="payment"><measure quantity="70" unit="sous">lxx s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#RP01" ana="#bk:from"><forename>Rogier</forename> <surname>piquet</surname></persName></seg> <seg type="payment"><measure quantity="20" unit="sous">xx s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#ED02" ana="#bk:from"><forename>Estienne</forename> <surname>dechaufour</surname></persName></seg> <seg type="payment"><measure quantity="36" unit="sous">xxxvi s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#GC08" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename> <surname>culpercie</surname></persName></seg> <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#HP01" ana="#bk:from"><forename>Hebert</forename> <nameLink>le</nameLink> <surname><roleName ref="#HP01" type="occupation" role="poulailler">poulaillier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="20" unit="sous">xx s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#PVN01" ana="#bk:from"><forename>Pierre</forename> <nameLink>de</nameLink> <surname><placeName ref="#geo_Ville_Neuve">ville neuve</placeName></surname></persName></seg> <seg type="payment"><measure quantity="16" unit="sous">xvi s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#JL06" ana="#bk:from"><forename>Jehan</forename> <surname>lirais</surname></persName> <roleName ref="#JL06" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg> <seg type="payment"><measure quantity="10" unit="sous">x s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#GR01" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename> <surname>richart</surname></persName> <roleName ref="#GR01" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg> <seg type="payment"><measure quantity="10" unit="sous">x s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#GM03" ana="#bk:from"><forename>Guerin</forename> <nameLink>le</nameLink> <surname><roleName ref="#GM03" type="occupation" role="maçon">macon</roleName></surname></persName></seg> <seg type="payment"><measure quantity="14" unit="sous">xiiii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#PR01" ana="#bk:from" cert="medium"><forename>Phellippe</forename> <nameLink>le</nameLink> <surname><roleName ref="#PR01" type="occupation" role="chandelier">chandelier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#RN04" ana="#bk:from"><forename>Remi</forename> <nameLink>des</nameLink> <surname>napes</surname></persName></seg> <seg type="payment"><measure quantity="24" unit="sous">xxiiii s</measure></seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#PC04" ana="#bk:from"><forename>Pierre</forename> <nameLink>le</nameLink> <surname><roleName ref="#PC04" type="occupation" role="coffrier">coffrier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="16" unit="sous">xvi s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#LB03" ana="#bk:from"><forename>Lambeq<ex>u</ex>in</forename> <nameLink>de</nameLink> <surname><placeName ref="#geo_Brebam">brebam</placeName></surname></persName></seg> <seg type="payment"><measure quantity="18" unit="sous">xviii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><rs ref="#ANON013" type="person" subtype="anon_sing" ana="#bk:from">La fame</rs> <persName ref="#AP02"><forename>Adam</forename> <nameLink>le</nameLink> <surname><roleName ref="#AP02" type="occupation" role="potier">potier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#JM08" ana="#bk:from"><forename>Jehan</forename> <nameLink>le</nameLink> <surname><roleName ref="#JM08" type="occupation" role="messager">mesagier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#PN01" ana="#bk:from"><roleName>Mestre</roleName> <forename>Pierre</forename> <nameLink>de</nameLink> <surname><placeName ref="#geo_Nonancourt">nonancourt</placeName></surname></persName></seg> <seg type="payment"><measure quantity="14" unit="sous">xiiii s</measure></seg></item>
+                            <item ana="#bk:entry"><locus target="#bib_Mich1297" n="3"/><seg type="entry"><persName ref="#JC07" ana="#bk:from"><forename>Jehan</forename> <nameLink>le</nameLink> <surname><roleName ref="#JC07" type="occupation" role="cordier">cordier</roleName></surname></persName></seg> <seg type="payment"><measure quantity="12" unit="sous">xii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#R03" ana="#bk:from">Richart</persName> qui fu <roleName ref="#R03" type="occupation" role="vallet">vallet <persName ref="#TB03"><forename>Tierri</forename> <surname>biaudehors</surname></persName></roleName></seg> <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg> <seg type="status">p</seg></item>
+                            <item ana="#bk:entry"><seg type="entry"><persName ref="#JVN01" ana="#bk:from"><forename>Jehan</forename> <nameLink>de</nameLink> <surname><placeName ref="#geo_Ville_Neuve">ville neuve</placeName></surname></persName></seg> <seg type="payment"><measure quantity="20" unit="sous">xx s</measure></seg></item>
+                        </list>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

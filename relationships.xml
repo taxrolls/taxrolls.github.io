@@ -32,6 +32,7 @@
     <text>
         <body>
             <listRelation>
+                <!--1313-->
                 <relation source="#head_gd4_qbh_ghb" type="personal" name="#hasChild" active="#P04" passive="#L10"/>
                 <relation source="#item_rc5_2zg_ghb" type="personal" name="#hasChild" active="#RP01" passive="#ANON002"/>
                 <relation source="#item_vc5_2zg_ghb" type="personal" name="#hasChild" active="#PVN01" passive="#ANON003"/>
@@ -52,9 +53,10 @@
                 <relation source="#item_k35_2zg_ghb" type="personal" name="#hasChild" active="#JV02" passive="#PV01"/>
                 <relation source="#item_k35_2zg_ghb" type="personal" name="#hasChild" active="#JT04" passive="#AGRP001"/>
                 <relation source="#item_zj5_2zg_ghb" type="personal" name="#hasCompanion" mutual="#ASJ01 #ANON012"/>
-                <!--1297--><relation source="#" type="professional" name="#hasEmployer" active="#GM02" passive="#QUEENIE"/>
-                <relation source="#" type="personal" name="#hasSpouse" mutual="#ANON013 #AP02"></relation>
-                <relation source="#" type="professional" name="#hasEmployer" active="#R03" passive="#TB03"/>
+                <!--1297-->
+                <relation source="#item_ocj_d5h_3hb" type="professional" name="#hasEmployer" active="#GM02" passive="#QUEENIE"/>
+                <relation source="#item_fdj_d5h_3hb" type="personal" name="#hasSpouse" mutual="#ANON013 #AP02"></relation>
+                <relation source="#item_jdj_d5h_3hb" type="professional" name="#hasEmployer" active="#R03" passive="#TB03"/>
             </listRelation>
         </body>
     </text>

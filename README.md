@@ -1,11 +1,11 @@
 # Tax Rolls of Medieval Paris
 Welcome to the Tax Rolls of Medieval Paris Digital Edition project.  
 
-A prototype is available for a small portion of the 1313 Tax Roll. Please view the styled HTML edition at: [https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html](https://nadaniels.github.io/taxrolls/TaxRoll_1313_HTML.html)
+A prototype is available for a small portion of the 1313 Tax Roll. Please view the styled HTML edition at: [https://nadaniels.github.io/taxrolls/html/roll_1313.html](https://nadaniels.github.io/taxrolls/html/roll_1313.html)
 
 A full-featured website for the Tax Rolls that includes the available digitized manuscript images via IIIF is currently in development. The manuscript containing the 1313 Tax Roll can be found on Gallica at: [https://gallica.bnf.fr/ark:/12148/btv1b9063202d](https://gallica.bnf.fr/ark:/12148/btv1b9063202d)
 
-Slides from the DEPCHA AHA 2019 Workshop are available in this repository at: [https://github.com/nadaniels/taxrolls/blob/gh-pages/2018_01_03%20Daniels%20DEPCHA%20Slides.pptx](https://github.com/nadaniels/taxrolls/blob/gh-pages/2018_01_03%20Daniels%20DEPCHA%20Slides.pptx)
+Slides from the 2019 AHA DEPCHA Workshop are available in this repository at: [https://nadaniels.github.io/taxrolls/2019_01%20AHA%20DEPCHA/2019_01_03%20Daniels%20DEPCHA Slides.pptx](https://nadaniels.github.io/taxrolls/2019_01%20AHA%20DEPCHA/2019_01_03%20Daniels%20DEPCHA%20Slides.pptx)
 
 ### TEI Markup
 The basic TEI Markup of the individual tax payments in the rolls currently includes the following:

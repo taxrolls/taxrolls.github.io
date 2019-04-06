@@ -58,10 +58,10 @@
 
                                         <xsl:otherwise>
                                             <xsl:choose>
-                                                <xsl:when test="descendant::nameLink[(text() = 'le')] | descendant::nameLink[(text() = 'Le')] | roleName[(text() = 'Mestre' or text() = 'mestre')] | .[@type='person'][starts-with(.,'Le ') or starts-with(.,'le ')] | .[@type='person'][starts-with(.,'Son ') or starts-with(.,'son ')]">
+                                                <xsl:when test="current-group()/descendant::nameLink[(text() = 'le')] | current-group()/descendant::nameLink[(text() = 'Le')] | current-group()/roleName[(text() = 'Mestre' or text() = 'mestre')] | current-group()[@type='person'][starts-with(.,'Le ') or starts-with(.,'le ')] | current-group()[@type='person'][starts-with(.,'Son ') or starts-with(.,'son ')]">
                                                     <sex value="male"/>
                                                 </xsl:when>
-                                                <xsl:when test="descendant::nameLink[(text() = 'la')] | descendant::nameLink[(text() = 'La')] | roleName[(text() = 'Dame' or text() = 'dame')] | .[@type='person'][starts-with(.,'La ') or starts-with(.,'la ')] | .[@type='person'][starts-with(.,'Sa ') or starts-with(.,'sa ')]">
+                                                <xsl:when test="current-group()/descendant::nameLink[(text() = 'la')] | current-group()/descendant::nameLink[(text() = 'La')] | current-group()/roleName[(text() = 'Dame' or text() = 'dame')] | current-group()[@type='person'][starts-with(.,'La ') or starts-with(.,'la ')] | current-group()[@type='person'][starts-with(.,'Sa ') or starts-with(.,'sa ')]">
                                                     <sex value="female"/>
                                                 </xsl:when>
                                             </xsl:choose>

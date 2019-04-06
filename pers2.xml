@@ -2251,6 +2251,7 @@
                      <roleName>chandelier</roleName>
                   </surname>
                </persName>
+               <sex value="male"/>
                <occupation>chandelier</occupation>
             </person>
 
@@ -2434,6 +2435,7 @@
                      <roleName>regratier</roleName>
                   </surname>
                </persName>
+               <sex value="male"/>
                <occupation>regratier</occupation>
             </person>
 

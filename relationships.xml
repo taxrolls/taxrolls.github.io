@@ -57,6 +57,10 @@
                 <relation source="#item_ocj_d5h_3hb" type="professional" name="#hasEmployer" active="#GM02" passive="#QUEENIE"/>
                 <relation source="#item_fdj_d5h_3hb" type="personal" name="#hasSpouse" mutual="#ANON013 #AP02"></relation>
                 <relation source="#item_jdj_d5h_3hb" type="professional" name="#hasEmployer" active="#R03" passive="#TB03"/>
+                <!--1296-->
+                <relation source="#item_ypc_qgn_3hb" type="personal" name="#hasChild" active="#PP06" passive="#ANON014"/>
+                <relation source="#item_dqc_qgn_3hb" type="personal" name="#hasChild" active="#JCC01" passive="#N01"/>
+                <relation source="#item_hqc_qgn_3hb" type="personal" name="#hasChild" active="#JA02" passive="#J02"/>
             </listRelation>
         </body>
     </text>

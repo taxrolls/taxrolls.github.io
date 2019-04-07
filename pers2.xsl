@@ -104,7 +104,7 @@
                                         <xsl:for-each select="//roleName[@ref = $persRef]">
                                             <occupation>
                                                 <xsl:value-of select="./@role"/>
-                                                <xsl:if test="document('relationships.xml')//relation[@active = $persRef] | document('relationships.xml')//relation[@passive = $persRef]">
+                                                <xsl:if test="document('relationships.xml')//relation[@type='professional'][@active = $persRef] | document('relationships.xml')//relation[@type='professional'][@passive = $persRef]">
                                                     <xsl:text> to </xsl:text>
                                                     <xsl:variable name="empl" select="document('relationships.xml')//relation[@active = $persRef]/@passive | document('relationships.xml')//relation[@passive = $persRef]/@active"/>
                                                     <xsl:element name="persName">

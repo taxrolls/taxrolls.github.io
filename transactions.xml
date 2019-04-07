@@ -3319,6 +3319,359 @@
                </desc>
             </event>
 
+            <event type="#bk:entry" xml:id="trans_d4e124" source="#item_lpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#RP05">Robert de la porte</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="8" unit="sous">viii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e143" source="#item_mpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JG06">Jehan de gonnesse</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="7" unit="sou">vii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e161" source="#item_npc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GM02">Guillaume le mareschal</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="12" unit="sous">xii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e180" source="#item_opc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GR01">Guillaume richart</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="12" unit="sous">xii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e200" source="#item_ppc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#RF01">Robert le regratier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="14" unit="sous">xiiii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e217" source="#item_qpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#AB02">Mestre Alain le bocu</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="16" unit="sous">xvi s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e235" source="#item_rpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GC07">Garnier de chaumont</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="26" unit="sous">xxxvi s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e252" source="#item_spc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#RP01">Rogier piquet</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="16" unit="sous">xvi s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e267" source="#item_tpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#ED02">Estienne dechaufour</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="36" unit="sous">xxxvi s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e283" source="#item_upc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GC08">Guillaume culpercie</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="7" unit="sous">vii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e298" source="#item_vpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#PVN01">Pierre de ville neuve</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="14" unit="sous">xiiii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e321" source="#item_wpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#NL01">Nicholas de louveciennes</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="15" unit="sous">xv s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e337" source="#item_xpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JL06">Jehan lirais</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="10" unit="sous">x s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e355" source="#item_ypc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#PP06">Perrenele la popine</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="18" unit="sous">xviii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e376" source="#item_zpc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#RN04">Remi des napes</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="24" unit="sous">xxiiii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e391" source="#item_aqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JC08">Jehan de congnieres</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="24" unit="sous">xxiiii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e407" source="#item_bqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GM03">Guerin le macon</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="10" unit="sous">x s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e424" source="#item_cqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#PR01">Phelippe le chandelier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="8" unit="sous">viii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e442" source="#item_dqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JCC01">Jehanne la couturiere du cimetire</desc>
+               <desc type="#bk:from" corresp="#N01">Nichole</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="7" unit="sous">vii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e469" source="#item_eqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#RC03">Richart le charretier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="10" unit="sous">x s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e486" source="#item_fqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#AP02">Adam le potier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="12" unit="sous">xii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e503" source="#item_gqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JM08">Jehan le mesagier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="8" unit="sous">viii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e525" source="#item_hqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JA02">Dame Jehanne arrode</desc>
+               <desc type="#bk:from" corresp="#J02">Jehanot</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="6" unit="livres">vi L</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e545" source="#item_iqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GC09">Gervese le couturier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="6" unit="sous">vi s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e562" source="#item_jqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#JC07">Jehan le cordier</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="12" unit="sous">xii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e579" source="#item_kqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GP06">Girart le piquart</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="8" unit="sous">viii s</measure>
+               </desc>
+            </event>
+
+            <event type="#bk:entry" xml:id="trans_d4e600" source="#item_lqc_qgn_3hb">
+               <label>When</label>
+               <desc type="#bk:when">1296</desc>
+               <label>From</label>
+               <desc type="#bk:from" corresp="#GB06">Guiot le breton</desc>
+               <label>To</label>
+               <desc type="#bk:to" corresp="#P04"/>
+               <label>Amount</label>
+               <desc type="#bk:money">
+                  <measure commodity="currency" quantity="6" unit="sous">vi s</measure>
+               </desc>
+            </event>
+
          </listEvent>
       </body>
    </text>

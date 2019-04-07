@@ -33,6 +33,16 @@
                </persName>
             </person>
 
+            <person xml:id="AB02">
+               <persName>
+                  <roleName>Mestre</roleName>
+                  <forename>Alain</forename>
+                  <nameLink>le</nameLink>
+                  <surname>bocu</surname>
+               </persName>
+               <sex value="male"/>
+            </person>
+
             <person xml:id="AC01">
                <persName>
                   <forename>Agnes</forename>
@@ -203,6 +213,11 @@
                <sex value="female"/>
             </person>
 
+            <person xml:id="ANON014">
+               <persName type="anonymous" key="Unnamed Person (#ANON014)">sa fille</persName>
+               <sex value="female"/>
+            </person>
+
             <person xml:id="AP01">
                <persName>
                   <forename>Aalis</forename>
@@ -215,6 +230,18 @@
             </person>
 
             <person xml:id="AP02">
+               <persName>
+                  <forename>Adam</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>potier</roleName>
+                  </surname>
+               </persName>
+               <persName>
+                  <forename>Adam</forename>
+                  <nameLink>le</nameLink>
+                  <surname>Potier</surname>
+               </persName>
                <persName>
                   <forename>Adam</forename>
                   <nameLink>le</nameLink>
@@ -416,6 +443,12 @@
                   <forename>Estienne</forename>
                   <surname>dechaufour</surname>
                </persName>
+               <persName>
+                  <forename>Estienne</forename>
+                  <surname>
+                     <placeName ref="#geo_Échauffour">dechaufour</placeName>
+                  </surname>
+               </persName>
             </person>
 
             <person xml:id="EHM01">
@@ -492,8 +525,7 @@
                <persName>
                   <forename>Guillaume</forename>
                </persName>
-               <occupation>paumier du four gauquelin to <persName ref="#F01">Frederic</persName>
-               </occupation>
+               <occupation>paumier du four gauquelin</occupation>
             </person>
 
             <person xml:id="GB01">
@@ -545,6 +577,18 @@
                      <placeName ref="#geo_Bruyères">bruieres</placeName>
                   </surname>
                </persName>
+            </person>
+
+            <person xml:id="GB06">
+               <persName>
+                  <forename>Guiot</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Brittany">breton</placeName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>tavernier</occupation>
             </person>
 
             <person xml:id="GC01">
@@ -622,6 +666,13 @@
                      <placeName ref="#geo_chaumont">chaumont</placeName>
                   </surname>
                </persName>
+               <persName>
+                  <forename>Garnier</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Chaumont">chaumont</placeName>
+                  </surname>
+               </persName>
             </person>
 
             <person xml:id="GC08">
@@ -629,6 +680,22 @@
                   <forename>Guillaume</forename>
                   <surname>culpercie</surname>
                </persName>
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>culpercie</surname>
+               </persName>
+            </person>
+
+            <person xml:id="GC09">
+               <persName>
+                  <forename>Gervese</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>couturier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>couturier</occupation>
             </person>
 
             <person xml:id="GD01">
@@ -751,12 +818,26 @@
                      <roleName>mareschal</roleName>
                   </surname>
                </persName>
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mareschal</roleName>
+                  </surname>
+               </persName>
                <sex value="male"/>
                <occupation>maréchal to <persName ref="#QUEENIE">la vielle royne</persName>
                </occupation>
             </person>
 
             <person xml:id="GM03">
+               <persName>
+                  <forename>Guerin</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>macon</roleName>
+                  </surname>
+               </persName>
                <persName>
                   <forename>Guerin</forename>
                   <nameLink>le</nameLink>
@@ -831,6 +912,16 @@
                <occupation>maçon</occupation>
             </person>
 
+            <person xml:id="GP06">
+               <persName>
+                  <forename>Girart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>piquart</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>regratier</occupation>
+            </person>
+
             <person xml:id="GQ01">
                <persName>
                   <forename>Guillaume</forename>
@@ -842,6 +933,10 @@
             </person>
 
             <person xml:id="GR01">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>richart</surname>
+               </persName>
                <persName>
                   <forename>Guillaume</forename>
                   <surname>richart</surname>
@@ -1062,6 +1157,12 @@
                <occupation>fileresse de soie</occupation>
             </person>
 
+            <person xml:id="J02">
+               <persName>
+                  <forename>Jehanot</forename>
+               </persName>
+            </person>
+
             <person xml:id="JA01">
                <persName>
                   <forename>Jehan</forename>
@@ -1071,6 +1172,15 @@
                   </surname>
                </persName>
                <occupation>tavernier</occupation>
+            </person>
+
+            <person xml:id="JA02">
+               <persName>
+                  <roleName>Dame</roleName>
+                  <forename>Jehanne</forename>
+                  <surname>arrode</surname>
+               </persName>
+               <sex value="female"/>
             </person>
 
             <person xml:id="JB01">
@@ -1226,8 +1336,41 @@
                      <roleName>cordier</roleName>
                   </surname>
                </persName>
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>cordier</roleName>
+                  </surname>
+               </persName>
                <sex value="male"/>
                <occupation>cordier</occupation>
+            </person>
+
+            <person xml:id="JC08">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Coignières">congnieres</placeName>
+                  </surname>
+               </persName>
+            </person>
+
+            <person xml:id="JCC01">
+               <persName>
+                  <forename>Jehanne</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <roleName>couturiere</roleName>
+                  </surname>
+                  <nameLink>du</nameLink>
+                  <surname>
+                     <placeName>cimetire</placeName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
+               <occupation>couturier</occupation>
             </person>
 
             <person xml:id="JD01">
@@ -1336,6 +1479,15 @@
                </persName>
             </person>
 
+            <person xml:id="JG06">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>gonnesse</surname>
+               </persName>
+               <occupation>çavatier</occupation>
+            </person>
+
             <person xml:id="JH01">
                <persName>
                   <forename>Jehan</forename>
@@ -1417,6 +1569,10 @@
                   <forename>Jehan</forename>
                   <surname>lirais</surname>
                </persName>
+               <persName>
+                  <forename>Jehan</forename>
+                  <surname>lirais</surname>
+               </persName>
                <occupation>tavernier</occupation>
             </person>
 
@@ -1489,6 +1645,13 @@
             </person>
 
             <person xml:id="JM08">
+               <persName>
+                  <forename>Jehan</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>mesagier</roleName>
+                  </surname>
+               </persName>
                <persName>
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
@@ -1685,8 +1848,7 @@
                      <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
                   </surname>
                </persName>
-               <occupation>maître_des_aveugles to <persName ref="#ANON006">son gendre</persName>
-               </occupation>
+               <occupation>maître_des_aveugles</occupation>
             </person>
 
             <person xml:id="L10">
@@ -1905,6 +2067,12 @@
                <occupation>tailleur</occupation>
             </person>
 
+            <person xml:id="N01">
+               <persName>
+                  <forename>Nichole</forename>
+               </persName>
+            </person>
+
             <person xml:id="NA01">
                <persName>
                   <forename>Nicolas</forename>
@@ -1946,6 +2114,16 @@
                </persName>
             </person>
 
+            <person xml:id="NL01">
+               <persName>
+                  <forename>Nicholas</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Louveciennes">louveciennes</placeName>
+                  </surname>
+               </persName>
+            </person>
+
             <person xml:id="NP01">
                <persName>
                   <forename>Noel</forename>
@@ -1968,6 +2146,16 @@
                </persName>
                <sex value="male"/>
                <occupation>peintre</occupation>
+            </person>
+
+            <person xml:id="NP03">
+               <persName>
+                  <forename>Nicholas</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Periers">Periers</placeName>
+                  </surname>
+               </persName>
             </person>
 
             <person xml:id="OB01">
@@ -2236,6 +2424,15 @@
                <occupation>peintre</occupation>
             </person>
 
+            <person xml:id="PP06">
+               <persName>
+                  <forename>Perrenele</forename>
+                  <nameLink>la</nameLink>
+                  <surname>popine</surname>
+               </persName>
+               <sex value="female"/>
+            </person>
+
             <person xml:id="PR01">
                <persName>
                   <forename>Phelippe</forename>
@@ -2246,6 +2443,13 @@
                </persName>
                <persName cert="medium">
                   <forename>Phellippe</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>chandelier</roleName>
+                  </surname>
+               </persName>
+               <persName>
+                  <forename>Phelippe</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>chandelier</roleName>
@@ -2293,6 +2497,13 @@
                </persName>
                <persName>
                   <forename>pierre</forename>
+               </persName>
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
+                  </surname>
                </persName>
                <persName>
                   <forename>Pierre</forename>
@@ -2409,6 +2620,26 @@
                <occupation>couturier</occupation>
             </person>
 
+            <person xml:id="RC03">
+               <persName>
+                  <forename>Rogier</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>Concierge</roleName>
+                  </surname>
+               </persName>
+               <persName>
+                  <forename>Richart</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>charretier</roleName>
+                  </surname>
+               </persName>
+               <sex value="male"/>
+               <occupation>concierge</occupation>
+               <occupation>charretier</occupation>
+            </person>
+
             <person xml:id="RE01">
                <persName>
                   <forename>Robert</forename>
@@ -2429,6 +2660,13 @@
                   </surname>
                </persName>
                <persName cert="medium">
+                  <forename>Robert</forename>
+                  <nameLink>le</nameLink>
+                  <surname>
+                     <roleName>regratier</roleName>
+                  </surname>
+               </persName>
+               <persName>
                   <forename>Robert</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2518,6 +2756,11 @@
                   <nameLink>des</nameLink>
                   <surname>napes</surname>
                </persName>
+               <persName>
+                  <forename>Remi</forename>
+                  <nameLink>des</nameLink>
+                  <surname>napes</surname>
+               </persName>
             </person>
 
             <person xml:id="RO01">
@@ -2535,6 +2778,14 @@
                <persName>
                   <forename>Rogier</forename>
                   <surname>piquet</surname>
+               </persName>
+               <persName>
+                  <forename>Rogier</forename>
+                  <surname>piquet</surname>
+               </persName>
+               <persName>
+                  <forename>Rogier</forename>
+                  <surname>Piquet</surname>
                </persName>
                <persName>
                   <forename>Rogier</forename>
@@ -2577,6 +2828,16 @@
             </person>
 
             <person xml:id="RP05">
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>porte</surname>
+               </persName>
+               <persName>
+                  <forename>Robert</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>Porte</surname>
+               </persName>
                <persName>
                   <forename>Robert</forename>
                   <nameLink>de la</nameLink>
@@ -2805,8 +3066,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation>cordonnier to <persName ref="#ANON008">son filz</persName>
-               </occupation>
+               <occupation>cordonnier</occupation>
             </person>
 
             <person xml:id="TF01">

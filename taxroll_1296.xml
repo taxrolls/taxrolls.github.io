@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<?xml-model href="taxrolls.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="taille_1296">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p>Statement</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier xml:lang="fr">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives nationales de France</institution>
+                        <collection>KK 283</collection>
+                        <idno>ff. 1-36</idno>
+
+                        <msName>Ci est le livre de la taille des cent mille livres tornois a recevoir pour la quarte annee</msName>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <ab>
+                    <rs ref="#P04" ana="#bk:to"/>
+                </ab>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/"/>
+    </facsimile>
+
+    <text>
+        <body>
+            <pb n="1r" type="recto"/>
+            <cb n="A"/>
+            <div type="incipit">
+                <head xml:id="head_ipc_qgn_3hb"><locus target="#bib_Mich1296" n="1"/>Ci est le livre de la taille des cent mille livres tornois a recevoir pour <date when="1296" ana="#bk:when">la quarte annee</date></head>
+            </div>
+            <div type="parish">
+                <div type="quête" n="1">
+                    <head type="quête_title" xml:id="head_jpc_qgn_3hb"><rs ref="#st_germain_lauxerrois_Q1">La p<ex>re</ex>miere queste S<ex>aint</ex> G<ex>er</ex>main</rs> lauceurrois faite p<ex>ar</ex>
+                        <persName ref="#RP01"><forename>Rogier</forename>
+                            <surname>Piquet</surname></persName>
+                        <persName ref="#RP05"><forename>Robert</forename>
+                            <nameLink>de la</nameLink>
+                            <surname>Porte</surname></persName>
+                        <persName ref="#AP02"><forename>Adam</forename>
+                            <nameLink>le</nameLink>
+                            <surname>Potier</surname></persName>
+                        <persName ref="#RC03"><forename>Rogier</forename>
+                            <nameLink>le</nameLink>
+                            <surname><roleName ref="#RC03" type="occupation" role="concierge">Concierge</roleName></surname></persName>
+                         et
+                        <persName ref="#NP03"><forename>Nicholas</forename>
+                            <nameLink>de</nameLink>
+                            <surname><placeName ref="#geo_Periers">Periers</placeName></surname></persName>
+                    </head>
+
+                    <div type="street">
+                        <head xml:id="head_kpc_qgn_3hb">Premierem<ex>en</ex>t de la <rs ref="#street_Rue_St-Honoré #streetSeg_Rue_St-Honoré_dehors">
+                                <placeName ref="#topo_Porte_St-Honoré">porte s<ex>aint</ex> honore</placeName> jusques aus <placeName ref="#bldg_Hôpital_Quinze-Vingts">avugles</placeName></rs> et puis tout ce qui est de la p<ex>ar</ex>oisse dehors les murs</head>
+
+                        <list type="payers">
+                            <item xml:id="item_lpc_qgn_3hb" ana="#bk:entry"><locus target="#bib_Mich1296" n="2"/>
+                                <seg type="entry">
+                                    <persName ref="#RP05" ana="#bk:from"><forename>Robert</forename>
+                                        <nameLink>de la</nameLink>
+                                        <surname>porte</surname></persName>
+                                    <roleName ref="#RP05" type="occupation" role="cordonnier">cordoanier</roleName></seg>
+                                <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_mpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JG06" ana="#bk:from"><forename>Jehan</forename>
+                                        <nameLink>de</nameLink>
+                                        <surname>gonnesse</surname></persName>
+                                    <roleName ref="#JG06" type="occupation" role="çavatier">cavetier</roleName></seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_npc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GM02" ana="#bk:from"><forename>Guill<ex>aume</ex></forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#GM02" type="occupation" role="maréchal">mareschal</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="12" unit="sous">xii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_opc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GR01" ana="#bk:from"><forename>Guill<ex>aume</ex></forename>
+                                        <surname>richart</surname></persName>
+                                    <roleName ref="#GR01" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg>
+                                <seg type="payment"><measure quantity="12" unit="sous">xii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_ppc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#RF01" ana="#bk:from"><forename>Robert</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#RF01" type="occupation" role="regratier">regratier</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="14" unit="sous">xiiii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_qpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#AB02" ana="#bk:from"><roleName>Mestre</roleName>
+                                        <forename>Alain</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname>bocu</surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="16" unit="sous">xvi s</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_rpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GC07" ana="#bk:from"><forename>Garnier</forename>
+                                        <nameLink>de</nameLink>
+                                        <surname><placeName ref="#geo_Chaumont">chaumont</placeName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="26" unit="sous">xxxvi s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_spc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#RP01" ana="#bk:from"><forename>Rogier</forename>
+                                        <surname>piquet</surname></persName>
+                                    <roleName ref="#RP01" type="occupation" role="talemelier">talemelier</roleName></seg>
+                                <seg type="payment"><measure quantity="16" unit="sous">xvi s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_tpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#ED02" ana="#bk:from"><forename>Estienne</forename>
+                                        <surname><placeName ref="#geo_Échauffour">dechaufour</placeName></surname></persName>
+                                    <roleName ref="#ED02" type="occupation" role="marchand_de_boeuf" cert="low">marchaant de bues</roleName></seg>
+                                <seg type="payment"><measure quantity="36" unit="sous">xxxvi s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_upc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GC08" ana="#bk:from"><forename>Guillaume</forename>
+                                        <surname>culpercie</surname></persName>
+                                    <roleName ref="#GC08" type="occupation" role="çavatier">cavetier</roleName></seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_vpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#PVN01" ana="#bk:from"><forename>Pierre</forename>
+                                        <nameLink>de</nameLink>
+                                        <surname><placeName ref="#geo_Ville_Neuve">ville neuve</placeName></surname></persName>
+                                    <roleName ref="#PVN01" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg>
+                                <seg type="payment"><measure quantity="14" unit="sous">xiiii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_wpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#NL01" ana="#bk:from"><forename>Nicholas</forename>
+                                        <nameLink>de</nameLink>
+                                        <surname><placeName ref="#geo_Louveciennes">louveciennes</placeName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="15" unit="sous">xv s</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_xpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JL06" ana="#bk:from"><forename>Jehan</forename>
+                                        <surname>lirais</surname></persName>
+                                    <roleName ref="#JL06" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg>
+                                <seg type="payment"><measure quantity="10" unit="sous">x s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_ypc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#PP06" ana="#bk:from"><forename>P<ex>er</ex>renele</forename>
+                                        <nameLink>la</nameLink>
+                                        <surname>popine</surname></persName>
+                                     et <rs ref="#ANON014" type="person" subtype="anon_sing">sa fille</rs></seg>
+                                <seg type="payment"><measure quantity="18" unit="sous">xviii s</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_zpc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#RN04" ana="#bk:from"><forename>Remi</forename>
+                                        <nameLink>des</nameLink>
+                                        <surname>napes</surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="24" unit="sous">xxiiii s</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_aqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JC08" ana="#bk:from"><forename>Jehan</forename>
+                                        <nameLink>de</nameLink>
+                                        <surname><placeName ref="#geo_Coignières">congnieres</placeName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="24" unit="sous">xxiiii s</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_bqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GM03" ana="#bk:from"><forename>Guerin</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#GM03" type="occupation" role="maçon">macon</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="10" unit="sous">x s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_cqc_qgn_3hb" ana="#bk:entry"><locus target="#bib_Mich1296" n="3"/>
+                                <seg type="entry">
+                                    <persName ref="#PR01" ana="#bk:from"><forename>Phelippe</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#PR01" type="occupation" role="chandelier">chandelier</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_dqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JCC01" ana="#bk:from"><forename>Jehanne</forename>
+                                        <nameLink>la</nameLink>
+                                        <surname><roleName ref="#JCC01" type="occupation" role="couturier">couturiere</roleName></surname>
+                                        <nameLink>du</nameLink>
+                                        <surname><placeName>cimetire</placeName></surname></persName>
+                                    <lb/>
+                                    <persName ref="#N01" ana="#bk:from"><forename>Nichole</forename></persName>
+                                     sa fille</seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_eqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#RC03" ana="#bk:from"><forename>Richart</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#RC03" type="occupation" role="charretier">charretier</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="10" unit="sous">x s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_fqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#AP02" ana="#bk:from"><forename>Adam</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#AP02" type="occupation" role="potier">potier</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="12" unit="sous">xii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_gqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JM08" ana="#bk:from"><forename>Jehan</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName>mesag<ex>ier</ex></roleName></surname></persName>
+                                    <roleName ref="#JM08" type="occupation" role="regratier">regratier</roleName></seg>
+                                <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_hqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JA02" ana="#bk:from"><roleName>Dame</roleName>
+                                        <forename>Jehanne</forename>
+                                        <surname>arrode</surname></persName>
+                                    <lb/>
+                                    <persName ref="#J02" ana="#bk:from"><forename>Jehanot</forename></persName>
+                                     son fuiz</seg>
+                                <seg type="payment"><measure quantity="6" unit="livres">vi L</measure></seg>
+                                <seg type="status"/></item>
+                            <item xml:id="item_iqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GC09" ana="#bk:from"><forename>Gervese</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#GC09" type="occupation" role="couturier">couturier</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="6" unit="sous">vi s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_jqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#JC07" ana="#bk:from"><forename>Jehan</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><roleName ref="#JC07" type="occupation" role="cordier">cordier</roleName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="12" unit="sous">xii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_kqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GP06" ana="#bk:from"><forename>Girart</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname>piquart</surname></persName>
+                                    <roleName ref="#GP06" type="occupation" role="regratier">regratier</roleName> delez <placeName ref="#bldg_Hôpital_Quinze-Vingts">les avugles</placeName></seg>
+                                <seg type="payment"><measure quantity="8" unit="sous">viii s</measure></seg>
+                                <seg type="status">p</seg></item>
+                            <item xml:id="item_lqc_qgn_3hb" ana="#bk:entry">
+                                <seg type="entry">
+                                    <persName ref="#GB06" ana="#bk:from"><forename>Guiot</forename>
+                                        <nameLink>le</nameLink>
+                                        <surname><placeName ref="#geo_Brittany">breton</placeName></surname></persName>
+                                    <roleName ref="#GB06" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg>
+                                <seg type="payment"><measure quantity="6" unit="sous">vi s</measure></seg>
+                                <seg type="status">p</seg></item>
+                        </list>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

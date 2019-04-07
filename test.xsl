@@ -81,6 +81,10 @@
         </a>
     </xsl:template>
 
+    <xsl:template match="item/descendant::lb">
+        <br/><xsl:apply-templates/>
+    </xsl:template>
+    
 
     <!-- 
 	<xsl:template match="g[@type='initial']">

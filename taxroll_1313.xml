@@ -935,7 +935,7 @@
 
 					<div type="street">
 						<head xml:id="head_wd4_qbh_ghb"><g ref="#2E3F"/>
-							<rs ref="#street_Rue_lArbre_Sec">Du coing du <rs ref="#PM01">mareschal</rs> devant <rs ref="#topo_Croix_du_Trahoir">la Croiz</rs> jusques à la <rs ref="#topo_Place_aux_Marchands">Place aus Marcheanz</rs></rs>. </head>
+							<rs ref="#street_Rue_lArbre_Sec">Du coing du <rs ref="#PM01">mareschal</rs> devant <rs ref="#topo_Croix_du_Trahoir">la Croiz</rs> jusques a la <rs ref="#topo_Place_aux_Marchands">Place aus Marcheanz</rs></rs>. </head>
 						<list type="payers">
 							<item ana="#bk:entry" xml:id="item_gg5_2zg_ghb"><seg type="entry"><persName ref="#LS01" ana="#bk:from"><forename>Lucas</forename>
 										<surname>saussete</surname></persName>

@@ -100,11 +100,11 @@
                                     </xsl:choose>
 
                                     <!-- Record Occupation -->
-                                    <xsl:if test="//roleName[@ref = $persRef]/@type = 'occupation'">
-                                        <xsl:for-each select="//roleName[@ref = $persRef]">
-                                            <occupation>
+                                        <xsl:for-each select="$docs//roleName[@ref = $persRef][@type = 'occupation']">
+                                            <xsl:variable name="source" select="(ancestor::item/@xml:id | ancestor::head/@xml:id)"/>
+                                            <occupation source='{$source}'>
                                                 <xsl:value-of select="./@role"/>
-                                                <xsl:if test="document('relationships.xml')//relation[@type='professional'][@active = $persRef] | document('relationships.xml')//relation[@type='professional'][@passive = $persRef]">
+                                                <xsl:if test="document('relationships.xml')//relation[substring(@source, 2) = $source][@type='professional'][@active = $persRef] | document('relationships.xml')//relation[substring(@source, 2) = $source][@type='professional'][@passive = $persRef]">
                                                     <xsl:text> to </xsl:text>
                                                     <xsl:variable name="empl" select="document('relationships.xml')//relation[@active = $persRef]/@passive | document('relationships.xml')//relation[@passive = $persRef]/@active"/>
                                                     <xsl:element name="persName">
@@ -122,28 +122,9 @@
                                                     </xsl:element>
                                                 </xsl:if>
                                                 
-                                                
-                                                <!--<xsl:if test=".[persName | rs[@type = 'person']]">
-                                                    <xsl:text> to </xsl:text>
-                                                    <xsl:variable name="empl" select="./persName/@ref | rs[@type = 'person']/@ref"/>
-                                                    <xsl:element name="persName">
-                                                        <xsl:attribute name="ref">
-                                                            <xsl:value-of select="$empl"/>
-                                                        </xsl:attribute>
-                                                        <xsl:choose>
-                                                            <xsl:when test="document('authority.xml')//person[@corresp = $empl]">
-                                                                <xsl:value-of select="document('authority.xml')//person[@corresp = $empl]/persName/@key"/>
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <xsl:value-of select="//persName[@ref = $empl] | //rs[@ref = $empl]"/>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </xsl:element>
-                                                </xsl:if>-->
                                             </occupation>
                                         </xsl:for-each>
-                                    </xsl:if>
-                                    
+                                                                        
 
                                 </person>
                                 <xsl:text>&#xa;&#xa;</xsl:text>

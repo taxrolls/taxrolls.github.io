@@ -218,14 +218,14 @@
                                         <surname><placeName>cimetire</placeName></surname></persName>
                                     <lb/>
                                     <persName ref="#N01" ana="#bk:from"><forename>Nichole</forename></persName>
-                                     sa fille</seg>
+                                     <rs ref="#N01" type="person">sa fille</rs></seg>
                                 <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>
                                 <seg type="status"/></item>
                             <item xml:id="item_eqc_qgn_3hb" ana="#bk:entry">
                                 <seg type="entry">
-                                    <persName ref="#RC03" ana="#bk:from"><forename>Richart</forename>
+                                    <persName ref="#RC04" ana="#bk:from"><forename>Richart</forename>
                                         <nameLink>le</nameLink>
-                                        <surname><roleName ref="#RC03" type="occupation" role="charretier">charretier</roleName></surname></persName>
+                                        <surname><roleName ref="#RC04" type="occupation" role="charretier">charretier</roleName></surname></persName>
                                 </seg>
                                 <seg type="payment"><measure quantity="10" unit="sous">x s</measure></seg>
                                 <seg type="status">p</seg></item>

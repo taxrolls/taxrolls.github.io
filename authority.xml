@@ -91,6 +91,23 @@
                     </state>
                 </person>
                 
+                <person corresp="#MP04" resp="#ND">
+                    <persName type="reg" key="Marguerite de Provence, reine de France">
+                        <forename>Marguerite</forename>
+                        <nameLink>de</nameLink>
+                        <placeName>Provence</placeName>
+                    </persName>
+                    <idno type="viaf">https://viaf.org/viaf/89045696</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q230889</idno>
+                    
+                    <sex value="female"/>
+                    <birth when="1221"/>
+                    <death when="1295-12-20"/>
+
+                    <state type="office" from="1234-05-27" to="1270-08-25">
+                        <label type="style">Reine de <placeName ref="#geo_France">France</placeName></label>
+                    </state>
+                </person>
    
                 <person corresp="#P04" resp="#ND">
                     <persName type="reg" key="Philippe IV 'le Bel', roi de France">

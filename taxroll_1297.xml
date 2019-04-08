@@ -68,7 +68,7 @@
                                     <persName ref="#GM02" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename>
                                         <nameLink>le</nameLink>
                                         <surname><roleName ref="#GM02" type="occupation" role="maréchal">mareschal</roleName></surname></persName>
-                                     qui fu a <rs ref="#QUEENIE" type="person"><roleName ref="#QUEENIE" type="office" role="queen">la vielle royne</roleName></rs></seg>
+                                     qui fu a <rs ref="#MP04" type="person" cert="low"><roleName ref="#MP04" type="office" role="queen">la vielle royne</roleName></rs></seg>
                                 <seg type="payment"><measure quantity="16" unit="sous">xvi s</measure></seg>
                                 <seg type="status">p</seg></item>
                             <item ana="#bk:entry" xml:id="item_pcj_d5h_3hb">

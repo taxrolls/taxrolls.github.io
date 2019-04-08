@@ -829,7 +829,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_ocj_d5h_3hb">maréchal to <persName ref="#QUEENIE">la vielle royne</persName>
+               <occupation source="item_ocj_d5h_3hb">maréchal to <persName ref="#MP04">Marguerite de Provence, reine de France</persName>
                </occupation>
                <occupation source="item_npc_qgn_3hb">maréchal</occupation>
             </person>
@@ -2053,6 +2053,24 @@
                <occupation source="item_wk5_2zg_ghb">porteur</occupation>
             </person>
 
+            <person xml:id="MP04">
+               <persName type="reg" key="Marguerite de Provence, reine de France">
+                        <forename>Marguerite</forename>
+                        <nameLink>de</nameLink>
+                        <placeName>Provence</placeName>
+                    </persName>
+               <persName>
+                  <roleName>la vielle royne</roleName>
+               </persName>
+               <sex value="female"/>
+               <birth when="1221"/>
+               <death when="1295-12-20"/>
+               <state type="office" from="1234-05-27" to="1270-08-25">
+                  <label type="style">Reine de <placeName ref="#geo_France">France</placeName>
+                  </label>
+               </state>
+            </person>
+
             <person xml:id="MSD01">
                <persName>
                   <forename>Marie</forename>
@@ -2526,16 +2544,6 @@
                   </surname>
                </persName>
                <occupation source="item_vpc_qgn_3hb">tavernier</occupation>
-            </person>
-
-            <person xml:id="QUEENIE">
-               <persName>
-                  <roleName>la vielle royne</roleName>
-               </persName>
-               <sex value="female"/>
-               <state type="office">
-                  <label type="style">queen</label>
-               </state>
             </person>
 
             <person xml:id="R01">

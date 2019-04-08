@@ -389,6 +389,8 @@
                   <forename>Estienne</forename>
                   <surname>barbete</surname>
                </persName>
+               <idno type="viaf">https://viaf.org/viaf/24676758</idno>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q56312617</idno>
                <sex value="male"/>
                <birth type="circa" when="1250"/>
                <death when="1321-12-19"/>
@@ -1873,6 +1875,8 @@
                   <roleName>Le Roy de <placeName ref="#geo_Navarre">Navarre</placeName>
                   </roleName>
                </persName>
+               <idno type="viaf">https://viaf.org/viaf/24676758</idno>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q8384</idno>
                <sex value="male"/>
                <birth when="1289-10-04"/>
                <death when="1316-06-05"/>
@@ -1964,6 +1968,8 @@
                   <roleName>la rayne de <placeName ref="#geo_Navarre">navarre</placeName>
                   </roleName>
                </persName>
+               <idno type="viaf">https://viaf.org/viaf/43584824</idno>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q70590</idno>
                <sex value="female"/>
                <birth when="1290"/>
                <death when="1315-04-30"/>
@@ -2062,6 +2068,8 @@
                <persName>
                   <roleName>la vielle royne</roleName>
                </persName>
+               <idno type="viaf">https://viaf.org/viaf/89045696</idno>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q230889</idno>
                <sex value="female"/>
                <birth when="1221"/>
                <death when="1295-12-20"/>
@@ -2234,6 +2242,8 @@
                <persName>
                   <roleName>le Roy</roleName>
                </persName>
+               <idno type="viaf">https://viaf.org/viaf/89086248</idno>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q130969</idno>
                <sex value="male"/>
                <birth from="1268-04" to="1268-06"/>
                <death when="1314-11-29"/>
@@ -2580,6 +2590,7 @@
                   <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
                   </roleName>
                </persName>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q2315331</idno>
                <sex value="male"/>
                <birth type="circa" when="1293"/>
                <death datingMethod="#julian_France"

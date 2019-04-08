@@ -50,6 +50,10 @@
                                     </xsl:for-each>
 
 
+                                    <!-- Authority IDs -->
+                                    <xsl:copy-of select="$auth/idno"/>
+                                    
+                                    
                                     <!-- Choose Sex -->
                                     <xsl:choose>
                                         <xsl:when test="$auth">

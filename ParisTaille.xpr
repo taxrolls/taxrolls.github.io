@@ -22,40 +22,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>index.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>index</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>PersXML-HTML.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>PersonographyXML</String>
-                                        <String>PersXML-HTML</String>
-                                        <String>TaxRollXML-HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XML</String>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>authority.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -109,11 +75,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>test.xsl</String>
+                                    <String>transactions.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>TaxRollXML-HTML</String>
+                                        <String>transactions</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -124,15 +90,34 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>transactions.xsl</String>
+                                    <String>index.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>transactions</String>
+                                        <String>index</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>PersXML-HTML.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>PersonographyXML</String>
+                                        <String>PersXML-HTML</String>
+                                        <String>TaxRollXML-HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XML</String>
                                         <String>XML</String>
                                     </list>
                                 </field>
@@ -153,6 +138,21 @@
                                         <String>XML</String>
                                         <String>XML</String>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TaxRollXML-HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>

@@ -3341,7 +3341,7 @@
                <desc type="#bk:to" corresp="#P04"/>
                <label>Amount</label>
                <desc type="#bk:money">
-                  <measure commodity="currency" quantity="7" unit="sou">vii s</measure>
+                  <measure commodity="currency" quantity="7" unit="sous">vii s</measure>
                </desc>
             </event>
 
@@ -3493,6 +3493,7 @@
                <desc type="#bk:when">1296</desc>
                <label>From</label>
                <desc type="#bk:from" corresp="#PP06">Perrenele la popine</desc>
+               <desc type="#bk:from" corresp="#ANON014">sa fille</desc>
                <label>To</label>
                <desc type="#bk:to" corresp="#P04"/>
                <label>Amount</label>
@@ -3567,11 +3568,11 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e469" source="#item_eqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e471" source="#item_eqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
-               <desc type="#bk:from" corresp="#RC03">Richart le charretier</desc>
+               <desc type="#bk:from" corresp="#RC04">Richart le charretier</desc>
                <label>To</label>
                <desc type="#bk:to" corresp="#P04"/>
                <label>Amount</label>
@@ -3580,7 +3581,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e486" source="#item_fqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e488" source="#item_fqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
@@ -3593,7 +3594,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e503" source="#item_gqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e505" source="#item_gqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
@@ -3606,7 +3607,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e525" source="#item_hqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e527" source="#item_hqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
@@ -3620,7 +3621,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e545" source="#item_iqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e547" source="#item_iqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
@@ -3633,7 +3634,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e562" source="#item_jqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e564" source="#item_jqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
@@ -3646,7 +3647,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e579" source="#item_kqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e581" source="#item_kqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>
@@ -3659,7 +3660,7 @@
                </desc>
             </event>
 
-            <event type="#bk:entry" xml:id="trans_d4e600" source="#item_lqc_qgn_3hb">
+            <event type="#bk:entry" xml:id="trans_d4e602" source="#item_lqc_qgn_3hb">
                <label>When</label>
                <desc type="#bk:when">1296</desc>
                <label>From</label>

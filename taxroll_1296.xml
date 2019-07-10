@@ -174,7 +174,7 @@
                                     <persName ref="#PP06" ana="#bk:from"><forename>P<ex>er</ex>renele</forename>
                                         <nameLink>la</nameLink>
                                         <surname>popine</surname></persName>
-                                     et <rs ref="#ANON014" type="person" subtype="anon_sing">sa fille</rs></seg>
+                                    et <rs ref="#ANON014" type="person" subtype="anon_sing" ana="#bk:from">sa fille</rs></seg>
                                 <seg type="payment"><measure quantity="18" unit="sous">xviii s</measure></seg>
                                 <seg type="status"/></item>
                             <item xml:id="item_zpc_qgn_3hb" ana="#bk:entry">

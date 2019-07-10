@@ -58,7 +58,9 @@
                             </xsl:if>
                             <xsl:if test="./occupation">
                                 <xsl:for-each select="./occupation">
-                                    <p>Occupation: <xsl:apply-templates select="."/></p>
+                                    <p>Occupation: <xsl:apply-templates select="."/>
+                                        <xsl:copy-of select="tei:source(concat('#',@source), @when)"/>
+                                    </p>
                                 </xsl:for-each>
                             </xsl:if>
 

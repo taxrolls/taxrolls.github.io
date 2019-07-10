@@ -20,7 +20,7 @@
                <persName>
                   <forename>Aleinete</forename>
                </persName>
-               <occupation source="item_gf5_2zg_ghb">fileresse de soie</occupation>
+               <occupation source="item_gf5_2zg_ghb" when="1313">fileresse de soie</occupation>
             </person>
 
             <person xml:id="AB01">
@@ -52,7 +52,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_md5_2zg_ghb">cordier</occupation>
+               <occupation source="item_md5_2zg_ghb" when="1313">cordier</occupation>
             </person>
 
             <person xml:id="AC02">
@@ -64,7 +64,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_yd5_2zg_ghb">chandelier</occupation>
+               <occupation source="item_yd5_2zg_ghb" when="1313">chandelier</occupation>
             </person>
 
             <person xml:id="AC03">
@@ -76,7 +76,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_af5_2zg_ghb">courtepointier</occupation>
+               <occupation source="item_af5_2zg_ghb" when="1313">courtepointier</occupation>
             </person>
 
             <person xml:id="AD01">
@@ -98,7 +98,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_xf5_2zg_ghb">fourrier</occupation>
+               <occupation source="item_xf5_2zg_ghb" when="1313">fourrier</occupation>
             </person>
 
             <person xml:id="AG01">
@@ -110,7 +110,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_lj5_2zg_ghb">hôtelier</occupation>
+               <occupation source="item_lj5_2zg_ghb" when="1313">hôtelier</occupation>
             </person>
 
             <person xml:id="AGRP001">
@@ -126,7 +126,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_mf5_2zg_ghb">linier</occupation>
+               <occupation source="item_mf5_2zg_ghb" when="1313">linier</occupation>
             </person>
 
             <person xml:id="AN01">
@@ -149,7 +149,7 @@
                   </roleName>
                </persName>
                <sex value="male"/>
-               <occupation source="item_l25_2zg_ghb">concierge to <persName ref="#R05">Robert V, comte de Dreux</persName>
+               <occupation source="item_l25_2zg_ghb" when="1313">concierge to <persName ref="#R05">Robert V, comte de Dreux</persName>
                </occupation>
             </person>
 
@@ -250,8 +250,8 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_fdj_d5h_3hb">potier</occupation>
-               <occupation source="item_fqc_qgn_3hb">potier</occupation>
+               <occupation source="item_fdj_d5h_3hb" when="1297">potier</occupation>
+               <occupation source="item_fqc_qgn_3hb" when="1296">potier</occupation>
             </person>
 
             <person xml:id="ASJ01">
@@ -273,7 +273,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_o35_2zg_ghb">talemelier</occupation>
+               <occupation source="item_o35_2zg_ghb" when="1313">talemelier</occupation>
             </person>
 
             <person xml:id="BC01">
@@ -282,7 +282,7 @@
                   <nameLink>de</nameLink>
                   <surname>compiegne</surname>
                </persName>
-               <occupation source="item_h25_2zg_ghb">poulailler</occupation>
+               <occupation source="item_h25_2zg_ghb" when="1313">poulailler</occupation>
             </person>
 
             <person xml:id="BT01">
@@ -294,7 +294,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_tj5_2zg_ghb">trompeur</occupation>
+               <occupation source="item_tj5_2zg_ghb" when="1313">trompeur</occupation>
             </person>
 
             <person xml:id="CB01">
@@ -306,7 +306,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_cf5_2zg_ghb">barbier</occupation>
+               <occupation source="item_cf5_2zg_ghb" when="1313">barbier</occupation>
             </person>
 
             <person xml:id="CM01">
@@ -318,7 +318,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_e35_2zg_ghb">mire</occupation>
+               <occupation source="item_e35_2zg_ghb" when="1313">mire</occupation>
             </person>
 
             <person xml:id="CP01">
@@ -337,7 +337,7 @@
                   <forename>Colin</forename>
                   <surname>plagar</surname>
                </persName>
-               <occupation source="item_sg5_2zg_ghb">couturier</occupation>
+               <occupation source="item_sg5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="DC01">
@@ -349,7 +349,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_og5_2zg_ghb">cordonnier</occupation>
+               <occupation source="item_og5_2zg_ghb" when="1313">cordonnier</occupation>
             </person>
 
             <person xml:id="DL01">
@@ -360,7 +360,7 @@
                      <placeName ref="#geo_Laon">laon</placeName>
                   </surname>
                </persName>
-               <occupation source="item_ek5_2zg_ghb">corretier</occupation>
+               <occupation source="item_ek5_2zg_ghb" when="1313">corretier</occupation>
             </person>
 
             <person xml:id="DP01">
@@ -416,7 +416,7 @@
                <persName>
                   <addName>porte chappe</addName>
                </persName>
-               <occupation source="item_xd5_2zg_ghb">tavernier</occupation>
+               <occupation source="item_xd5_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="EC01">
@@ -438,7 +438,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_f35_2zg_ghb">déchargeur</occupation>
+               <occupation source="item_f35_2zg_ghb" when="1313">déchargeur</occupation>
             </person>
 
             <person xml:id="ED02">
@@ -452,7 +452,7 @@
                      <placeName ref="#geo_Échauffour">dechaufour</placeName>
                   </surname>
                </persName>
-               <occupation source="item_tpc_qgn_3hb">marchand_de_boeuf</occupation>
+               <occupation source="item_tpc_qgn_3hb" when="1296">marchand_de_boeuf</occupation>
             </person>
 
             <person xml:id="EHM01">
@@ -468,7 +468,7 @@
                   <forename>Evroin</forename>
                   <surname>ligier</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">talemelier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">talemelier</occupation>
             </person>
 
             <person xml:id="EQL01">
@@ -478,7 +478,7 @@
                      <roleName>queue levee</roleName>
                   </surname>
                </persName>
-               <occupation source="item_lc5_2zg_ghb">cavatier</occupation>
+               <occupation source="item_lc5_2zg_ghb" when="1313">cavatier</occupation>
             </person>
 
             <person xml:id="ER01">
@@ -497,7 +497,7 @@
                      <roleName>uillier</roleName>
                   </surname>
                </persName>
-               <occupation source="item_b25_2zg_ghb">huilier</occupation>
+               <occupation source="item_b25_2zg_ghb" when="1313">huilier</occupation>
             </person>
 
             <person xml:id="EV01">
@@ -522,14 +522,14 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_bh5_2zg_ghb">tavernier</occupation>
+               <occupation source="item_bh5_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="G01">
                <persName>
                   <forename>Guillaume</forename>
                </persName>
-               <occupation source="item_vg5_2zg_ghb">paumier du four gauquelin</occupation>
+               <occupation source="item_vg5_2zg_ghb" when="1313">paumier du four gauquelin</occupation>
             </person>
 
             <person xml:id="GB01">
@@ -538,7 +538,7 @@
                   <nameLink>de</nameLink>
                   <surname>biauveoir</surname>
                </persName>
-               <occupation source="item_rd5_2zg_ghb">taillieur des robes</occupation>
+               <occupation source="item_rd5_2zg_ghb" when="1313">taillieur des robes</occupation>
             </person>
 
             <person xml:id="GB02">
@@ -592,7 +592,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_lqc_qgn_3hb">tavernier</occupation>
+               <occupation source="item_lqc_qgn_3hb" when="1296">tavernier</occupation>
             </person>
 
             <person xml:id="GC01">
@@ -614,7 +614,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_q25_2zg_ghb">cordier</occupation>
+               <occupation source="item_q25_2zg_ghb" when="1313">cordier</occupation>
             </person>
 
             <person xml:id="GC03">
@@ -623,7 +623,7 @@
                   <nameLink>de la</nameLink>
                   <surname>chapelle</surname>
                </persName>
-               <occupation source="item_ff5_2zg_ghb">buffetier</occupation>
+               <occupation source="item_ff5_2zg_ghb" when="1313">buffetier</occupation>
             </person>
 
             <person xml:id="GC04">
@@ -635,7 +635,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_vh5_2zg_ghb">charretier</occupation>
+               <occupation source="item_vh5_2zg_ghb" when="1313">charretier</occupation>
             </person>
 
             <person xml:id="GC05">
@@ -647,7 +647,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_bk5_2zg_ghb">cavatier</occupation>
+               <occupation source="item_bk5_2zg_ghb" when="1313">cavatier</occupation>
             </person>
 
             <person xml:id="GC06">
@@ -659,7 +659,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_qk5_2zg_ghb">charretier</occupation>
+               <occupation source="item_qk5_2zg_ghb" when="1313">charretier</occupation>
             </person>
 
             <person xml:id="GC07">
@@ -688,7 +688,7 @@
                   <forename>Guillaume</forename>
                   <surname>culpercie</surname>
                </persName>
-               <occupation source="item_upc_qgn_3hb">çavatier</occupation>
+               <occupation source="item_upc_qgn_3hb" when="1296">çavatier</occupation>
             </person>
 
             <person xml:id="GC09">
@@ -700,7 +700,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_iqc_qgn_3hb">couturier</occupation>
+               <occupation source="item_iqc_qgn_3hb" when="1296">couturier</occupation>
             </person>
 
             <person xml:id="GD01">
@@ -719,7 +719,7 @@
                   <forename>Guillaume</forename>
                   <surname>franquein</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">sellier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">sellier</occupation>
             </person>
 
             <person xml:id="GF02">
@@ -755,7 +755,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_ck5_2zg_ghb">recouvreur</occupation>
+               <occupation source="item_ck5_2zg_ghb" when="1313">recouvreur</occupation>
             </person>
 
             <person xml:id="GG01">
@@ -763,7 +763,7 @@
                   <forename>Gerart</forename>
                   <surname>Godefroy</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">épicier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">épicier</occupation>
             </person>
 
             <person xml:id="GH01">
@@ -778,7 +778,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_m25_2zg_ghb">hasteur to <persName ref="#P04">Philippe IV 'le Bel', roi de France Philippe IV</persName>
+               <occupation source="item_m25_2zg_ghb" when="1313">hasteur to <persName ref="#P04">Philippe IV 'le Bel', roi de France Philippe IV</persName>
                </occupation>
             </person>
 
@@ -800,7 +800,7 @@
                      <placeName>limaire</placeName>
                   </surname>
                </persName>
-               <occupation source="item_mk5_2zg_ghb">tavernier</occupation>
+               <occupation source="item_mk5_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="GM01">
@@ -812,7 +812,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_ld5_2zg_ghb">marchand</occupation>
+               <occupation source="item_ld5_2zg_ghb" when="1313">marchand</occupation>
             </person>
 
             <person xml:id="GM02">
@@ -831,9 +831,9 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_ocj_d5h_3hb">maréchal to <persName ref="#MP04">Marguerite de Provence, reine de France</persName>
+               <occupation source="item_ocj_d5h_3hb" when="1297">maréchal to <persName ref="#MP04">Marguerite de Provence, reine de France</persName>
                </occupation>
-               <occupation source="item_npc_qgn_3hb">maréchal</occupation>
+               <occupation source="item_npc_qgn_3hb" when="1296">maréchal</occupation>
             </person>
 
             <person xml:id="GM03">
@@ -852,8 +852,8 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_adj_d5h_3hb">maçon</occupation>
-               <occupation source="item_bqc_qgn_3hb">maçon</occupation>
+               <occupation source="item_adj_d5h_3hb" when="1297">maçon</occupation>
+               <occupation source="item_bqc_qgn_3hb" when="1296">maçon</occupation>
             </person>
 
             <person xml:id="GN01">
@@ -884,7 +884,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_f25_2zg_ghb">pelletier</occupation>
+               <occupation source="item_f25_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="GP03">
@@ -896,7 +896,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_nh5_2zg_ghb">passeur</occupation>
+               <occupation source="item_nh5_2zg_ghb" when="1313">passeur</occupation>
             </person>
 
             <person xml:id="GP04">
@@ -908,7 +908,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_rg5_2zg_ghb">pelletier</occupation>
+               <occupation source="item_rg5_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="GP05">
@@ -916,7 +916,7 @@
                   <forename>Guillaume</forename>
                   <surname>phelippe</surname>
                </persName>
-               <occupation source="item_v35_2zg_ghb">maçon</occupation>
+               <occupation source="item_v35_2zg_ghb" when="1313">maçon</occupation>
             </person>
 
             <person xml:id="GP06">
@@ -926,7 +926,7 @@
                   <surname>piquart</surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_kqc_qgn_3hb">regratier</occupation>
+               <occupation source="item_kqc_qgn_3hb" when="1296">regratier</occupation>
             </person>
 
             <person xml:id="GQ01">
@@ -948,8 +948,8 @@
                   <forename>Guillaume</forename>
                   <surname>richart</surname>
                </persName>
-               <occupation source="item_zcj_d5h_3hb">tavernier</occupation>
-               <occupation source="item_opc_qgn_3hb">tavernier</occupation>
+               <occupation source="item_zcj_d5h_3hb" when="1297">tavernier</occupation>
+               <occupation source="item_opc_qgn_3hb" when="1296">tavernier</occupation>
             </person>
 
             <person xml:id="GSH01">
@@ -970,7 +970,7 @@
                      <placeName ref="#geo_Trie">trie</placeName>
                   </surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">pelletier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="GT02">
@@ -981,7 +981,7 @@
                      <placeName ref="#geo_Til">tilg</placeName>
                   </surname>
                </persName>
-               <occupation source="item_zc5_2zg_ghb">tailleur_de_pierre</occupation>
+               <occupation source="item_zc5_2zg_ghb" when="1313">tailleur_de_pierre</occupation>
             </person>
 
             <person xml:id="GT03">
@@ -993,7 +993,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_id5_2zg_ghb">tailleur</occupation>
+               <occupation source="item_id5_2zg_ghb" when="1313">tailleur</occupation>
             </person>
 
             <person xml:id="GT04">
@@ -1054,7 +1054,7 @@
                   <forename>Henri</forename>
                   <surname>becaire</surname>
                </persName>
-               <occupation source="item_i25_2zg_ghb">cuisinier to <persName ref="#MB03">Marguerite de Bourgogne, reine de France</persName>
+               <occupation source="item_i25_2zg_ghb" when="1313">cuisinier to <persName ref="#MB03">Marguerite de Bourgogne, reine de France</persName>
                </occupation>
             </person>
 
@@ -1103,7 +1103,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_y25_2zg_ghb">cirier</occupation>
+               <occupation source="item_y25_2zg_ghb" when="1313">cirier</occupation>
             </person>
 
             <person xml:id="HE01">
@@ -1123,7 +1123,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_bd5_2zg_ghb">fevre</occupation>
+               <occupation source="item_bd5_2zg_ghb" when="1313">fevre</occupation>
             </person>
 
             <person xml:id="HM01">
@@ -1135,7 +1135,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_mg5_2zg_ghb">maréchal</occupation>
+               <occupation source="item_mg5_2zg_ghb" when="1313">maréchal</occupation>
             </person>
 
             <person xml:id="HP01">
@@ -1147,7 +1147,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_wcj_d5h_3hb">poulailler</occupation>
+               <occupation source="item_wcj_d5h_3hb" when="1297">poulailler</occupation>
             </person>
 
             <person xml:id="HV01">
@@ -1162,7 +1162,7 @@
                <persName>
                   <forename>Jehanne</forename>
                </persName>
-               <occupation source="item_ah5_2zg_ghb">fileresse de soie</occupation>
+               <occupation source="item_ah5_2zg_ghb" when="1313">fileresse de soie</occupation>
             </person>
 
             <person xml:id="J02">
@@ -1179,7 +1179,7 @@
                      <placeName ref="#geo_Angleterre">anglois</placeName>
                   </surname>
                </persName>
-               <occupation source="item_n35_2zg_ghb">tavernier</occupation>
+               <occupation source="item_n35_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="JA02">
@@ -1231,7 +1231,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_s25_2zg_ghb">buffetier</occupation>
+               <occupation source="item_s25_2zg_ghb" when="1313">buffetier</occupation>
             </person>
 
             <person xml:id="JB06">
@@ -1244,7 +1244,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_kh5_2zg_ghb">boursier</occupation>
+               <occupation source="item_kh5_2zg_ghb" when="1313">boursier</occupation>
             </person>
 
             <person xml:id="JB07">
@@ -1257,7 +1257,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_yf5_2zg_ghb">boucher</occupation>
+               <occupation source="item_yf5_2zg_ghb" when="1313">boucher</occupation>
             </person>
 
             <person xml:id="JB08">
@@ -1279,7 +1279,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_uk5_2zg_ghb">charpentier</occupation>
+               <occupation source="item_uk5_2zg_ghb" when="1313">charpentier</occupation>
             </person>
 
             <person xml:id="JC02">
@@ -1301,7 +1301,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_d35_2zg_ghb">cirier</occupation>
+               <occupation source="item_d35_2zg_ghb" when="1313">cirier</occupation>
             </person>
 
             <person xml:id="JC04">
@@ -1313,7 +1313,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_r35_2zg_ghb">cordonnier</occupation>
+               <occupation source="item_r35_2zg_ghb" when="1313">cordonnier</occupation>
             </person>
 
             <person xml:id="JC05">
@@ -1321,7 +1321,7 @@
                   <forename>Jehan</forename>
                   <surname>cainel</surname>
                </persName>
-               <occupation source="item_nj5_2zg_ghb">charpentier</occupation>
+               <occupation source="item_nj5_2zg_ghb" when="1313">charpentier</occupation>
             </person>
 
             <person xml:id="JC06">
@@ -1333,7 +1333,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_al5_2zg_ghb">chandelier</occupation>
+               <occupation source="item_al5_2zg_ghb" when="1313">chandelier</occupation>
             </person>
 
             <person xml:id="JC07">
@@ -1352,8 +1352,8 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_idj_d5h_3hb">cordier</occupation>
-               <occupation source="item_jqc_qgn_3hb">cordier</occupation>
+               <occupation source="item_idj_d5h_3hb" when="1297">cordier</occupation>
+               <occupation source="item_jqc_qgn_3hb" when="1296">cordier</occupation>
             </person>
 
             <person xml:id="JC08">
@@ -1379,7 +1379,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_dqc_qgn_3hb">couturier</occupation>
+               <occupation source="item_dqc_qgn_3hb" when="1296">couturier</occupation>
             </person>
 
             <person xml:id="JD01">
@@ -1407,7 +1407,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_gk5_2zg_ghb">déchargeur</occupation>
+               <occupation source="item_gk5_2zg_ghb" when="1313">déchargeur</occupation>
             </person>
 
             <person xml:id="JE01">
@@ -1475,7 +1475,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_wj5_2zg_ghb">gâtelier</occupation>
+               <occupation source="item_wj5_2zg_ghb" when="1313">gâtelier</occupation>
             </person>
 
             <person xml:id="JG05">
@@ -1494,7 +1494,7 @@
                   <nameLink>de</nameLink>
                   <surname>gonnesse</surname>
                </persName>
-               <occupation source="item_mpc_qgn_3hb">çavatier</occupation>
+               <occupation source="item_mpc_qgn_3hb" when="1296">çavatier</occupation>
             </person>
 
             <person xml:id="JH01">
@@ -1510,7 +1510,7 @@
                   <forename>Jehan</forename>
                   <surname>hache</surname>
                </persName>
-               <occupation source="item_if5_2zg_ghb">tisserand</occupation>
+               <occupation source="item_if5_2zg_ghb" when="1313">tisserand</occupation>
             </person>
 
             <person xml:id="JH03">
@@ -1529,7 +1529,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_vd5_2zg_ghb">lavandrier</occupation>
+               <occupation source="item_vd5_2zg_ghb" when="1313">lavandrier</occupation>
             </person>
 
             <person xml:id="JL02">
@@ -1541,7 +1541,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_ph5_2zg_ghb">lavandrier</occupation>
+               <occupation source="item_ph5_2zg_ghb" when="1313">lavandrier</occupation>
             </person>
 
             <person xml:id="JL03">
@@ -1582,8 +1582,8 @@
                   <forename>Jehan</forename>
                   <surname>lirais</surname>
                </persName>
-               <occupation source="item_ycj_d5h_3hb">tavernier</occupation>
-               <occupation source="item_xpc_qgn_3hb">tavernier</occupation>
+               <occupation source="item_ycj_d5h_3hb" when="1297">tavernier</occupation>
+               <occupation source="item_xpc_qgn_3hb" when="1296">tavernier</occupation>
             </person>
 
             <person xml:id="JM01">
@@ -1594,7 +1594,7 @@
                      <placeName ref="#geo_Montreuil,_Seine-Saint-Denis">monterueil</placeName>
                   </surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">tisserand</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">tisserand</occupation>
             </person>
 
             <person xml:id="JM02">
@@ -1602,7 +1602,7 @@
                   <forename>Jehan</forename>
                   <surname>maillart</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">changeur</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">changeur</occupation>
             </person>
 
             <person xml:id="JM03">
@@ -1613,7 +1613,7 @@
                      <placeName ref="#geo_Mesnil">mesnil</placeName>
                   </surname>
                </persName>
-               <occupation source="item_ag5_2zg_ghb">hôtelier</occupation>
+               <occupation source="item_ag5_2zg_ghb" when="1313">hôtelier</occupation>
             </person>
 
             <person xml:id="JM04">
@@ -1632,7 +1632,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_x35_2zg_ghb">monnayeur</occupation>
+               <occupation source="item_x35_2zg_ghb" when="1313">monnayeur</occupation>
             </person>
 
             <person xml:id="JM06">
@@ -1643,7 +1643,7 @@
                      <placeName ref="#geo_Mante">Mante</placeName>
                   </surname>
                </persName>
-               <occupation source="item_yj5_2zg_ghb">cavatier</occupation>
+               <occupation source="item_yj5_2zg_ghb" when="1313">cavatier</occupation>
             </person>
 
             <person xml:id="JM07">
@@ -1651,7 +1651,7 @@
                   <forename>Jehan</forename>
                   <surname>moriau</surname>
                </persName>
-               <occupation source="item_dk5_2zg_ghb">pelletier</occupation>
+               <occupation source="item_dk5_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="JM08">
@@ -1670,8 +1670,8 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_gdj_d5h_3hb">messager</occupation>
-               <occupation source="item_gqc_qgn_3hb">regratier</occupation>
+               <occupation source="item_gdj_d5h_3hb" when="1297">messager</occupation>
+               <occupation source="item_gqc_qgn_3hb" when="1296">regratier</occupation>
             </person>
 
             <person xml:id="JN01">
@@ -1693,7 +1693,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_e25_2zg_ghb">pelletier</occupation>
+               <occupation source="item_e25_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="JP02">
@@ -1705,7 +1705,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_rf5_2zg_ghb">tapissier</occupation>
+               <occupation source="item_rf5_2zg_ghb" when="1313">tapissier</occupation>
             </person>
 
             <person xml:id="JP03">
@@ -1716,7 +1716,7 @@
                      <placeName ref="#geo_Pontoise">pontaise</placeName>
                   </surname>
                </persName>
-               <occupation source="item_dg5_2zg_ghb">serrurier</occupation>
+               <occupation source="item_dg5_2zg_ghb" when="1313">serrurier</occupation>
             </person>
 
             <person xml:id="JP04">
@@ -1749,7 +1749,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="head_gd4_qbh_ghb">orfevre</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">orfevre</occupation>
             </person>
 
             <person xml:id="JR01">
@@ -1800,8 +1800,8 @@
                      <placeName ref="#geo_Trocy_en_Multien">troci</placeName>
                   </surname>
                </persName>
-               <occupation source="item_ug5_2zg_ghb">monnayeur</occupation>
-               <occupation source="item_ug5_2zg_ghb">tavernier</occupation>
+               <occupation source="item_ug5_2zg_ghb" when="1313">monnayeur</occupation>
+               <occupation source="item_ug5_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="JT03">
@@ -1809,7 +1809,7 @@
                   <forename>Jehan</forename>
                   <surname>taupin</surname>
                </persName>
-               <occupation source="item_eh5_2zg_ghb">boucher</occupation>
+               <occupation source="item_eh5_2zg_ghb" when="1313">boucher</occupation>
             </person>
 
             <person xml:id="JT04">
@@ -1831,7 +1831,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_pf5_2zg_ghb">vannier</occupation>
+               <occupation source="item_pf5_2zg_ghb" when="1313">vannier</occupation>
             </person>
 
             <person xml:id="JV02">
@@ -1859,7 +1859,7 @@
                      <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
                   </surname>
                </persName>
-               <occupation source="item_pd5_2zg_ghb">maître_des_aveugles</occupation>
+               <occupation source="item_pd5_2zg_ghb" when="1313">maître_des_aveugles</occupation>
             </person>
 
             <person xml:id="L10">
@@ -1933,7 +1933,7 @@
                   <forename>Lucas</forename>
                   <surname>saussete</surname>
                </persName>
-               <occupation source="item_gg5_2zg_ghb">couturier</occupation>
+               <occupation source="item_gg5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="MB01">
@@ -1955,7 +1955,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_pj5_2zg_ghb">couturier</occupation>
+               <occupation source="item_pj5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="MB03">
@@ -1992,7 +1992,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_bl5_2zg_ghb">chandelier</occupation>
+               <occupation source="item_bl5_2zg_ghb" when="1313">chandelier</occupation>
             </person>
 
             <person xml:id="MCP01">
@@ -2010,7 +2010,7 @@
                      <placeName ref="#geo_Dreux">dreus</placeName>
                   </surname>
                </persName>
-               <occupation source="item_fk5_2zg_ghb">hôtelier</occupation>
+               <occupation source="item_fk5_2zg_ghb" when="1313">hôtelier</occupation>
             </person>
 
             <person xml:id="ML01">
@@ -2032,7 +2032,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_wf5_2zg_ghb">peintre</occupation>
+               <occupation source="item_wf5_2zg_ghb" when="1313">peintre</occupation>
             </person>
 
             <person xml:id="MP02">
@@ -2044,7 +2044,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_eg5_2zg_ghb">potier</occupation>
+               <occupation source="item_eg5_2zg_ghb" when="1313">potier</occupation>
             </person>
 
             <person xml:id="MP03">
@@ -2056,7 +2056,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_wk5_2zg_ghb">porteur</occupation>
+               <occupation source="item_wk5_2zg_ghb" when="1313">porteur</occupation>
             </person>
 
             <person xml:id="MP04">
@@ -2087,7 +2087,7 @@
                      <placeName ref="#geo_Saint-Denis">saint denys</placeName>
                   </surname>
                </persName>
-               <occupation source="item_qj5_2zg_ghb">lainier</occupation>
+               <occupation source="item_qj5_2zg_ghb" when="1313">lainier</occupation>
             </person>
 
             <person xml:id="MT01">
@@ -2099,7 +2099,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_wg5_2zg_ghb">tailleur</occupation>
+               <occupation source="item_wg5_2zg_ghb" when="1313">tailleur</occupation>
             </person>
 
             <person xml:id="N01">
@@ -2141,7 +2141,7 @@
                   <nameLink>de la</nameLink>
                   <surname>haie</surname>
                </persName>
-               <occupation source="item_bg5_2zg_ghb">talemelier</occupation>
+               <occupation source="item_bg5_2zg_ghb" when="1313">talemelier</occupation>
             </person>
 
             <person xml:id="NH02">
@@ -2170,7 +2170,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_jk5_2zg_ghb">peintre</occupation>
+               <occupation source="item_jk5_2zg_ghb" when="1313">peintre</occupation>
             </person>
 
             <person xml:id="NP02">
@@ -2182,7 +2182,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_kk5_2zg_ghb">peintre</occupation>
+               <occupation source="item_kk5_2zg_ghb" when="1313">peintre</occupation>
             </person>
 
             <person xml:id="NP03">
@@ -2204,7 +2204,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_xg5_2zg_ghb">boursier</occupation>
+               <occupation source="item_xg5_2zg_ghb" when="1313">boursier</occupation>
             </person>
 
             <person xml:id="OR01">
@@ -2283,7 +2283,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_j25_2zg_ghb">tapissier</occupation>
+               <occupation source="item_j25_2zg_ghb" when="1313">tapissier</occupation>
             </person>
 
             <person xml:id="PB04">
@@ -2304,7 +2304,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_cd5_2zg_ghb">chandelier</occupation>
+               <occupation source="item_cd5_2zg_ghb" when="1313">chandelier</occupation>
             </person>
 
             <person xml:id="PC02">
@@ -2316,7 +2316,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_df5_2zg_ghb">couturier</occupation>
+               <occupation source="item_df5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="PC03">
@@ -2324,7 +2324,7 @@
                   <forename>Pierre</forename>
                   <surname>chaitain</surname>
                </persName>
-               <occupation source="item_gj5_2zg_ghb">couturier</occupation>
+               <occupation source="item_gj5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="PC04">
@@ -2336,7 +2336,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_ddj_d5h_3hb">coffrier</occupation>
+               <occupation source="item_ddj_d5h_3hb" when="1297">coffrier</occupation>
             </person>
 
             <person xml:id="PD01">
@@ -2347,7 +2347,7 @@
                      <placeName ref="#geo_Dammartin">danmartin</placeName>
                   </surname>
                </persName>
-               <occupation source="item_ij5_2zg_ghb">cordonnier</occupation>
+               <occupation source="item_ij5_2zg_ghb" when="1313">cordonnier</occupation>
             </person>
 
             <person xml:id="PE01">
@@ -2369,7 +2369,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_jg5_2zg_ghb">tavernier</occupation>
+               <occupation source="item_jg5_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="PH01">
@@ -2381,7 +2381,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_z25_2zg_ghb">hote</occupation>
+               <occupation source="item_z25_2zg_ghb" when="1313">hote</occupation>
             </person>
 
             <person xml:id="PM01">
@@ -2394,7 +2394,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_fg5_2zg_ghb">maréchal</occupation>
+               <occupation source="item_fg5_2zg_ghb" when="1313">maréchal</occupation>
             </person>
 
             <person xml:id="PN01">
@@ -2414,7 +2414,7 @@
                   <forename>Perronelle</forename>
                   <surname>poree</surname>
                </persName>
-               <occupation source="item_nf5_2zg_ghb">pâtissier</occupation>
+               <occupation source="item_nf5_2zg_ghb" when="1313">pâtissier</occupation>
             </person>
 
             <person xml:id="PP02">
@@ -2448,7 +2448,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_z35_2zg_ghb">pelletier</occupation>
+               <occupation source="item_z35_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="PP05">
@@ -2460,7 +2460,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_aj5_2zg_ghb">peintre</occupation>
+               <occupation source="item_aj5_2zg_ghb" when="1313">peintre</occupation>
             </person>
 
             <person xml:id="PP06">
@@ -2495,9 +2495,9 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_yc5_2zg_ghb">chandelier</occupation>
-               <occupation source="item_bdj_d5h_3hb">chandelier</occupation>
-               <occupation source="item_cqc_qgn_3hb">chandelier</occupation>
+               <occupation source="item_yc5_2zg_ghb" when="1313">chandelier</occupation>
+               <occupation source="item_bdj_d5h_3hb" when="1297">chandelier</occupation>
+               <occupation source="item_cqc_qgn_3hb" when="1296">chandelier</occupation>
             </person>
 
             <person xml:id="PR02">
@@ -2553,28 +2553,28 @@
                      <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
                   </surname>
                </persName>
-               <occupation source="item_vpc_qgn_3hb">tavernier</occupation>
+               <occupation source="item_vpc_qgn_3hb" when="1296">tavernier</occupation>
             </person>
 
             <person xml:id="R01">
                <persName>
                   <forename>Raolet</forename>
                </persName>
-               <occupation source="item_hk5_2zg_ghb">corretier des chevaux</occupation>
+               <occupation source="item_hk5_2zg_ghb" when="1313">corretier des chevaux</occupation>
             </person>
 
             <person xml:id="R02">
                <persName>
                   <forename>Raol</forename>
                </persName>
-               <occupation source="item_yk5_2zg_ghb">porteur d'eux</occupation>
+               <occupation source="item_yk5_2zg_ghb" when="1313">porteur d'eux</occupation>
             </person>
 
             <person xml:id="R03">
                <persName>
                   <forename>Richart</forename>
                </persName>
-               <occupation source="item_jdj_d5h_3hb">vallet to <persName ref="#TB03">Tierri
+               <occupation source="item_jdj_d5h_3hb" when="1297">vallet to <persName ref="#TB03">Tierri
                                             biaudehors</persName>
                </occupation>
             </person>
@@ -2632,7 +2632,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_ch5_2zg_ghb">barbier</occupation>
+               <occupation source="item_ch5_2zg_ghb" when="1313">barbier</occupation>
             </person>
 
             <person xml:id="RC01">
@@ -2650,7 +2650,7 @@
                      <placeName ref="#geo_Cornwall">cornoaille</placeName>
                   </surname>
                </persName>
-               <occupation source="item_pg5_2zg_ghb">couturier</occupation>
+               <occupation source="item_pg5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="RC03">
@@ -2662,7 +2662,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="head_jpc_qgn_3hb">concierge</occupation>
+               <occupation source="head_jpc_qgn_3hb" when="1296">concierge</occupation>
             </person>
 
             <person xml:id="RC04">
@@ -2674,7 +2674,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_eqc_qgn_3hb">charretier</occupation>
+               <occupation source="item_eqc_qgn_3hb" when="1296">charretier</occupation>
             </person>
 
             <person xml:id="RE01">
@@ -2685,7 +2685,7 @@
                      <placeName ref="#geo_Scotland">escot</placeName>
                   </surname>
                </persName>
-               <occupation source="item_x25_2zg_ghb">pelletier</occupation>
+               <occupation source="item_x25_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="RF01">
@@ -2711,9 +2711,9 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_mc5_2zg_ghb">regratier</occupation>
-               <occupation source="item_qcj_d5h_3hb">regratier</occupation>
-               <occupation source="item_ppc_qgn_3hb">regratier</occupation>
+               <occupation source="item_mc5_2zg_ghb" when="1313">regratier</occupation>
+               <occupation source="item_qcj_d5h_3hb" when="1297">regratier</occupation>
+               <occupation source="item_ppc_qgn_3hb" when="1296">regratier</occupation>
             </person>
 
             <person xml:id="RG01">
@@ -2739,7 +2739,7 @@
                      <placeName ref="#geo_Linay">Linays</placeName>
                   </surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">courroier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">courroier</occupation>
             </person>
 
             <person xml:id="RM01">
@@ -2751,7 +2751,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_hf5_2zg_ghb">mercier</occupation>
+               <occupation source="item_hf5_2zg_ghb" when="1313">mercier</occupation>
             </person>
 
             <person xml:id="RN01">
@@ -2763,7 +2763,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_uh5_2zg_ghb">nasseur</occupation>
+               <occupation source="item_uh5_2zg_ghb" when="1313">nasseur</occupation>
             </person>
 
             <person xml:id="RN02">
@@ -2774,7 +2774,7 @@
                      <placeName ref="#geo_Nogent">nogent</placeName>
                   </surname>
                </persName>
-               <occupation source="item_zf5_2zg_ghb">sergent du guet</occupation>
+               <occupation source="item_zf5_2zg_ghb" when="1313">sergent du guet</occupation>
             </person>
 
             <person xml:id="RN03">
@@ -2786,7 +2786,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_kj5_2zg_ghb">hôtelier</occupation>
+               <occupation source="item_kj5_2zg_ghb" when="1313">hôtelier</occupation>
             </person>
 
             <person xml:id="RN04">
@@ -2810,7 +2810,7 @@
                      <roleName>ouvrier</roleName>
                   </surname>
                </persName>
-               <occupation source="item_lg5_2zg_ghb">ouvrier</occupation>
+               <occupation source="item_lg5_2zg_ghb" when="1313">ouvrier</occupation>
             </person>
 
             <person xml:id="RP01">
@@ -2830,7 +2830,7 @@
                   <forename>Rogier</forename>
                   <surname>piquet</surname>
                </persName>
-               <occupation source="item_spc_qgn_3hb">talemelier</occupation>
+               <occupation source="item_spc_qgn_3hb" when="1296">talemelier</occupation>
             </person>
 
             <person xml:id="RP02">
@@ -2842,7 +2842,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_gd5_2zg_ghb">potier</occupation>
+               <occupation source="item_gd5_2zg_ghb" when="1313">potier</occupation>
             </person>
 
             <person xml:id="RP03">
@@ -2850,7 +2850,7 @@
                   <forename>Raol</forename>
                   <surname>poree</surname>
                </persName>
-               <occupation source="item_sd5_2zg_ghb">vallet to <persName ref="#JE01">jehan
+               <occupation source="item_sd5_2zg_ghb" when="1313">vallet to <persName ref="#JE01">jehan
 											lescuillier</persName>
                </occupation>
             </person>
@@ -2864,7 +2864,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_sj5_2zg_ghb">pelletier</occupation>
+               <occupation source="item_sj5_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="RP05">
@@ -2883,7 +2883,7 @@
                   <nameLink>de la</nameLink>
                   <surname>porte</surname>
                </persName>
-               <occupation source="item_lpc_qgn_3hb">cordonnier</occupation>
+               <occupation source="item_lpc_qgn_3hb" when="1296">cordonnier</occupation>
             </person>
 
             <person xml:id="RPR01">
@@ -2919,7 +2919,7 @@
                      <roleName>uillier</roleName>
                   </surname>
                </persName>
-               <occupation source="item_hd5_2zg_ghb">huilier</occupation>
+               <occupation source="item_hd5_2zg_ghb" when="1313">huilier</occupation>
             </person>
 
             <person xml:id="SB01">
@@ -2945,7 +2945,7 @@
                   <nameLink>de</nameLink>
                   <surname>chatou</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">mercier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">mercier</occupation>
             </person>
 
             <person xml:id="SC02">
@@ -2966,7 +2966,7 @@
                      <roleName>eschancon</roleName>
                   </surname>
                </persName>
-               <occupation source="item_xh5_2zg_ghb">échanson</occupation>
+               <occupation source="item_xh5_2zg_ghb" when="1313">échanson</occupation>
             </person>
 
             <person xml:id="SG01">
@@ -2978,7 +2978,7 @@
                   <forename>Symon</forename>
                   <surname>Gencien</surname>
                </persName>
-               <occupation source="item_gh5_2zg_ghb">marchand de merrain</occupation>
+               <occupation source="item_gh5_2zg_ghb" when="1313">marchand de merrain</occupation>
             </person>
 
             <person xml:id="SG02">
@@ -2986,7 +2986,7 @@
                   <forename>Symon</forename>
                   <surname>Guerin</surname>
                </persName>
-               <occupation source="item_bj5_2zg_ghb">pelletier</occupation>
+               <occupation source="item_bj5_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="SN01">
@@ -3020,7 +3020,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_y35_2zg_ghb">pelletier</occupation>
+               <occupation source="item_y35_2zg_ghb" when="1313">pelletier</occupation>
             </person>
 
             <person xml:id="SS01">
@@ -3032,7 +3032,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_fd5_2zg_ghb">sergent</occupation>
+               <occupation source="item_fd5_2zg_ghb" when="1313">sergent</occupation>
             </person>
 
             <person xml:id="SSB01">
@@ -3041,7 +3041,7 @@
                   <nameLink>de</nameLink>
                   <surname>saint benoit</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">drapier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">drapier</occupation>
             </person>
 
             <person xml:id="SSG01">
@@ -3059,7 +3059,7 @@
                   <forename>Symon</forename>
                   <surname>tybert</surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">boucher</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">boucher</occupation>
             </person>
 
             <person xml:id="TA01">
@@ -3107,7 +3107,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="item_uf5_2zg_ghb">cordonnier</occupation>
+               <occupation source="item_uf5_2zg_ghb" when="1313">cordonnier</occupation>
             </person>
 
             <person xml:id="TF01">
@@ -3127,7 +3127,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_bf5_2zg_ghb">fileresse de soie</occupation>
+               <occupation source="item_bf5_2zg_ghb" when="1313">fileresse de soie</occupation>
             </person>
 
             <person xml:id="TL01">
@@ -3138,7 +3138,7 @@
                      <placeName ref="#geo_Angleterre">anglois</placeName>
                   </surname>
                </persName>
-               <occupation source="item_cg5_2zg_ghb">talemelier</occupation>
+               <occupation source="item_cg5_2zg_ghb" when="1313">talemelier</occupation>
             </person>
 
             <person xml:id="TM01">
@@ -3150,7 +3150,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_r25_2zg_ghb">meunier</occupation>
+               <occupation source="item_r25_2zg_ghb" when="1313">meunier</occupation>
             </person>
 
             <person xml:id="TN01">
@@ -3161,7 +3161,7 @@
                      <placeName ref="#geo_Noisy">Noisy</placeName>
                   </surname>
                </persName>
-               <occupation source="head_gd4_qbh_ghb">vinetier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">vinetier</occupation>
             </person>
 
             <person xml:id="VP01">
@@ -3173,7 +3173,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="head_gd4_qbh_ghb">poissonnier</occupation>
+               <occupation source="head_gd4_qbh_ghb" when="1313">poissonnier</occupation>
             </person>
 
             <person xml:id="W01">
@@ -3191,7 +3191,7 @@
                   </surname>
                </persName>
                <sex value="female"/>
-               <occupation source="item_xj5_2zg_ghb">couturier</occupation>
+               <occupation source="item_xj5_2zg_ghb" when="1313">couturier</occupation>
             </person>
 
             <person xml:id="YN01">

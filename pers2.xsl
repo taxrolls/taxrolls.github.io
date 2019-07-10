@@ -106,7 +106,8 @@
                                     <!-- Record Occupation -->
                                         <xsl:for-each select="$docs//roleName[@ref = $persRef][@type = 'occupation']">
                                             <xsl:variable name="source" select="(ancestor::item/@xml:id | ancestor::head/@xml:id)"/>
-                                            <occupation source='{$source}'>
+                                            <xsl:variable name="date" select="//date/@when"/>
+                                            <occupation source='{$source}' when='{$date}'>
                                                 <xsl:value-of select="./@role"/>
                                                 <xsl:if test="document('relationships.xml')//relation[substring(@source, 2) = $source][@type='professional'][@active = $persRef] | document('relationships.xml')//relation[substring(@source, 2) = $source][@type='professional'][@passive = $persRef]">
                                                     <xsl:text> to </xsl:text>

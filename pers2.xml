@@ -17,14 +17,14 @@
       <body>
          <listPerson>
             <person xml:id="A01">
-               <persName>
+               <persName source="item_gf5_2zg_ghb" when="1313">
                   <forename>Aleinete</forename>
                </persName>
                <occupation source="item_gf5_2zg_ghb" when="1313">fileresse de soie</occupation>
             </person>
 
             <person xml:id="AB01">
-               <persName>
+               <persName source="item_l35_2zg_ghb" when="1313">
                   <forename>Aalis</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -34,7 +34,7 @@
             </person>
 
             <person xml:id="AB02">
-               <persName>
+               <persName source="item_qpc_qgn_3hb" when="1296">
                   <roleName>Mestre</roleName>
                   <forename>Alain</forename>
                   <nameLink>le</nameLink>
@@ -44,7 +44,7 @@
             </person>
 
             <person xml:id="AC01">
-               <persName>
+               <persName source="item_md5_2zg_ghb" when="1313">
                   <forename>Agnes</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -56,7 +56,7 @@
             </person>
 
             <person xml:id="AC02">
-               <persName>
+               <persName source="item_yd5_2zg_ghb" when="1313">
                   <forename>Adan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -68,7 +68,7 @@
             </person>
 
             <person xml:id="AC03">
-               <persName>
+               <persName source="item_af5_2zg_ghb" when="1313">
                   <forename>Andri</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -80,7 +80,7 @@
             </person>
 
             <person xml:id="AD01">
-               <persName>
+               <persName source="item_zd5_2zg_ghb" when="1313">
                   <forename>Anesot</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -90,7 +90,7 @@
             </person>
 
             <person xml:id="AF01">
-               <persName>
+               <persName source="item_xf5_2zg_ghb" when="1313">
                   <forename>Alein</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -102,7 +102,7 @@
             </person>
 
             <person xml:id="AG01">
-               <persName>
+               <persName source="item_lj5_2zg_ghb" when="1313">
                   <forename>Aaliz</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -118,7 +118,7 @@
             </person>
 
             <person xml:id="AL01">
-               <persName>
+               <persName source="item_mf5_2zg_ghb" when="1313">
                   <forename>Aalis</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -130,7 +130,7 @@
             </person>
 
             <person xml:id="AN01">
-               <persName>
+               <persName source="item_w25_2zg_ghb" when="1313">
                   <roleName>Dame</roleName>
                   <forename>agnes</forename>
                   <nameLink>de</nameLink>
@@ -142,7 +142,7 @@
             <person xml:id="ANON001">
                <persName type="anonymous" key="Unnamed Person (#ANON001)">
                   <roleName>
-                     <nameLink>Le</nameLink> concierge a <persName>
+                     <nameLink>Le</nameLink> concierge a <persName source="item_l25_2zg_ghb" when="1313">
                         <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
                         </roleName>
                      </persName>
@@ -219,7 +219,7 @@
             </person>
 
             <person xml:id="AP01">
-               <persName>
+               <persName source="item_qd5_2zg_ghb" when="1313">
                   <forename>Aalis</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -230,19 +230,19 @@
             </person>
 
             <person xml:id="AP02">
-               <persName>
+               <persName source="item_fdj_d5h_3hb" when="1297">
                   <forename>Adam</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>potier</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="head_jpc_qgn_3hb" when="1296">
                   <forename>Adam</forename>
                   <nameLink>le</nameLink>
                   <surname>Potier</surname>
                </persName>
-               <persName>
+               <persName source="item_fqc_qgn_3hb" when="1296">
                   <forename>Adam</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -255,7 +255,7 @@
             </person>
 
             <person xml:id="ASJ01">
-               <persName>
+               <persName source="item_zj5_2zg_ghb" when="1313">
                   <forename>Aalis</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -265,7 +265,7 @@
             </person>
 
             <person xml:id="AT01">
-               <persName>
+               <persName source="item_o35_2zg_ghb" when="1313">
                   <forename>Adan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -277,7 +277,7 @@
             </person>
 
             <person xml:id="BC01">
-               <persName>
+               <persName source="item_h25_2zg_ghb" when="1313">
                   <forename>Bertaut</forename>
                   <nameLink>de</nameLink>
                   <surname>compiegne</surname>
@@ -286,7 +286,7 @@
             </person>
 
             <person xml:id="BT01">
-               <persName>
+               <persName source="item_tj5_2zg_ghb" when="1313">
                   <forename>Bienvenue</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -298,7 +298,7 @@
             </person>
 
             <person xml:id="CB01">
-               <persName>
+               <persName source="item_cf5_2zg_ghb" when="1313">
                   <forename>Colin</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -310,7 +310,7 @@
             </person>
 
             <person xml:id="CM01">
-               <persName>
+               <persName source="item_e35_2zg_ghb" when="1313">
                   <forename>Colin</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -322,7 +322,7 @@
             </person>
 
             <person xml:id="CP01">
-               <persName>
+               <persName source="item_ef5_2zg_ghb" when="1313">
                   <forename>Colin</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -333,7 +333,7 @@
             </person>
 
             <person xml:id="CP02">
-               <persName>
+               <persName source="item_sg5_2zg_ghb" when="1313">
                   <forename>Colin</forename>
                   <surname>plagar</surname>
                </persName>
@@ -341,7 +341,7 @@
             </person>
 
             <person xml:id="DC01">
-               <persName>
+               <persName source="item_og5_2zg_ghb" when="1313">
                   <forename>Domien</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -353,7 +353,7 @@
             </person>
 
             <person xml:id="DL01">
-               <persName>
+               <persName source="item_ek5_2zg_ghb" when="1313">
                   <forename>Drouet</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -364,7 +364,7 @@
             </person>
 
             <person xml:id="DP01">
-               <persName>
+               <persName source="item_yh5_2zg_ghb" when="1313">
                   <forename>Durant</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -375,7 +375,7 @@
             </person>
 
             <person xml:id="E01">
-               <persName>
+               <persName source="item_i35_2zg_ghb" when="1313">
                   <forename>Edeline</forename>
                </persName>
             </person>
@@ -385,7 +385,7 @@
                         <forename>Étienne</forename>
                         <surname>Barbette</surname>
                     </persName>
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Estienne</forename>
                   <surname>barbete</surname>
                </persName>
@@ -409,18 +409,18 @@
             </person>
 
             <person xml:id="EB02">
-               <persName>
+               <persName source="item_xd5_2zg_ghb" when="1313">
                   <forename>Estienne</forename>
                   <surname>bourde</surname>
                </persName>
-               <persName>
+               <persName source="item_xd5_2zg_ghb" when="1313">
                   <addName>porte chappe</addName>
                </persName>
                <occupation source="item_xd5_2zg_ghb" when="1313">tavernier</occupation>
             </person>
 
             <person xml:id="EC01">
-               <persName>
+               <persName source="item_g35_2zg_ghb" when="1313">
                   <forename>Estienne</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -430,7 +430,7 @@
             </person>
 
             <person xml:id="ED01">
-               <persName>
+               <persName source="item_f35_2zg_ghb" when="1313">
                   <forename>Edeline</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -442,11 +442,11 @@
             </person>
 
             <person xml:id="ED02">
-               <persName>
+               <persName source="item_ucj_d5h_3hb" when="1297">
                   <forename>Estienne</forename>
                   <surname>dechaufour</surname>
                </persName>
-               <persName>
+               <persName source="item_tpc_qgn_3hb" when="1296">
                   <forename>Estienne</forename>
                   <surname>
                      <placeName ref="#geo_Échauffour">dechaufour</placeName>
@@ -456,7 +456,7 @@
             </person>
 
             <person xml:id="EHM01">
-               <persName>
+               <persName source="item_ud5_2zg_ghb" when="1313">
                   <forename>Ernol</forename>
                   <nameLink>de la</nameLink>
                   <surname>haute meson</surname>
@@ -464,7 +464,7 @@
             </person>
 
             <person xml:id="EL01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Evroin</forename>
                   <surname>ligier</surname>
                </persName>
@@ -472,7 +472,7 @@
             </person>
 
             <person xml:id="EQL01">
-               <persName>
+               <persName source="item_lc5_2zg_ghb" when="1313">
                   <forename>Estienne</forename>
                   <surname>
                      <roleName>queue levee</roleName>
@@ -482,7 +482,7 @@
             </person>
 
             <person xml:id="ER01">
-               <persName>
+               <persName source="item_sf5_2zg_ghb" when="1313">
                   <forename>Estienne</forename>
                   <nameLink>de</nameLink>
                   <surname>recloses</surname>
@@ -490,7 +490,7 @@
             </person>
 
             <person xml:id="EU01">
-               <persName>
+               <persName source="item_b25_2zg_ghb" when="1313">
                   <forename>Estienne</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -501,20 +501,20 @@
             </person>
 
             <person xml:id="EV01">
-               <persName>
+               <persName source="item_jf5_2zg_ghb" when="1313">
                   <forename>Ernaut</forename>
                   <surname>viras</surname>
                </persName>
             </person>
 
             <person xml:id="F01">
-               <persName>
+               <persName source="item_dh5_2zg_ghb" when="1313">
                   <forename>Frederic</forename>
                </persName>
             </person>
 
             <person xml:id="FT01">
-               <persName>
+               <persName source="item_bh5_2zg_ghb" when="1313">
                   <forename>Frederic</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -526,14 +526,14 @@
             </person>
 
             <person xml:id="G01">
-               <persName>
+               <persName source="item_vg5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                </persName>
                <occupation source="item_vg5_2zg_ghb" when="1313">paumier du four gauquelin</occupation>
             </person>
 
             <person xml:id="GB01">
-               <persName>
+               <persName source="item_rd5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>biauveoir</surname>
@@ -542,7 +542,7 @@
             </person>
 
             <person xml:id="GB02">
-               <persName>
+               <persName source="item_lh5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -553,7 +553,7 @@
             </person>
 
             <person xml:id="GB03">
-               <persName>
+               <persName source="item_mh5_2zg_ghb" when="1313">
                   <forename>Geffroy</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -564,7 +564,7 @@
             </person>
 
             <person xml:id="GB04">
-               <persName>
+               <persName source="item_dj5_2zg_ghb" when="1313">
                   <forename>Giles</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -574,7 +574,7 @@
             </person>
 
             <person xml:id="GB05">
-               <persName>
+               <persName source="item_ej5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -584,7 +584,7 @@
             </person>
 
             <person xml:id="GB06">
-               <persName>
+               <persName source="item_lqc_qgn_3hb" when="1296">
                   <forename>Guiot</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -596,7 +596,7 @@
             </person>
 
             <person xml:id="GC01">
-               <persName>
+               <persName source="item_sc5_2zg_ghb" when="1313">
                   <forename>Geffroy</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -606,7 +606,7 @@
             </person>
 
             <person xml:id="GC02">
-               <persName>
+               <persName source="item_q25_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -618,7 +618,7 @@
             </person>
 
             <person xml:id="GC03">
-               <persName>
+               <persName source="item_ff5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de la</nameLink>
                   <surname>chapelle</surname>
@@ -627,7 +627,7 @@
             </person>
 
             <person xml:id="GC04">
-               <persName>
+               <persName source="item_vh5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -639,7 +639,7 @@
             </person>
 
             <person xml:id="GC05">
-               <persName>
+               <persName source="item_bk5_2zg_ghb" when="1313">
                   <forename>Guiot</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -651,7 +651,7 @@
             </person>
 
             <person xml:id="GC06">
-               <persName>
+               <persName source="item_qk5_2zg_ghb" when="1313">
                   <forename>Gillot</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -663,14 +663,14 @@
             </person>
 
             <person xml:id="GC07">
-               <persName>
+               <persName source="item_scj_d5h_3hb" when="1297">
                   <forename>Garnier</forename>
                   <nameLink>de</nameLink>
                   <surname>
                      <placeName ref="#geo_chaumont">chaumont</placeName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_rpc_qgn_3hb" when="1296">
                   <forename>Garnier</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -680,11 +680,11 @@
             </person>
 
             <person xml:id="GC08">
-               <persName>
+               <persName source="item_vcj_d5h_3hb" when="1297">
                   <forename>Guillaume</forename>
                   <surname>culpercie</surname>
                </persName>
-               <persName>
+               <persName source="item_upc_qgn_3hb" when="1296">
                   <forename>Guillaume</forename>
                   <surname>culpercie</surname>
                </persName>
@@ -692,7 +692,7 @@
             </person>
 
             <person xml:id="GC09">
-               <persName>
+               <persName source="item_iqc_qgn_3hb" when="1296">
                   <forename>Gervese</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -704,7 +704,7 @@
             </person>
 
             <person xml:id="GD01">
-               <persName>
+               <persName source="item_ed5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -715,7 +715,7 @@
             </person>
 
             <person xml:id="GF01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <surname>franquein</surname>
                </persName>
@@ -723,7 +723,7 @@
             </person>
 
             <person xml:id="GF02">
-               <persName>
+               <persName source="item_t25_2zg_ghb" when="1313">
                   <forename>Gautier</forename>
                   <nameLink>de la</nameLink>
                   <surname>fourriere</surname>
@@ -731,7 +731,7 @@
             </person>
 
             <person xml:id="GF03">
-               <persName>
+               <persName source="item_v25_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>feuquerel</surname>
@@ -739,7 +739,7 @@
             </person>
 
             <person xml:id="GF04">
-               <persName>
+               <persName source="item_qh5_2zg_ghb" when="1313">
                   <forename>Geffroy</forename>
                   <nameLink>de la</nameLink>
                   <surname>fruiterie</surname>
@@ -747,7 +747,7 @@
             </person>
 
             <person xml:id="GF05">
-               <persName>
+               <persName source="item_ck5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -759,7 +759,7 @@
             </person>
 
             <person xml:id="GG01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Gerart</forename>
                   <surname>Godefroy</surname>
                </persName>
@@ -767,7 +767,7 @@
             </person>
 
             <person xml:id="GH01">
-               <persName>
+               <persName source="item_m25_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -783,7 +783,7 @@
             </person>
 
             <person xml:id="GH02">
-               <persName>
+               <persName source="item_mj5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -793,7 +793,7 @@
             </person>
 
             <person xml:id="GL01">
-               <persName>
+               <persName source="item_mk5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -804,7 +804,7 @@
             </person>
 
             <person xml:id="GM01">
-               <persName>
+               <persName source="item_ld5_2zg_ghb" when="1313">
                   <forename>Godefroy</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -816,14 +816,14 @@
             </person>
 
             <person xml:id="GM02">
-               <persName>
+               <persName source="item_ocj_d5h_3hb" when="1297">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>mareschal</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_npc_qgn_3hb" when="1296">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -837,14 +837,14 @@
             </person>
 
             <person xml:id="GM03">
-               <persName>
+               <persName source="item_adj_d5h_3hb" when="1297">
                   <forename>Guerin</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>macon</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_bqc_qgn_3hb" when="1296">
                   <forename>Guerin</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -857,7 +857,7 @@
             </person>
 
             <person xml:id="GN01">
-               <persName>
+               <persName source="item_tk5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -868,7 +868,7 @@
             </person>
 
             <person xml:id="GP01">
-               <persName>
+               <persName source="item_kd5_2zg_ghb" when="1313">
                   <forename>Geffroy</forename>
                   <nameLink>de</nameLink>
                   <surname>pons</surname>
@@ -876,7 +876,7 @@
             </person>
 
             <person xml:id="GP02">
-               <persName>
+               <persName source="item_f25_2zg_ghb" when="1313">
                   <forename>Guerin</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -888,7 +888,7 @@
             </person>
 
             <person xml:id="GP03">
-               <persName>
+               <persName source="item_nh5_2zg_ghb" when="1313">
                   <forename>Girart</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -900,7 +900,7 @@
             </person>
 
             <person xml:id="GP04">
-               <persName>
+               <persName source="item_rg5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -912,7 +912,7 @@
             </person>
 
             <person xml:id="GP05">
-               <persName>
+               <persName source="item_v35_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <surname>phelippe</surname>
                </persName>
@@ -920,7 +920,7 @@
             </person>
 
             <person xml:id="GP06">
-               <persName>
+               <persName source="item_kqc_qgn_3hb" when="1296">
                   <forename>Girart</forename>
                   <nameLink>le</nameLink>
                   <surname>piquart</surname>
@@ -930,7 +930,7 @@
             </person>
 
             <person xml:id="GQ01">
-               <persName>
+               <persName source="item_ok5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -940,11 +940,11 @@
             </person>
 
             <person xml:id="GR01">
-               <persName>
+               <persName source="item_zcj_d5h_3hb" when="1297">
                   <forename>Guillaume</forename>
                   <surname>richart</surname>
                </persName>
-               <persName>
+               <persName source="item_opc_qgn_3hb" when="1296">
                   <forename>Guillaume</forename>
                   <surname>richart</surname>
                </persName>
@@ -953,7 +953,7 @@
             </person>
 
             <person xml:id="GSH01">
-               <persName>
+               <persName source="item_wc5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -963,7 +963,7 @@
             </person>
 
             <person xml:id="GT01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -974,7 +974,7 @@
             </person>
 
             <person xml:id="GT02">
-               <persName>
+               <persName source="item_zc5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <nameLink>du</nameLink>
                   <surname>
@@ -985,7 +985,7 @@
             </person>
 
             <person xml:id="GT03">
-               <persName>
+               <persName source="item_id5_2zg_ghb" when="1313">
                   <forename>Gervaise</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -997,35 +997,35 @@
             </person>
 
             <person xml:id="GT04">
-               <persName>
+               <persName source="item_vf5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <surname>tristan</surname>
                </persName>
             </person>
 
             <person xml:id="GT05">
-               <persName>
+               <persName source="item_fj5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <surname>toutain</surname>
                </persName>
             </person>
 
             <person xml:id="GT06">
-               <persName>
+               <persName source="item_jj5_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <surname>tassiau</surname>
                </persName>
             </person>
 
             <person xml:id="GT07">
-               <persName>
+               <persName source="item_g25_2zg_ghb" when="1313">
                   <forename>Guillaume</forename>
                   <surname>trumiau</surname>
                </persName>
             </person>
 
             <person xml:id="GV01">
-               <persName>
+               <persName source="item_p25_2zg_ghb" when="1313">
                   <forename>Guiglout</forename>
                   <nameLink>de</nameLink>
                   <surname>vicours</surname>
@@ -1033,13 +1033,13 @@
             </person>
 
             <person xml:id="H01">
-               <persName>
+               <persName source="item_d25_2zg_ghb" when="1313">
                   <forename>Hechebren</forename>
                </persName>
             </person>
 
             <person xml:id="HB01">
-               <persName>
+               <persName source="item_jd5_2zg_ghb" when="1313">
                   <forename>Hernon</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1050,7 +1050,7 @@
             </person>
 
             <person xml:id="HB02">
-               <persName>
+               <persName source="item_i25_2zg_ghb" when="1313">
                   <forename>Henri</forename>
                   <surname>becaire</surname>
                </persName>
@@ -1059,21 +1059,21 @@
             </person>
 
             <person xml:id="HB03">
-               <persName>
+               <persName source="item_lf5_2zg_ghb" when="1313">
                   <forename>Hervi</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <placeName ref="#geo_Bretaigne">breton</placeName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_lf5_2zg_ghb" when="1313">
                   <addName>bon repos</addName>
                </persName>
                <sex value="male"/>
             </person>
 
             <person xml:id="HB04">
-               <persName>
+               <persName source="item_kg5_2zg_ghb" when="1313">
                   <forename>Hervi</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1084,7 +1084,7 @@
             </person>
 
             <person xml:id="HC01">
-               <persName>
+               <persName source="item_xc5_2zg_ghb" when="1313">
                   <forename>Heloys</forename>
                   <nameLink>la</nameLink>
                   <surname>courande</surname>
@@ -1093,7 +1093,7 @@
             </person>
 
             <person xml:id="HC02">
-               <persName>
+               <persName source="item_y25_2zg_ghb" when="1313">
                   <forename>Huitace</forename>
                   <nameLink>de</nameLink>
                   <surname>chevreuse</surname>
@@ -1107,7 +1107,7 @@
             </person>
 
             <person xml:id="HE01">
-               <persName>
+               <persName source="item_vk5_2zg_ghb" when="1313">
                   <forename>Hervi</forename>
                   <nameLink>l</nameLink>
                   <surname>escroier</surname>
@@ -1115,7 +1115,7 @@
             </person>
 
             <person xml:id="HF01">
-               <persName>
+               <persName source="item_bd5_2zg_ghb" when="1313">
                   <forename>Huitace</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1127,7 +1127,7 @@
             </person>
 
             <person xml:id="HM01">
-               <persName>
+               <persName source="item_mg5_2zg_ghb" when="1313">
                   <forename>Hue</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1139,7 +1139,7 @@
             </person>
 
             <person xml:id="HP01">
-               <persName>
+               <persName source="item_wcj_d5h_3hb" when="1297">
                   <forename>Hebert</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1151,7 +1151,7 @@
             </person>
 
             <person xml:id="HV01">
-               <persName>
+               <persName source="item_u25_2zg_ghb" when="1313">
                   <forename>Houdet</forename>
                   <nameLink>de</nameLink>
                   <surname>viceours</surname>
@@ -1159,20 +1159,20 @@
             </person>
 
             <person xml:id="J01">
-               <persName>
+               <persName source="item_ah5_2zg_ghb" when="1313">
                   <forename>Jehanne</forename>
                </persName>
                <occupation source="item_ah5_2zg_ghb" when="1313">fileresse de soie</occupation>
             </person>
 
             <person xml:id="J02">
-               <persName>
+               <persName source="item_hqc_qgn_3hb" when="1296">
                   <forename>Jehanot</forename>
                </persName>
             </person>
 
             <person xml:id="JA01">
-               <persName>
+               <persName source="item_n35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>L</nameLink>
                   <surname>
@@ -1183,7 +1183,7 @@
             </person>
 
             <person xml:id="JA02">
-               <persName>
+               <persName source="item_hqc_qgn_3hb" when="1296">
                   <roleName>Dame</roleName>
                   <forename>Jehanne</forename>
                   <surname>arrode</surname>
@@ -1192,28 +1192,28 @@
             </person>
 
             <person xml:id="JB01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>barbete</surname>
                </persName>
             </person>
 
             <person xml:id="JB02">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Jacques</forename>
                   <surname>bourdon</surname>
                </persName>
             </person>
 
             <person xml:id="JB03">
-               <persName>
+               <persName source="item_qc5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>brecart</surname>
                </persName>
             </person>
 
             <person xml:id="JB04">
-               <persName>
+               <persName source="item_a25_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1223,7 +1223,7 @@
             </person>
 
             <person xml:id="JB05">
-               <persName>
+               <persName source="item_s25_2zg_ghb" when="1313">
                   <forename>Jourdain</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1235,7 +1235,7 @@
             </person>
 
             <person xml:id="JB06">
-               <persName>
+               <persName source="item_kh5_2zg_ghb" when="1313">
                   <roleName>Mestre</roleName>
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
@@ -1248,7 +1248,7 @@
             </person>
 
             <person xml:id="JB07">
-               <persName>
+               <persName source="item_yf5_2zg_ghb" when="1313">
                   <roleName>Dame</roleName>
                   <forename>Jehanne</forename>
                   <nameLink>la</nameLink>
@@ -1261,7 +1261,7 @@
             </person>
 
             <person xml:id="JB08">
-               <persName>
+               <persName source="item_a35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1271,7 +1271,7 @@
             </person>
 
             <person xml:id="JC01">
-               <persName>
+               <persName source="item_pc5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1283,7 +1283,7 @@
             </person>
 
             <person xml:id="JC02">
-               <persName>
+               <persName source="item_tc5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1293,7 +1293,7 @@
             </person>
 
             <person xml:id="JC03">
-               <persName>
+               <persName source="item_d35_2zg_ghb" when="1313">
                   <forename>Jaqueline</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1305,7 +1305,7 @@
             </person>
 
             <person xml:id="JC04">
-               <persName>
+               <persName source="item_r35_2zg_ghb" when="1313">
                   <forename>Jaquemart</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1317,7 +1317,7 @@
             </person>
 
             <person xml:id="JC05">
-               <persName>
+               <persName source="item_nj5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>cainel</surname>
                </persName>
@@ -1325,7 +1325,7 @@
             </person>
 
             <person xml:id="JC06">
-               <persName>
+               <persName source="item_al5_2zg_ghb" when="1313">
                   <forename>Jehanne</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1337,14 +1337,14 @@
             </person>
 
             <person xml:id="JC07">
-               <persName>
+               <persName source="item_idj_d5h_3hb" when="1297">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>cordier</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_jqc_qgn_3hb" when="1296">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1357,7 +1357,7 @@
             </person>
 
             <person xml:id="JC08">
-               <persName>
+               <persName source="item_aqc_qgn_3hb" when="1296">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1367,7 +1367,7 @@
             </person>
 
             <person xml:id="JCC01">
-               <persName>
+               <persName source="item_dqc_qgn_3hb" when="1296">
                   <forename>Jehanne</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1383,7 +1383,7 @@
             </person>
 
             <person xml:id="JD01">
-               <persName>
+               <persName source="item_zh5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>desismes</surname>
                   <nameLink>du</nameLink>
@@ -1392,14 +1392,14 @@
             </person>
 
             <person xml:id="JD02">
-               <persName>
+               <persName source="item_t35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>douin</surname>
                </persName>
             </person>
 
             <person xml:id="JD03">
-               <persName>
+               <persName source="item_gk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1411,7 +1411,7 @@
             </person>
 
             <person xml:id="JE01">
-               <persName>
+               <persName source="item_sd5_2zg_ghb" when="1313">
                   <forename>jehan</forename>
                   <nameLink>l</nameLink>
                   <surname>escuillier</surname>
@@ -1419,7 +1419,7 @@
             </person>
 
             <person xml:id="JF01">
-               <persName>
+               <persName source="item_pk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1429,7 +1429,7 @@
             </person>
 
             <person xml:id="JF02">
-               <persName>
+               <persName source="item_rk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1439,14 +1439,14 @@
             </person>
 
             <person xml:id="JG01">
-               <persName>
+               <persName source="item_n25_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>groignet</surname>
                </persName>
             </person>
 
             <person xml:id="JG02">
-               <persName>
+               <persName source="item_p35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1456,7 +1456,7 @@
             </person>
 
             <person xml:id="JG03">
-               <persName>
+               <persName source="item_q35_2zg_ghb" when="1313">
                   <forename>Jaques</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1467,7 +1467,7 @@
             </person>
 
             <person xml:id="JG04">
-               <persName>
+               <persName source="item_wj5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1479,7 +1479,7 @@
             </person>
 
             <person xml:id="JG05">
-               <persName>
+               <persName source="item_sk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1489,7 +1489,7 @@
             </person>
 
             <person xml:id="JG06">
-               <persName>
+               <persName source="item_mpc_qgn_3hb" when="1296">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>gonnesse</surname>
@@ -1498,7 +1498,7 @@
             </person>
 
             <person xml:id="JH01">
-               <persName>
+               <persName source="item_wd5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>du</nameLink>
                   <surname>hamel</surname>
@@ -1506,7 +1506,7 @@
             </person>
 
             <person xml:id="JH02">
-               <persName>
+               <persName source="item_if5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>hache</surname>
                </persName>
@@ -1514,14 +1514,14 @@
             </person>
 
             <person xml:id="JH03">
-               <persName>
+               <persName source="item_rj5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>hardi</surname>
                </persName>
             </person>
 
             <person xml:id="JL01">
-               <persName>
+               <persName source="item_vd5_2zg_ghb" when="1313">
                   <forename>Jehanne</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1533,7 +1533,7 @@
             </person>
 
             <person xml:id="JL02">
-               <persName>
+               <persName source="item_ph5_2zg_ghb" when="1313">
                   <forename>Jehanne</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1545,7 +1545,7 @@
             </person>
 
             <person xml:id="JL03">
-               <persName>
+               <persName source="item_tf5_2zg_ghb" when="1313">
                   <forename>Jaques</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1556,7 +1556,7 @@
             </person>
 
             <person xml:id="JL04">
-               <persName>
+               <persName source="item_wh5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1566,7 +1566,7 @@
             </person>
 
             <person xml:id="JL05">
-               <persName>
+               <persName source="item_ak5_2zg_ghb" when="1313">
                   <forename>Jaques</forename>
                   <nameLink>de la</nameLink>
                   <surname>lanterne</surname>
@@ -1574,11 +1574,11 @@
             </person>
 
             <person xml:id="JL06">
-               <persName>
+               <persName source="item_ycj_d5h_3hb" when="1297">
                   <forename>Jehan</forename>
                   <surname>lirais</surname>
                </persName>
-               <persName>
+               <persName source="item_xpc_qgn_3hb" when="1296">
                   <forename>Jehan</forename>
                   <surname>lirais</surname>
                </persName>
@@ -1587,7 +1587,7 @@
             </person>
 
             <person xml:id="JM01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1598,7 +1598,7 @@
             </person>
 
             <person xml:id="JM02">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>maillart</surname>
                </persName>
@@ -1606,7 +1606,7 @@
             </person>
 
             <person xml:id="JM03">
-               <persName>
+               <persName source="item_ag5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>du</nameLink>
                   <surname>
@@ -1617,14 +1617,14 @@
             </person>
 
             <person xml:id="JM04">
-               <persName>
+               <persName source="item_s35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>mordret</surname>
                </persName>
             </person>
 
             <person xml:id="JM05">
-               <persName>
+               <persName source="item_x35_2zg_ghb" when="1313">
                   <forename>Jehanne</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1636,7 +1636,7 @@
             </person>
 
             <person xml:id="JM06">
-               <persName>
+               <persName source="item_yj5_2zg_ghb" when="1313">
                   <forename>Jaques</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1647,7 +1647,7 @@
             </person>
 
             <person xml:id="JM07">
-               <persName>
+               <persName source="item_dk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>moriau</surname>
                </persName>
@@ -1655,14 +1655,14 @@
             </person>
 
             <person xml:id="JM08">
-               <persName>
+               <persName source="item_gdj_d5h_3hb" when="1297">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>mesagier</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_gqc_qgn_3hb" when="1296">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1675,7 +1675,7 @@
             </person>
 
             <person xml:id="JN01">
-               <persName>
+               <persName source="item_ik5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1685,7 +1685,7 @@
             </person>
 
             <person xml:id="JP01">
-               <persName>
+               <persName source="item_e25_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1697,7 +1697,7 @@
             </person>
 
             <person xml:id="JP02">
-               <persName>
+               <persName source="item_rf5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1709,7 +1709,7 @@
             </person>
 
             <person xml:id="JP03">
-               <persName>
+               <persName source="item_dg5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1720,7 +1720,7 @@
             </person>
 
             <person xml:id="JP04">
-               <persName>
+               <persName source="item_yg5_2zg_ghb" when="1313">
                   <forename>Jaquet</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1731,7 +1731,7 @@
             </person>
 
             <person xml:id="JP05">
-               <persName>
+               <persName source="item_i35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1741,7 +1741,7 @@
             </person>
 
             <person xml:id="JQ01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1753,7 +1753,7 @@
             </person>
 
             <person xml:id="JR01">
-               <persName>
+               <persName source="item_th5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -1764,7 +1764,7 @@
             </person>
 
             <person xml:id="JR02">
-               <persName>
+               <persName source="item_nk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1774,14 +1774,14 @@
             </person>
 
             <person xml:id="JS01">
-               <persName>
+               <persName source="item_uk5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>selles</surname>
                </persName>
             </person>
 
             <person xml:id="JT01">
-               <persName>
+               <persName source="item_hg5_2zg_ghb" when="1313">
                   <roleName>Dame</roleName>
                   <forename>Jehanne</forename>
                   <nameLink>de</nameLink>
@@ -1793,7 +1793,7 @@
             </person>
 
             <person xml:id="JT02">
-               <persName>
+               <persName source="item_ug5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1805,7 +1805,7 @@
             </person>
 
             <person xml:id="JT03">
-               <persName>
+               <persName source="item_eh5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <surname>taupin</surname>
                </persName>
@@ -1813,7 +1813,7 @@
             </person>
 
             <person xml:id="JT04">
-               <persName>
+               <persName source="item_m35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>du</nameLink>
                   <surname>
@@ -1823,7 +1823,7 @@
             </person>
 
             <person xml:id="JV01">
-               <persName>
+               <persName source="item_pf5_2zg_ghb" when="1313">
                   <forename>Juliane</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1835,7 +1835,7 @@
             </person>
 
             <person xml:id="JV02">
-               <persName>
+               <persName source="item_j35_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1845,14 +1845,14 @@
             </person>
 
             <person xml:id="JVN01">
-               <persName>
+               <persName source="item_pd5_2zg_ghb" when="1313">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
                      <placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_kdj_d5h_3hb" when="1297">
                   <forename>Jehan</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1871,7 +1871,7 @@
                         <placeName>France</placeName>
                     </persName>
                <persName type="short" key="Louis X"/>
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <roleName>Le Roy de <placeName ref="#geo_Navarre">Navarre</placeName>
                   </roleName>
                </persName>
@@ -1891,14 +1891,14 @@
             </person>
 
             <person xml:id="LB01">
-               <persName>
+               <persName source="item_dd5_2zg_ghb" when="1313">
                   <forename>Lucas</forename>
                   <surname>bourge</surname>
                </persName>
             </person>
 
             <person xml:id="LB02">
-               <persName>
+               <persName source="item_tg5_2zg_ghb" when="1313">
                   <forename>Ligart</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1909,7 +1909,7 @@
             </person>
 
             <person xml:id="LB03">
-               <persName>
+               <persName source="item_edj_d5h_3hb" when="1297">
                   <forename>Lambequin</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1919,7 +1919,7 @@
             </person>
 
             <person xml:id="LG01">
-               <persName>
+               <persName source="item_c25_2zg_ghb" when="1313">
                   <forename>Lorenz</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1929,7 +1929,7 @@
             </person>
 
             <person xml:id="LS01">
-               <persName>
+               <persName source="item_gg5_2zg_ghb" when="1313">
                   <forename>Lucas</forename>
                   <surname>saussete</surname>
                </persName>
@@ -1937,7 +1937,7 @@
             </person>
 
             <person xml:id="MB01">
-               <persName>
+               <persName source="item_w35_2zg_ghb" when="1313">
                   <forename>Martin</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -1947,7 +1947,7 @@
             </person>
 
             <person xml:id="MB02">
-               <persName>
+               <persName source="item_pj5_2zg_ghb" when="1313">
                   <forename>Marguerite</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1964,7 +1964,7 @@
                         <nameLink>de</nameLink>
                         <placeName>Bourgogne</placeName>
                     </persName>
-               <persName>
+               <persName source="item_i25_2zg_ghb" when="1313">
                   <roleName>la rayne de <placeName ref="#geo_Navarre">navarre</placeName>
                   </roleName>
                </persName>
@@ -1984,7 +1984,7 @@
             </person>
 
             <person xml:id="MC01">
-               <persName>
+               <persName source="item_bl5_2zg_ghb" when="1313">
                   <forename>Maheut</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -1996,14 +1996,14 @@
             </person>
 
             <person xml:id="MCP01">
-               <persName>
+               <persName source="item_zk5_2zg_ghb" when="1313">
                   <forename>Macy</forename>
                   <surname>chace pie</surname>
                </persName>
             </person>
 
             <person xml:id="MD01">
-               <persName>
+               <persName source="item_fk5_2zg_ghb" when="1313">
                   <forename>Marie</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2014,7 +2014,7 @@
             </person>
 
             <person xml:id="ML01">
-               <persName>
+               <persName source="item_hj5_2zg_ghb" when="1313">
                   <forename>Marie</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2024,7 +2024,7 @@
             </person>
 
             <person xml:id="MP01">
-               <persName>
+               <persName source="item_wf5_2zg_ghb" when="1313">
                   <forename>Michiel</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2036,7 +2036,7 @@
             </person>
 
             <person xml:id="MP02">
-               <persName>
+               <persName source="item_eg5_2zg_ghb" when="1313">
                   <forename>Milet</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2048,7 +2048,7 @@
             </person>
 
             <person xml:id="MP03">
-               <persName>
+               <persName source="item_wk5_2zg_ghb" when="1313">
                   <forename>Maci</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2080,7 +2080,7 @@
             </person>
 
             <person xml:id="MSD01">
-               <persName>
+               <persName source="item_qj5_2zg_ghb" when="1313">
                   <forename>Marie</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2091,7 +2091,7 @@
             </person>
 
             <person xml:id="MT01">
-               <persName>
+               <persName source="item_wg5_2zg_ghb" when="1313">
                   <forename>Maci</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2103,7 +2103,7 @@
             </person>
 
             <person xml:id="N01">
-               <persName>
+               <persName source="item_dqc_qgn_3hb" when="1296">
                   <forename>Nichole</forename>
                </persName>
                <persName>sa fille</persName>
@@ -2111,14 +2111,14 @@
             </person>
 
             <person xml:id="NA01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Nicolas</forename>
                   <surname>Arrode</surname>
                </persName>
             </person>
 
             <person xml:id="NA02">
-               <persName>
+               <persName source="item_of5_2zg_ghb" when="1313">
                   <forename>Nicolas</forename>
                   <nameLink>d</nameLink>
                   <surname>avion</surname>
@@ -2126,7 +2126,7 @@
             </person>
 
             <person xml:id="NC01">
-               <persName>
+               <persName source="item_oj5_2zg_ghb" when="1313">
                   <forename>Nicolas</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2136,7 +2136,7 @@
             </person>
 
             <person xml:id="NH01">
-               <persName>
+               <persName source="item_bg5_2zg_ghb" when="1313">
                   <forename>Nicolas</forename>
                   <nameLink>de la</nameLink>
                   <surname>haie</surname>
@@ -2145,14 +2145,14 @@
             </person>
 
             <person xml:id="NH02">
-               <persName>
+               <persName source="item_uj5_2zg_ghb" when="1313">
                   <forename>Nicolas</forename>
                   <surname>helyes</surname>
                </persName>
             </person>
 
             <person xml:id="NL01">
-               <persName>
+               <persName source="item_wpc_qgn_3hb" when="1296">
                   <forename>Nicholas</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2162,7 +2162,7 @@
             </person>
 
             <person xml:id="NP01">
-               <persName>
+               <persName source="item_jk5_2zg_ghb" when="1313">
                   <forename>Noel</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2174,7 +2174,7 @@
             </person>
 
             <person xml:id="NP02">
-               <persName>
+               <persName source="item_kk5_2zg_ghb" when="1313">
                   <forename>Nicolas</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2186,7 +2186,7 @@
             </person>
 
             <person xml:id="NP03">
-               <persName>
+               <persName source="head_jpc_qgn_3hb" when="1296">
                   <forename>Nicholas</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2196,7 +2196,7 @@
             </person>
 
             <person xml:id="OB01">
-               <persName>
+               <persName source="item_xg5_2zg_ghb" when="1313">
                   <forename>Oudart</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2208,7 +2208,7 @@
             </person>
 
             <person xml:id="OR01">
-               <persName>
+               <persName source="item_vj5_2zg_ghb" when="1313">
                   <forename>Oudin</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2218,7 +2218,7 @@
             </person>
 
             <person xml:id="OS01">
-               <persName>
+               <persName source="item_h35_2zg_ghb" when="1313">
                   <forename>Oudin</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2258,14 +2258,14 @@
             </person>
 
             <person xml:id="PB01">
-               <persName>
+               <persName source="item_ad5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <surname>blancernoul</surname>
                </persName>
             </person>
 
             <person xml:id="PB02">
-               <persName>
+               <persName source="item_td5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2275,7 +2275,7 @@
             </person>
 
             <person xml:id="PB03">
-               <persName>
+               <persName source="item_j25_2zg_ghb" when="1313">
                   <forename>Phelippe</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2287,7 +2287,7 @@
             </person>
 
             <person xml:id="PB04">
-               <persName>
+               <persName source="item_ig5_2zg_ghb" when="1313">
                   <forename>Perronelle</forename>
                   <nameLink>la</nameLink>
                   <surname type="unknown">bidaude</surname>
@@ -2296,7 +2296,7 @@
             </person>
 
             <person xml:id="PC01">
-               <persName>
+               <persName source="item_cd5_2zg_ghb" when="1313">
                   <forename>Perronelle</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -2308,7 +2308,7 @@
             </person>
 
             <person xml:id="PC02">
-               <persName>
+               <persName source="item_df5_2zg_ghb" when="1313">
                   <forename>Perrete</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -2320,7 +2320,7 @@
             </person>
 
             <person xml:id="PC03">
-               <persName>
+               <persName source="item_gj5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <surname>chaitain</surname>
                </persName>
@@ -2328,7 +2328,7 @@
             </person>
 
             <person xml:id="PC04">
-               <persName>
+               <persName source="item_ddj_d5h_3hb" when="1297">
                   <forename>Pierre</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2340,7 +2340,7 @@
             </person>
 
             <person xml:id="PD01">
-               <persName>
+               <persName source="item_ij5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2351,7 +2351,7 @@
             </person>
 
             <person xml:id="PE01">
-               <persName>
+               <persName source="item_b35_2zg_ghb" when="1313">
                   <roleName>Mestre</roleName>
                   <forename>pierre</forename>
                   <nameLink>de l</nameLink>
@@ -2361,7 +2361,7 @@
             </person>
 
             <person xml:id="PF01">
-               <persName>
+               <persName source="item_jg5_2zg_ghb" when="1313">
                   <forename>Phelippe</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2373,7 +2373,7 @@
             </person>
 
             <person xml:id="PH01">
-               <persName>
+               <persName source="item_z25_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -2385,7 +2385,7 @@
             </person>
 
             <person xml:id="PM01">
-               <persName>
+               <persName source="item_fg5_2zg_ghb" when="1313">
                   <roleName>Mestre</roleName>
                   <forename>Phelippe</forename>
                   <nameLink>le</nameLink>
@@ -2398,7 +2398,7 @@
             </person>
 
             <person xml:id="PN01">
-               <persName>
+               <persName source="item_hdj_d5h_3hb" when="1297">
                   <roleName>Mestre</roleName>
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
@@ -2410,7 +2410,7 @@
             </person>
 
             <person xml:id="PP01">
-               <persName>
+               <persName source="item_nc5_2zg_ghb" when="1313">
                   <forename>Perronelle</forename>
                   <surname>poree</surname>
                </persName>
@@ -2418,7 +2418,7 @@
             </person>
 
             <person xml:id="PP02">
-               <persName>
+               <persName source="item_nf5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2429,7 +2429,7 @@
             </person>
 
             <person xml:id="PP03">
-               <persName>
+               <persName source="item_qf5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2440,7 +2440,7 @@
             </person>
 
             <person xml:id="PP04">
-               <persName>
+               <persName source="item_z35_2zg_ghb" when="1313">
                   <forename>Pierres</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2452,7 +2452,7 @@
             </person>
 
             <person xml:id="PP05">
-               <persName>
+               <persName source="item_aj5_2zg_ghb" when="1313">
                   <forename>Phelippe</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2464,7 +2464,7 @@
             </person>
 
             <person xml:id="PP06">
-               <persName>
+               <persName source="item_ypc_qgn_3hb" when="1296">
                   <forename>Perrenele</forename>
                   <nameLink>la</nameLink>
                   <surname>popine</surname>
@@ -2473,21 +2473,21 @@
             </person>
 
             <person xml:id="PR01">
-               <persName>
+               <persName source="item_yc5_2zg_ghb" when="1313">
                   <forename>Phelippe</forename>
                   <nameLink>de</nameLink>
                   <surname>
                      <placeName ref="#geo_Reims">Reins</placeName>
                   </surname>
                </persName>
-               <persName cert="medium">
+               <persName source="item_bdj_d5h_3hb" when="1297" cert="medium">
                   <forename>Phellippe</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>chandelier</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_cqc_qgn_3hb" when="1296">
                   <forename>Phelippe</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2501,7 +2501,7 @@
             </person>
 
             <person xml:id="PR02">
-               <persName>
+               <persName source="item_xk5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2511,7 +2511,7 @@
             </person>
 
             <person xml:id="PT01">
-               <persName>
+               <persName source="item_od5_2zg_ghb" when="1313">
                   <forename>pierre</forename>
                   <nameLink>du</nameLink>
                   <surname>tref</surname>
@@ -2519,7 +2519,7 @@
             </person>
 
             <person xml:id="PV01">
-               <persName>
+               <persName source="item_k35_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2529,24 +2529,24 @@
             </person>
 
             <person xml:id="PVN01">
-               <persName>
+               <persName source="item_uc5_2zg_ghb" when="1313">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
                      <placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_vc5_2zg_ghb" when="1313">
                   <forename>pierre</forename>
                </persName>
-               <persName>
+               <persName source="item_xcj_d5h_3hb" when="1297">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
                      <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_vpc_qgn_3hb" when="1296">
                   <forename>Pierre</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2557,21 +2557,21 @@
             </person>
 
             <person xml:id="R01">
-               <persName>
+               <persName source="item_hk5_2zg_ghb" when="1313">
                   <forename>Raolet</forename>
                </persName>
                <occupation source="item_hk5_2zg_ghb" when="1313">corretier des chevaux</occupation>
             </person>
 
             <person xml:id="R02">
-               <persName>
+               <persName source="item_yk5_2zg_ghb" when="1313">
                   <forename>Raol</forename>
                </persName>
                <occupation source="item_yk5_2zg_ghb" when="1313">porteur d'eux</occupation>
             </person>
 
             <person xml:id="R03">
-               <persName>
+               <persName source="item_jdj_d5h_3hb" when="1297">
                   <forename>Richart</forename>
                </persName>
                <occupation source="item_jdj_d5h_3hb" when="1297">vallet to <persName ref="#TB03">Tierri
@@ -2586,7 +2586,7 @@
                         <nameLink>de</nameLink>
                         <placeName>Dreux</placeName>
                     </persName>
-               <persName>
+               <persName source="item_l25_2zg_ghb" when="1313">
                   <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
                   </roleName>
                </persName>
@@ -2607,7 +2607,7 @@
             </person>
 
             <person xml:id="RA01">
-               <persName>
+               <persName source="item_qg5_2zg_ghb" when="1313">
                   <forename>Renaut</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -2617,14 +2617,14 @@
             </person>
 
             <person xml:id="RB01">
-               <persName>
+               <persName source="item_ih5_2zg_ghb" when="1313">
                   <forename>Renaut</forename>
                   <surname>boscheron</surname>
                </persName>
             </person>
 
             <person xml:id="RB02">
-               <persName>
+               <persName source="item_ch5_2zg_ghb" when="1313">
                   <forename>Raol</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2636,14 +2636,14 @@
             </person>
 
             <person xml:id="RC01">
-               <persName>
+               <persName source="item_rh5_2zg_ghb" when="1313">
                   <forename>Raol</forename>
                   <surname>curout</surname>
                </persName>
             </person>
 
             <person xml:id="RC02">
-               <persName>
+               <persName source="item_pg5_2zg_ghb" when="1313">
                   <forename>Richart</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2654,7 +2654,7 @@
             </person>
 
             <person xml:id="RC03">
-               <persName>
+               <persName source="head_jpc_qgn_3hb" when="1296">
                   <forename>Rogier</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2666,7 +2666,7 @@
             </person>
 
             <person xml:id="RC04">
-               <persName>
+               <persName source="item_eqc_qgn_3hb" when="1296">
                   <forename>Richart</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2678,7 +2678,7 @@
             </person>
 
             <person xml:id="RE01">
-               <persName>
+               <persName source="item_x25_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -2689,21 +2689,21 @@
             </person>
 
             <person xml:id="RF01">
-               <persName>
+               <persName source="item_mc5_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>de</nameLink>
                   <surname>
                      <placeName ref="#geo_Fresviau">fresviau</placeName>
                   </surname>
                </persName>
-               <persName cert="medium">
+               <persName source="item_qcj_d5h_3hb" when="1297" cert="medium">
                   <forename>Robert</forename>
                   <nameLink>le</nameLink>
                   <surname>
                      <roleName>regratier</roleName>
                   </surname>
                </persName>
-               <persName>
+               <persName source="item_ppc_qgn_3hb" when="1296">
                   <forename>Robert</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2717,14 +2717,14 @@
             </person>
 
             <person xml:id="RG01">
-               <persName>
+               <persName source="item_sh5_2zg_ghb" when="1313">
                   <forename>Richart</forename>
                   <surname>godet</surname>
                </persName>
             </person>
 
             <person xml:id="RG02">
-               <persName>
+               <persName source="item_fh5_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>de</nameLink>
                   <surname>gaigni</surname>
@@ -2732,7 +2732,7 @@
             </person>
 
             <person xml:id="RL01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2743,7 +2743,7 @@
             </person>
 
             <person xml:id="RM01">
-               <persName>
+               <persName source="item_hf5_2zg_ghb" when="1313">
                   <forename>Revost</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2755,7 +2755,7 @@
             </person>
 
             <person xml:id="RN01">
-               <persName>
+               <persName source="item_uh5_2zg_ghb" when="1313">
                   <forename>Raol</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2767,7 +2767,7 @@
             </person>
 
             <person xml:id="RN02">
-               <persName>
+               <persName source="item_zf5_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2778,7 +2778,7 @@
             </person>
 
             <person xml:id="RN03">
-               <persName>
+               <persName source="item_kj5_2zg_ghb" when="1313">
                   <forename>Richart</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2790,12 +2790,12 @@
             </person>
 
             <person xml:id="RN04">
-               <persName>
+               <persName source="item_cdj_d5h_3hb" when="1297">
                   <forename>Remi</forename>
                   <nameLink>des</nameLink>
                   <surname>napes</surname>
                </persName>
-               <persName>
+               <persName source="item_zpc_qgn_3hb" when="1296">
                   <forename>Remi</forename>
                   <nameLink>des</nameLink>
                   <surname>napes</surname>
@@ -2803,7 +2803,7 @@
             </person>
 
             <person xml:id="RO01">
-               <persName>
+               <persName source="item_lg5_2zg_ghb" when="1313">
                   <forename>Richart</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -2814,19 +2814,19 @@
             </person>
 
             <person xml:id="RP01">
-               <persName>
+               <persName source="item_rc5_2zg_ghb" when="1313">
                   <forename>Rogier</forename>
                   <surname>piquet</surname>
                </persName>
-               <persName>
+               <persName source="item_tcj_d5h_3hb" when="1297">
                   <forename>Rogier</forename>
                   <surname>piquet</surname>
                </persName>
-               <persName>
+               <persName source="head_jpc_qgn_3hb" when="1296">
                   <forename>Rogier</forename>
                   <surname>Piquet</surname>
                </persName>
-               <persName>
+               <persName source="item_spc_qgn_3hb" when="1296">
                   <forename>Rogier</forename>
                   <surname>piquet</surname>
                </persName>
@@ -2834,7 +2834,7 @@
             </person>
 
             <person xml:id="RP02">
-               <persName>
+               <persName source="item_gd5_2zg_ghb" when="1313">
                   <forename>Rogier</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2846,7 +2846,7 @@
             </person>
 
             <person xml:id="RP03">
-               <persName>
+               <persName source="item_sd5_2zg_ghb" when="1313">
                   <forename>Raol</forename>
                   <surname>poree</surname>
                </persName>
@@ -2856,7 +2856,7 @@
             </person>
 
             <person xml:id="RP04">
-               <persName>
+               <persName source="item_sj5_2zg_ghb" when="1313">
                   <forename>Richart</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -2868,17 +2868,17 @@
             </person>
 
             <person xml:id="RP05">
-               <persName>
+               <persName source="item_ncj_d5h_3hb" when="1297">
                   <forename>Robert</forename>
                   <nameLink>de la</nameLink>
                   <surname>porte</surname>
                </persName>
-               <persName>
+               <persName source="head_jpc_qgn_3hb" when="1296">
                   <forename>Robert</forename>
                   <nameLink>de la</nameLink>
                   <surname>Porte</surname>
                </persName>
-               <persName>
+               <persName source="item_lpc_qgn_3hb" when="1296">
                   <forename>Robert</forename>
                   <nameLink>de la</nameLink>
                   <surname>porte</surname>
@@ -2887,7 +2887,7 @@
             </person>
 
             <person xml:id="RPR01">
-               <persName>
+               <persName source="item_nd5_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>du</nameLink>
                   <surname>
@@ -2897,14 +2897,14 @@
             </person>
 
             <person xml:id="RR01">
-               <persName>
+               <persName source="item_o25_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <surname>roussiau</surname>
                </persName>
             </person>
 
             <person xml:id="RR02">
-               <persName>
+               <persName source="item_pcj_d5h_3hb" when="1297">
                   <forename>Robert</forename>
                   <nameLink>de</nameLink>
                   <surname>rueill</surname>
@@ -2912,7 +2912,7 @@
             </person>
 
             <person xml:id="RU01">
-               <persName>
+               <persName source="item_hd5_2zg_ghb" when="1313">
                   <forename>Robert</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -2923,7 +2923,7 @@
             </person>
 
             <person xml:id="SB01">
-               <persName>
+               <persName source="item_kf5_2zg_ghb" when="1313">
                   <roleName>Mestre</roleName>
                   <forename>Symon</forename>
                   <nameLink>du</nameLink>
@@ -2933,14 +2933,14 @@
             </person>
 
             <person xml:id="SB02">
-               <persName>
+               <persName source="item_oh5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <surname>bataille</surname>
                </persName>
             </person>
 
             <person xml:id="SC01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Symon</forename>
                   <nameLink>de</nameLink>
                   <surname>chatou</surname>
@@ -2949,7 +2949,7 @@
             </person>
 
             <person xml:id="SC02">
-               <persName>
+               <persName source="item_ng5_2zg_ghb" when="1313">
                   <forename>Symonet</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -2959,7 +2959,7 @@
             </person>
 
             <person xml:id="SE01">
-               <persName>
+               <persName source="item_xh5_2zg_ghb" when="1313">
                   <forename>Salomon</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -2970,11 +2970,11 @@
             </person>
 
             <person xml:id="SG01">
-               <persName>
+               <persName source="item_gh5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <surname>Gencien</surname>
                </persName>
-               <persName>
+               <persName source="item_hh5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <surname>Gencien</surname>
                </persName>
@@ -2982,7 +2982,7 @@
             </person>
 
             <person xml:id="SG02">
-               <persName>
+               <persName source="item_bj5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <surname>Guerin</surname>
                </persName>
@@ -2990,7 +2990,7 @@
             </person>
 
             <person xml:id="SN01">
-               <persName>
+               <persName source="item_jh5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -3001,7 +3001,7 @@
             </person>
 
             <person xml:id="SN02">
-               <persName>
+               <persName source="item_cl5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -3012,7 +3012,7 @@
             </person>
 
             <person xml:id="SP01">
-               <persName>
+               <persName source="item_y35_2zg_ghb" when="1313">
                   <forename>Sanson</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -3024,7 +3024,7 @@
             </person>
 
             <person xml:id="SS01">
-               <persName>
+               <persName source="item_fd5_2zg_ghb" when="1313">
                   <forename>Symon</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -3036,7 +3036,7 @@
             </person>
 
             <person xml:id="SSB01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Symon</forename>
                   <nameLink>de</nameLink>
                   <surname>saint benoit</surname>
@@ -3045,7 +3045,7 @@
             </person>
 
             <person xml:id="SSG01">
-               <persName>
+               <persName source="item_c35_2zg_ghb" when="1313">
                   <forename>Sanson</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -3055,7 +3055,7 @@
             </person>
 
             <person xml:id="ST01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Symon</forename>
                   <surname>tybert</surname>
                </persName>
@@ -3063,7 +3063,7 @@
             </person>
 
             <person xml:id="TA01">
-               <persName>
+               <persName source="item_rcj_d5h_3hb" when="1297">
                   <forename>Tibaut</forename>
                   <nameLink>d</nameLink>
                   <surname>
@@ -3073,7 +3073,7 @@
             </person>
 
             <person xml:id="TB01">
-               <persName>
+               <persName source="item_k25_2zg_ghb" when="1313">
                   <forename>Thomas</forename>
                   <nameLink>le</nameLink>
                   <surname>borgne</surname>
@@ -3082,7 +3082,7 @@
             </person>
 
             <person xml:id="TB02">
-               <persName>
+               <persName source="item_u35_2zg_ghb" when="1313">
                   <forename>Thomas</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -3092,14 +3092,14 @@
             </person>
 
             <person xml:id="TB03">
-               <persName>
+               <persName source="item_jdj_d5h_3hb" when="1297">
                   <forename>Tierri</forename>
                   <surname>biaudehors</surname>
                </persName>
             </person>
 
             <person xml:id="TC01">
-               <persName>
+               <persName source="item_uf5_2zg_ghb" when="1313">
                   <forename>Thiebaut</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -3111,7 +3111,7 @@
             </person>
 
             <person xml:id="TF01">
-               <persName>
+               <persName source="item_oc5_2zg_ghb" when="1313">
                   <forename>Thierrion</forename>
                   <nameLink>de la</nameLink>
                   <surname>fauverte</surname>
@@ -3119,7 +3119,7 @@
             </person>
 
             <person xml:id="TF02">
-               <persName>
+               <persName source="item_bf5_2zg_ghb" when="1313">
                   <forename>Thiece</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -3131,7 +3131,7 @@
             </person>
 
             <person xml:id="TL01">
-               <persName>
+               <persName source="item_cg5_2zg_ghb" when="1313">
                   <forename>Thomas</forename>
                   <nameLink>l</nameLink>
                   <surname>
@@ -3142,7 +3142,7 @@
             </person>
 
             <person xml:id="TM01">
-               <persName>
+               <persName source="item_r25_2zg_ghb" when="1313">
                   <forename>Thomasine</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -3154,7 +3154,7 @@
             </person>
 
             <person xml:id="TN01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Thomas</forename>
                   <nameLink>de</nameLink>
                   <surname>
@@ -3165,7 +3165,7 @@
             </person>
 
             <person xml:id="VP01">
-               <persName>
+               <persName source="head_gd4_qbh_ghb" when="1313">
                   <forename>Vincent</forename>
                   <nameLink>le</nameLink>
                   <surname>
@@ -3177,13 +3177,13 @@
             </person>
 
             <person xml:id="W01">
-               <persName>
+               <persName source="item_zg5_2zg_ghb" when="1313">
                   <forename>Wafflart</forename>
                </persName>
             </person>
 
             <person xml:id="YC01">
-               <persName>
+               <persName source="item_xj5_2zg_ghb" when="1313">
                   <forename>Ysabiau</forename>
                   <nameLink>la</nameLink>
                   <surname>
@@ -3195,7 +3195,7 @@
             </person>
 
             <person xml:id="YN01">
-               <persName>
+               <persName source="item_cj5_2zg_ghb" when="1313">
                   <roleName>Dame</roleName>
                   <forename>ysabiau</forename>
                   <nameLink>de</nameLink>

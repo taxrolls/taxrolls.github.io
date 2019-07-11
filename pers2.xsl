@@ -175,6 +175,15 @@
     
     <xsl:template match="rs"/>
 
-
+    <!-- Add @source / @when to <persName> -->
+    <xsl:template match="persName">
+        <xsl:copy>
+            <xsl:variable name="source" select="(ancestor::item/@xml:id | ancestor::head/@xml:id)"/>
+            <xsl:variable name="date" select="//date/@when"/>
+            <xsl:attribute name="source"><xsl:value-of select="$source"/></xsl:attribute>
+            <xsl:attribute name="when"><xsl:value-of select="$date"/></xsl:attribute>
+            <xsl:apply-templates select="@*|node()" />
+        </xsl:copy>
+    </xsl:template>
 
 </xsl:stylesheet>

@@ -2,8 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
     <xsl:output method="xml" encoding="UTF-8" indent="yes" doctype-system="about:legacy-compact"/>
 
-    <xsl:variable name="doc" select="collection('?select=taxroll_*.xml')"/>
-    <xsl:variable name="refs" select="$doc//persName | $doc//rs[@type='person']"/>
+    <xsl:variable name="doc" select="document('./pers2.xml')"/>
+    <xsl:variable name="refs" select="$doc//person"/>
     <xsl:key name="persID" match="persName" use="@ref"/>
 
     <xsl:template match="/">
@@ -22,21 +22,21 @@
                 <!-- Person Index -->
                 <div class="container">
                     <h2>People</h2>
-                    <p>Unique Entries: <xsl:value-of select="count(distinct-values($doc//persName/@ref | $doc//rs[@type='person']/@ref))"/></p>
+                    <p>Unique Entries: <xsl:value-of select="count(distinct-values($refs/@xml:id))"/></p>
                     <ul class="name_index">
-                        <xsl:for-each-group select="$refs" group-by="@ref">
-                            <xsl:sort select="@ref"/>
+                        <xsl:for-each select="$refs">
+                            <xsl:sort select="@xml:id"/>
                             <li>
-                                <xsl:value-of select="@ref"/>
+                                <xsl:value-of select="concat('#',@xml:id)"/>
                                 <xsl:text> </xsl:text>
-                                <xsl:value-of select="current()"/>
+                                <xsl:value-of select="normalize-space(persName[1])"/>
                             </li>
-                        </xsl:for-each-group>
+                        </xsl:for-each>
                     </ul>
                 </div>
 
 
-                <!-- Occupation Index -->
+ <!--               <!-\- Occupation Index -\->
                 <div class="container">
                     <h2>Occupations</h2>
                     <ul>
@@ -57,7 +57,7 @@
                                             <ul>
                                                 <xsl:for-each select="current-group()">
                                                     <xsl:sort select="key('persID', @ref)[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
-                                                    <xsl:variable name="persRef" select="@ref"/>
+                                                    <!-\-<xsl:variable name="persRef" select="@ref"/>-\->
                                                     <li>
                                                         <xsl:value-of select="key('persID', @ref)"/>
                                                     </li>
@@ -76,7 +76,7 @@
                 </div>
 
 
-                <!-- Names Index -->
+                <!-\- Names Index -\->
                 <div class="container">
                     <h2>Names</h2>
                     <h3>Given Names</h3>
@@ -103,7 +103,7 @@
                         </xsl:for-each-group>
                     </ul>
                 </div>
-            </body>
+-->            </body>
         </html>
     </xsl:template>
 

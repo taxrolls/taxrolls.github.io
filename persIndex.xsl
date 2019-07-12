@@ -4,7 +4,7 @@
 
     <xsl:variable name="doc" select="document('./pers2.xml')"/>
     <xsl:variable name="refs" select="$doc//person"/>
-    <xsl:key name="persID" match="persName" use="@ref"/>
+    <xsl:key name="persID" match="person" use="@xml:id"/>
 
     <xsl:template match="/">
 
@@ -37,16 +37,17 @@
 
 
                 <!-- Occupation Index -->
-<!--                <div class="container">
+                <div class="container">
                     <h2>Occupations</h2>
+                    <p>Unique Entries: <xsl:value-of select="count(distinct-values($refs/occupation/@role))"/></p>
                     <ul>
-                        <xsl:for-each-group select="$doc//roleName[@type = 'occupation']" group-by="@role">
-                            <xsl:sort select="./@role" lang="fr-FR"/>
+                        <xsl:for-each-group select="$refs//occupation" group-by="@role">
+                            <xsl:sort select="@role" lang="fr-FR"/>
                             <li class="occ">
                                 <xsl:variable name="count" select="count(current-group())"/>
 
                                 <xsl:value-of select="current-grouping-key()"/>
-                                <xsl:if test="count(current-group()) &gt; 1"> (<xsl:value-of select="count(current-group())"/>) </xsl:if>
+                                <xsl:if test="$count &gt; 1"> (<xsl:value-of select="$count"/>) </xsl:if>
                                 <ul>
                                     <xsl:for-each-group select="current-group()" group-by="normalize-space(.)" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes">
                                         <xsl:sort select="count(current-group())" order="descending"/>
@@ -56,17 +57,13 @@
                                             <xsl:if test="count(current-group()) != $count and count(current-group()) != 1"> (<xsl:value-of select="count(current-group())"/>) </xsl:if>
                                             <ul>
                                                 <xsl:for-each select="current-group()">
-                                                    <xsl:sort select="key('persID', @ref)[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
-                                                    <!-\-<xsl:variable name="persRef" select="@ref"/>-\->
+                                                    <xsl:sort select="ancestor::person/persName[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
                                                     <li>
-                                                        <xsl:value-of select="key('persID', @ref)"/>
+                                                        <!--<xsl:value-of select="key('persID', @xml:id)"/>-->
+                                                        <xsl:value-of select="ancestor::person/persName[1]"/>
                                                     </li>
                                                 </xsl:for-each>
-
-
-
                                             </ul>
-
                                         </li>
                                     </xsl:for-each-group>
                                 </ul>
@@ -74,7 +71,7 @@
                         </xsl:for-each-group>
                     </ul>
                 </div>
--->
+
 
                 <!-- Names Index -->
                 <div class="container">

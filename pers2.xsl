@@ -105,11 +105,17 @@
 
                                     <!-- Record Occupation -->
                                         <xsl:for-each select="$docs//roleName[@ref = $persRef][@type = 'occupation']">
-                                            <xsl:variable name="source" select="(ancestor::item/@xml:id | ancestor::head/@xml:id)"/>
+                                            <xsl:variable name="source" select="concat('#', (ancestor::item/@xml:id | ancestor::head/@xml:id))"/>
                                             <xsl:variable name="date" select="//date/@when"/>
-                                            <occupation source='{$source}' when='{$date}'>
-                                                <xsl:value-of select="./@role"/>
-                                                <xsl:if test="document('relationships.xml')//relation[substring(@source, 2) = $source][@type='professional'][@active = $persRef] | document('relationships.xml')//relation[substring(@source, 2) = $source][@type='professional'][@passive = $persRef]">
+                                            <xsl:variable name="role" select="./@role"/>
+                                            <occupation source='{$source}' when='{$date}' role='{$role}'>
+                                                <desc type='source'>
+                                                    <xsl:value-of select="normalize-space(.)"/>
+                                                </desc>
+                                                
+                                                <xsl:if test="document('relationships.xml')//relation[@source = $source][@type='professional'][@active = $persRef] | document('relationships.xml')//relation[@source = $source][@type='professional'][@passive = $persRef]">
+                                                    <desc type='reg'>
+                                                    <xsl:value-of select="$role"/>
                                                     <xsl:text> to </xsl:text>
                                                     <xsl:variable name="empl" select="document('relationships.xml')//relation[@active = $persRef]/@passive | document('relationships.xml')//relation[@passive = $persRef]/@active"/>
                                                     <xsl:element name="persName">
@@ -125,6 +131,7 @@
                                                             </xsl:otherwise>
                                                         </xsl:choose>
                                                     </xsl:element>
+                                                    </desc>
                                                 </xsl:if>
                                                 
                                             </occupation>
@@ -180,7 +187,7 @@
         <xsl:copy>
             <xsl:variable name="source" select="(ancestor::item/@xml:id | ancestor::head/@xml:id)"/>
             <xsl:variable name="date" select="//date/@when"/>
-            <xsl:attribute name="source"><xsl:value-of select="$source"/></xsl:attribute>
+            <xsl:attribute name="source"><xsl:value-of select="concat('#', $source)"/></xsl:attribute>
             <xsl:attribute name="when"><xsl:value-of select="$date"/></xsl:attribute>
             <xsl:apply-templates select="@*|node()" />
         </xsl:copy>

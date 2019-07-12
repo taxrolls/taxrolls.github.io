@@ -58,8 +58,16 @@
                             </xsl:if>
                             <xsl:if test="./occupation">
                                 <xsl:for-each select="./occupation">
-                                    <p>Occupation: <xsl:apply-templates select="."/>
-                                        <xsl:copy-of select="tei:source(concat('#',@source), @when)"/>
+                                    <p>Occupation:
+                                        <xsl:choose>
+                                            <xsl:when test="./desc[@type='reg']">
+                                                <xsl:apply-templates select="./desc[@type='reg']"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:apply-templates select="./desc[@type='source']"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                        <xsl:copy-of select="tei:source(@source, @when)"/>
                                     </p>
                                 </xsl:for-each>
                             </xsl:if>
@@ -146,7 +154,7 @@
 
     </xsl:template>
 
-    <xsl:template match="occupation/persName">
+    <xsl:template match="occupation/desc/persName">
         <a href="{@ref}">
             <xsl:apply-templates/>
         </a>

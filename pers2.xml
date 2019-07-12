@@ -859,7 +859,7 @@
                <sex value="male"/>
                <occupation source="#item_m25_2zg_ghb" when="1313" role="hasteur">
                   <desc type="source">hasteur le Roy</desc>
-                  <desc type="reg">hasteur to <persName ref="#P04">Philippe IV 'le Bel', roi de France Philippe IV</persName>
+                  <desc type="reg">hasteur to <persName ref="#P04">Philippe IV</persName>
                   </desc>
                </occupation>
             </person>

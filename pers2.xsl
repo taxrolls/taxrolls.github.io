@@ -123,6 +123,9 @@
                                                             <xsl:value-of select="$empl"/>
                                                         </xsl:attribute>
                                                         <xsl:choose>
+                                                            <xsl:when test="document('authority.xml')//person[@corresp = $empl]/persName[@type='short']">
+                                                                <xsl:value-of select="document('authority.xml')//person[@corresp = $empl]/persName[@type='short']/@key"/>
+                                                            </xsl:when>
                                                             <xsl:when test="document('authority.xml')//person[@corresp = $empl]">
                                                                 <xsl:value-of select="document('authority.xml')//person[@corresp = $empl]/persName/@key"/>
                                                             </xsl:when>

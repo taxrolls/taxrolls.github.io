@@ -599,7 +599,7 @@
 							<item ana="#bk:entry" xml:id="item_i25_2zg_ghb"><seg type="entry"><persName ref="#HB02" ana="#bk:from"><forename>Henri</forename>
 										<surname>becaire</surname></persName>
 									<!--	Also w/this, should roleName be whole second name?	-->
-									<roleName ref="#HB02" role="cuisinier" type="occupation"> queu <persName ref="#MB03" ana="#bk:from"><roleName ref="#MB03" type="office" role="queen">la rayne de <placeName ref="#geo_Navarre">navarre</placeName></roleName></persName>
+									<roleName ref="#HB02" role="cuisinier" type="occupation"> queu <rs ref="#MB03" type="person"><roleName ref="#MB03" type="office" role="queen">la rayne de <placeName ref="#geo_Navarre">navarre</placeName></roleName></rs>
 									</roleName>
 								</seg><seg type="payment"><measure quantity="9" unit="livres">ix.lb.</measure></seg></item>
 
@@ -619,14 +619,14 @@
 							<lb/>
 
 							<!-- Need to redo this guy -->
-							<item ana="#bk:entry" xml:id="item_l25_2zg_ghb"><seg type="entry"><rs ref="#ANON001" type="person" subtype="anon_sing" ana="#bk:from"><roleName ref="#ANON001" role="concierge" type="occupation"><nameLink>Le</nameLink> concierge a <persName ref="#R05" ana="#bk:from"><roleName ref="#R05" type="office" role="count">Conte de <placeName ref="#geo_Dreus">dreus</placeName></roleName></persName></roleName></rs>. </seg><seg type="payment"><measure quantity="18" unit="deniers"
+							<item ana="#bk:entry" xml:id="item_l25_2zg_ghb"><seg type="entry"><rs ref="#ANON001" type="person" subtype="anon_sing" ana="#bk:from"><nameLink>Le</nameLink> <roleName ref="#ANON001" role="concierge" type="occupation">concierge a <rs ref="#R05" type="person"><roleName ref="#R05" type="office" role="count">Conte de <placeName ref="#geo_Dreus">dreus</placeName></roleName></rs></roleName></rs>. </seg><seg type="payment"><measure quantity="18" unit="deniers"
 									>xviii.d</measure></seg><seg type="status"> p.</seg></item>
 
 							<lb/>
 
 							<item ana="#bk:entry" xml:id="item_m25_2zg_ghb"><seg type="entry"><persName ref="#GH01" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename>
 										<nameLink>le</nameLink>
-										<surname><roleName ref="#GH01" role="hasteur" type="occupation">hasteur <rs ref="#P04" type="person"><roleName ref="#P04" type="office">le Roy</roleName></rs></roleName></surname></persName>
+										<surname><roleName ref="#GH01" role="hasteur" type="occupation">hasteur <rs ref="#P04" type="person"><roleName ref="#P04" type="office" role="king">le Roy</roleName></rs></roleName></surname></persName>
 								</seg><seg type="payment"><measure quantity="6" unit="sous">vi.s.</measure></seg><seg type="status"> p.</seg></item>
 
 							<lb/>
@@ -838,7 +838,7 @@
 
 							<item ana="#bk:entry" xml:id="item_nf5_2zg_ghb"><seg type="entry"><persName ref="#PP02" ana="#bk:from"><forename>Pierre</forename>
 										<nameLink>le</nameLink>
-										<surname><roleName ref="#PP01" role="pâtissier" type="occupation">pastaier</roleName></surname></persName></seg>
+										<surname><roleName ref="#PP02" role="pâtissier" type="occupation">pastaier</roleName></surname></persName></seg>
 								<seg type="payment"><measure quantity="6" unit="sous">vi.s</measure></seg><seg type="status"> p</seg></item>
 							<item ana="#bk:entry" xml:id="item_of5_2zg_ghb"><seg type="entry"><persName ref="#NA02" ana="#bk:from"><forename>Nicolas</forename>
 										<nameLink>d</nameLink><surname>avion</surname></persName></seg>
@@ -1496,7 +1496,7 @@
 			 			<list type="payers">
 							<item ana="#bk:entry" xml:id="item_uk5_2zg_ghb"><seg type="entry"><persName ref="#JS01" ana="#bk:from"><forename>Jehan</forename>
 										<surname>selles</surname></persName>
-									<roleName ref="#JC01" role="charpentier" type="occupation">charpentier</roleName>
+									<roleName ref="#JS01" role="charpentier" type="occupation">charpentier</roleName>
 								</seg><seg type="payment"><measure quantity="18" unit="deniers">xviii.d</measure></seg></item>
 			 				<item ana="#bk:entry" xml:id="item_vk5_2zg_ghb"><seg type="entry"><persName ref="#HE01" ana="#bk:from"><forename>Hervi</forename>
 										<nameLink>l</nameLink><surname>escroier</surname></persName>

@@ -126,7 +126,10 @@
             </person>
 
             <person xml:id="AGRP001">
-               <persName type="anonymous_group" key="Unnamed Group (#AGRP001)">Les enfans</persName>
+               <persName type="anonymous_group"
+                         key="Unnamed Group (#AGRP001)"
+                         source="#item_m35_2zg_ghb"
+                         when="1313">Les enfans</persName>
             </person>
 
             <person xml:id="AL01">
@@ -154,9 +157,12 @@
             </person>
 
             <person xml:id="ANON001">
-               <persName type="anonymous" key="Unnamed Person (#ANON001)">
-                  <roleName>
-                     <nameLink>Le</nameLink> concierge a <persName source="#item_l25_2zg_ghb" when="1313">
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON001)"
+                         source="#item_l25_2zg_ghb"
+                         when="1313">
+                  <nameLink>Le</nameLink>
+                  <roleName>concierge a <persName source="#item_l25_2zg_ghb" when="1313">
                         <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
                         </roleName>
                      </persName>
@@ -164,74 +170,113 @@
                </persName>
                <sex value="male"/>
                <occupation source="#item_l25_2zg_ghb" when="1313" role="concierge">
-                  <desc type="source">Le concierge a Conte de dreus</desc>
+                  <desc type="source">concierge a Conte de dreus</desc>
                   <desc type="reg">concierge to <persName ref="#R05">Robert V, comte de Dreux</persName>
                   </desc>
                </occupation>
             </person>
 
             <person xml:id="ANON002">
-               <persName type="anonymous" key="Unnamed Person (#ANON002)">son gendre</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON002)"
+                         source="#item_rc5_2zg_ghb"
+                         when="1313">son gendre</persName>
                <sex value="male"/>
             </person>
 
             <person xml:id="ANON003">
-               <persName type="anonymous" key="Unnamed Person (#ANON003)">Le gendre</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON003)"
+                         source="#item_vc5_2zg_ghb"
+                         when="1313">Le gendre</persName>
                <sex value="male"/>
             </person>
 
             <person xml:id="ANON004">
-               <persName type="anonymous" key="Unnamed Person (#ANON004)">La seur</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON004)"
+                         source="#item_od5_2zg_ghb"
+                         when="1313">La seur</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON005">
-               <persName type="anonymous" key="Unnamed Person (#ANON005)">la fame</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON005)"
+                         source="#item_od5_2zg_ghb"
+                         when="1313">la fame</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON006">
-               <persName type="anonymous" key="Unnamed Person (#ANON006)">son gendre</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON006)"
+                         source="#item_pd5_2zg_ghb"
+                         when="1313">son gendre</persName>
                <sex value="male"/>
             </person>
 
             <person xml:id="ANON007">
-               <persName type="anonymous" key="Unnamed Person (#ANON007)">son gendre</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON007)"
+                         source="#item_lf5_2zg_ghb"
+                         when="1313">son gendre</persName>
                <sex value="male"/>
             </person>
 
             <person xml:id="ANON008">
-               <persName type="anonymous" key="Unnamed Person (#ANON008)">son filz</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON008)"
+                         source="#item_uf5_2zg_ghb"
+                         when="1313">son filz</persName>
                <sex value="male"/>
             </person>
 
             <person xml:id="ANON009">
-               <persName type="anonymous" key="Unnamed Person (#ANON009)">sa fame</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON009)"
+                         source="#item_fh5_2zg_ghb"
+                         when="1313">sa fame</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON010">
-               <persName type="anonymous" key="Unnamed Person (#ANON010)">La dame</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON010)"
+                         source="#item_hh5_2zg_ghb"
+                         when="1313">La dame</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON011">
-               <persName type="anonymous" key="Unnamed Person (#ANON011)">La fame</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON011)"
+                         source="#item_lh5_2zg_ghb"
+                         when="1313">La fame</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON012">
-               <persName type="anonymous" key="Unnamed Person (#ANON012)">sa compaingne</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON012)"
+                         source="#item_zj5_2zg_ghb"
+                         when="1313">sa compaingne</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON013">
-               <persName type="anonymous" key="Unnamed Person (#ANON013)">La fame</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON013)"
+                         source="#item_fdj_d5h_3hb"
+                         when="1297">La fame</persName>
                <sex value="female"/>
             </person>
 
             <person xml:id="ANON014">
-               <persName type="anonymous" key="Unnamed Person (#ANON014)">sa fille</persName>
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON014)"
+                         source="#item_ypc_qgn_3hb"
+                         when="1296">sa fille</persName>
                <sex value="female"/>
             </person>
 
@@ -850,7 +895,7 @@
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
-                     <roleName>hasteur <persName>
+                     <roleName>hasteur <persName source="#item_m25_2zg_ghb" when="1313">
                            <roleName>le Roy</roleName>
                         </persName>
                      </roleName>
@@ -1415,9 +1460,6 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="#item_uk5_2zg_ghb" when="1313" role="charpentier">
-                  <desc type="source">charpentier</desc>
-               </occupation>
             </person>
 
             <person xml:id="JC02">
@@ -1970,6 +2012,9 @@
                   <forename>Jehan</forename>
                   <surname>selles</surname>
                </persName>
+               <occupation source="#item_uk5_2zg_ghb" when="1313" role="charpentier">
+                  <desc type="source">charpentier</desc>
+               </occupation>
             </person>
 
             <person xml:id="JT01">
@@ -2281,7 +2326,7 @@
                         <nameLink>de</nameLink>
                         <placeName>Provence</placeName>
                     </persName>
-               <persName>
+               <persName source="#item_ocj_d5h_3hb" when="1297">
                   <roleName>la vielle royne</roleName>
                </persName>
                <idno type="viaf">https://viaf.org/viaf/89045696</idno>
@@ -2326,7 +2371,7 @@
                <persName source="#item_dqc_qgn_3hb" when="1296">
                   <forename>Nichole</forename>
                </persName>
-               <persName>sa fille</persName>
+               <persName source="#item_dqc_qgn_3hb" when="1296">sa fille</persName>
                <sex value="female"/>
             </person>
 
@@ -2464,10 +2509,10 @@
                         <placeName>France</placeName>
                     </persName>
                <persName type="short" key="Philippe IV"/>
-               <persName>
+               <persName source="#head_gd4_qbh_ghb" when="1313">
                   <roleName>roy nostre sires</roleName>
                </persName>
-               <persName>
+               <persName source="#item_m25_2zg_ghb" when="1313">
                   <roleName>le Roy</roleName>
                </persName>
                <idno type="viaf">https://viaf.org/viaf/89086248</idno>
@@ -2660,9 +2705,6 @@
                   <forename>Perronelle</forename>
                   <surname>poree</surname>
                </persName>
-               <occupation source="#item_nf5_2zg_ghb" when="1313" role="pâtissier">
-                  <desc type="source">pastaier</desc>
-               </occupation>
             </person>
 
             <person xml:id="PP02">
@@ -2674,6 +2716,9 @@
                   </surname>
                </persName>
                <sex value="male"/>
+               <occupation source="#item_nf5_2zg_ghb" when="1313" role="pâtissier">
+                  <desc type="source">pastaier</desc>
+               </occupation>
             </person>
 
             <person xml:id="PP03">

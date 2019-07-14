@@ -173,7 +173,11 @@
             <xsl:if test=".[@subtype = 'anon_group']">
                 <xsl:attribute name="type">anonymous_group</xsl:attribute>
                 <xsl:attribute name="key">Unnamed Group (<xsl:value-of select="@ref"/>)</xsl:attribute>
-            </xsl:if>            
+            </xsl:if>
+            <xsl:variable name="source" select="(ancestor::item/@xml:id | ancestor::head/@xml:id)"/>
+            <xsl:variable name="date" select="//date/@when"/>
+            <xsl:attribute name="source"><xsl:value-of select="concat('#', $source)"/></xsl:attribute>
+            <xsl:attribute name="when"><xsl:value-of select="$date"/></xsl:attribute>            
             <xsl:apply-templates select="node()"/>
         </persName>
     </xsl:template>

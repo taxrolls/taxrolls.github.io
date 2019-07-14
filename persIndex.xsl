@@ -49,7 +49,7 @@
                                 <xsl:value-of select="current-grouping-key()"/>
                                 <xsl:if test="$count &gt; 1"> (<xsl:value-of select="$count"/>) </xsl:if>
                                 <ul>
-                                    <xsl:for-each-group select="current-group()" group-by="normalize-space(.)" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes">
+                                    <xsl:for-each-group select="current-group()" group-by="normalize-space(./desc[@type='source'])" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes">
                                         <xsl:sort select="count(current-group())" order="descending"/>
                                         <xsl:sort select="." collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
                                         <li class="occ_variant">

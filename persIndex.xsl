@@ -60,7 +60,19 @@
                                                     <xsl:sort select="ancestor::person/persName[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=tertiary;backwards=yes"/>
                                                     <li>
                                                         <!--<xsl:value-of select="key('persID', @xml:id)"/>-->
-                                                        <xsl:value-of select="ancestor::person/persName[1]"/>
+                                                        <xsl:variable name="source" select="ancestor::person/@xml:id"/>
+                                                        <xsl:choose>
+                                                            <xsl:when test="ancestor::person/persName[@key][not(@type='reg')]">
+                                                                <a href='personography.html#{$source}'>
+                                                                    <xsl:value-of select="ancestor::person/persName/@key"/>
+                                                                </a>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <a href='personography.html#{$source}'>
+                                                                    <xsl:value-of select="ancestor::person/persName[1]"/>
+                                                                </a>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                     </li>
                                                 </xsl:for-each>
                                             </ul>

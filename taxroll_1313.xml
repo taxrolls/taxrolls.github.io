@@ -467,11 +467,10 @@
 
 							<lb/>
 							
-							<!-- Not sure about markup for this, does roleName need to be for entire name?-->
 							<item ana="#bk:entry" xml:id="item_sd5_2zg_ghb"><seg type="entry"><persName ref="#RP03" ana="#bk:from"><forename>Raol</forename>
-										<surname>poree</surname></persName>. <roleName ref="#RP03" role="vallet" type="occupation"> vallet <persName ref="#JE01"><forename>jehan</forename>
+								<surname>poree</surname></persName>. <roleName ref="#RP03" role="vallet" type="occupation">vallet</roleName> <persName ref="#JE01"><forename>jehan</forename>
 											<nameLink>l</nameLink><surname>escuillier</surname></persName>
-									</roleName>
+									
 								</seg><seg type="payment"><measure quantity="6" unit="sous">vi.s</measure></seg><seg type="status"> p.</seg></item>
 
 							<lb/>
@@ -597,10 +596,8 @@
 							<lb/>
 
 							<item ana="#bk:entry" xml:id="item_i25_2zg_ghb"><seg type="entry"><persName ref="#HB02" ana="#bk:from"><forename>Henri</forename>
-										<surname>becaire</surname></persName>
-									<!--	Also w/this, should roleName be whole second name?	-->
-									<roleName ref="#HB02" role="cuisinier" type="occupation"> queu <rs ref="#MB03" type="person"><roleName ref="#MB03" type="office" role="queen">la rayne de <placeName ref="#geo_Navarre">navarre</placeName></roleName></rs>
-									</roleName>
+										<surname>becaire</surname></persName> 
+									<roleName ref="#HB02" role="cuisinier" type="occupation">queu</roleName> <rs ref="#MB03" type="person"><roleName ref="#MB03" type="office" role="queen">la rayne de <placeName ref="#geo_Navarre">navarre</placeName></roleName></rs>
 								</seg><seg type="payment"><measure quantity="9" unit="livres">ix.lb.</measure></seg></item>
 
 							<lb/>
@@ -619,14 +616,14 @@
 							<lb/>
 
 							<!-- Need to redo this guy -->
-							<item ana="#bk:entry" xml:id="item_l25_2zg_ghb"><seg type="entry"><rs ref="#ANON001" type="person" subtype="anon_sing" ana="#bk:from"><nameLink>Le</nameLink> <roleName ref="#ANON001" role="concierge" type="occupation">concierge a <rs ref="#R05" type="person"><roleName ref="#R05" type="office" role="count">Conte de <placeName ref="#geo_Dreus">dreus</placeName></roleName></rs></roleName></rs>. </seg><seg type="payment"><measure quantity="18" unit="deniers"
+							<item ana="#bk:entry" xml:id="item_l25_2zg_ghb"><seg type="entry"><rs ref="#ANON001" type="person" subtype="anon_sing" ana="#bk:from"><nameLink>Le</nameLink> <roleName ref="#ANON001" role="concierge" type="occupation">concierge</roleName></rs> a <rs ref="#R05" type="person"><roleName ref="#R05" type="office" role="count">Conte de <placeName ref="#geo_Dreus">dreus</placeName></roleName></rs>. </seg><seg type="payment"><measure quantity="18" unit="deniers"
 									>xviii.d</measure></seg><seg type="status"> p.</seg></item>
 
 							<lb/>
 
 							<item ana="#bk:entry" xml:id="item_m25_2zg_ghb"><seg type="entry"><persName ref="#GH01" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename>
 										<nameLink>le</nameLink>
-										<surname><roleName ref="#GH01" role="hasteur" type="occupation">hasteur <rs ref="#P04" type="person"><roleName ref="#P04" type="office" role="king">le Roy</roleName></rs></roleName></surname></persName>
+								<surname><roleName ref="#GH01" role="hasteur" type="occupation">hasteur</roleName></surname></persName> <rs ref="#P04" type="person"><roleName ref="#P04" type="office" role="king">le Roy</roleName></rs>
 								</seg><seg type="payment"><measure quantity="6" unit="sous">vi.s.</measure></seg><seg type="status"> p.</seg></item>
 
 							<lb/>

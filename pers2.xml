@@ -162,15 +162,11 @@
                          source="#item_l25_2zg_ghb"
                          when="1313">
                   <nameLink>Le</nameLink>
-                  <roleName>concierge a <persName source="#item_l25_2zg_ghb" when="1313">
-                        <roleName>Conte de <placeName ref="#geo_Dreus">dreus</placeName>
-                        </roleName>
-                     </persName>
-                  </roleName>
+                  <roleName>concierge</roleName>
                </persName>
                <sex value="male"/>
                <occupation source="#item_l25_2zg_ghb" when="1313" role="concierge">
-                  <desc type="source">concierge a Conte de dreus</desc>
+                  <desc type="source">concierge</desc>
                   <desc type="reg">concierge to <persName ref="#R05">Robert V, comte de Dreux</persName>
                   </desc>
                </occupation>
@@ -895,15 +891,12 @@
                   <forename>Guillaume</forename>
                   <nameLink>le</nameLink>
                   <surname>
-                     <roleName>hasteur <persName source="#item_m25_2zg_ghb" when="1313">
-                           <roleName>le Roy</roleName>
-                        </persName>
-                     </roleName>
+                     <roleName>hasteur</roleName>
                   </surname>
                </persName>
                <sex value="male"/>
                <occupation source="#item_m25_2zg_ghb" when="1313" role="hasteur">
-                  <desc type="source">hasteur le Roy</desc>
+                  <desc type="source">hasteur</desc>
                   <desc type="reg">hasteur to <persName ref="#P04">Philippe IV</persName>
                   </desc>
                </occupation>
@@ -1215,7 +1208,7 @@
                   <surname>becaire</surname>
                </persName>
                <occupation source="#item_i25_2zg_ghb" when="1313" role="cuisinier">
-                  <desc type="source">queu la rayne de navarre</desc>
+                  <desc type="source">queu</desc>
                   <desc type="reg">cuisinier to <persName ref="#MB03">Marguerite de Bourgogne, reine de France</persName>
                   </desc>
                </occupation>
@@ -2884,7 +2877,7 @@
                   <forename>Richart</forename>
                </persName>
                <occupation source="#item_jdj_d5h_3hb" when="1297" role="vallet">
-                  <desc type="source">vallet Tierri biaudehors</desc>
+                  <desc type="source">vallet</desc>
                   <desc type="reg">vallet to <persName ref="#TB03">Tierri
                                             biaudehors</persName>
                   </desc>
@@ -3195,7 +3188,7 @@
                   <surname>poree</surname>
                </persName>
                <occupation source="#item_sd5_2zg_ghb" when="1313" role="vallet">
-                  <desc type="source">vallet jehan lescuillier</desc>
+                  <desc type="source">vallet</desc>
                   <desc type="reg">vallet to <persName ref="#JE01">jehan
 											lescuillier</persName>
                   </desc>

@@ -69,7 +69,7 @@
                                                             </xsl:when>
                                                             <xsl:otherwise>
                                                                 <a href='personography.html#{$source}'>
-                                                                    <xsl:value-of select="ancestor::person/persName[1]"/>
+                                                                    <xsl:value-of select="normalize-space(ancestor::person/persName[1])"/>
                                                                 </a>
                                                             </xsl:otherwise>
                                                         </xsl:choose>

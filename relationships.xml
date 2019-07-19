@@ -32,6 +32,8 @@
     <text>
         <body>
             <listRelation>
+                <!--External-->
+                <relation type="personal" name="#hasSpouse" mutual="#L10 #MB03"/>
                 <!--1313-->
                 <relation source="#head_gd4_qbh_ghb" type="personal" name="#hasChild" active="#P04" passive="#L10"/>
                 <relation source="#item_rc5_2zg_ghb" type="personal" name="#hasChild" active="#RP01" passive="#ANON002"/>

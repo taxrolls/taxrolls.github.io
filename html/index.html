@@ -29,7 +29,7 @@
           background-position: center;
           background-repeat: no-repeat;
           max-width: 1200px;
-          height: 180px;
+          min-height: 180px;
           margin: auto;
           margin-bottom: 5px;
           padding: 0;
@@ -70,29 +70,42 @@
           padding: 10px 0;
         }
 
+        .full-page {
+            max-width: -webkit-calc(800px - (30px * 2));
+            max-width: calc(800px - (30px * 2));
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 30px;
+            padding-left: 30px; }
+            @media screen and (max-width: 800px) {
+              .full.page {
+                max-width: -webkit-calc(800px - (30px));
+                max-width: calc(800px - (30px));
+                padding-right: 15px;
+                padding-left: 15px; } }
+        }
+
       </style>
    </head>
    <body>
       <div class="banner">
-        <div class="wrapper">
           <a class="site-title" href="./">The Tax Rolls of Medieval Paris
             <span class="sub-heading">A Digital Edition</span>
           </a>
-    </div>
       </div>
-      <div xmlns="" class="nav-bar header">
-    Home ||
-    About ||
-    Rolls:
-    <a href="roll_1296.html">1296</a> |
-    <a href="roll_1297.html">1297</a> |
-    <a href="roll_1313.html">1313</a> ||
-    <a href="personography.html">Personography</a> ||
-    <a href="persIndex.html">Index</a>
-
+      <div class="nav-bar header">
+        <a href="index.html">Home</a> ||
+        <a href="about.html">About</a> ||
+        Rolls:
+        <a href="roll_1296.html">1296</a> |
+        <a href="roll_1297.html">1297</a> |
+        <a href="roll_1313.html">1313</a> ||
+        <a href="personography.html">Personography</a> ||
+        <a href="persIndex.html">Index</a>
       </div>
-      <div class="container">
-         <h2>People</h2>
+      <div class="container full-page">
+         <h2>Welcome</h2>
+         <p>Welcome to this prototype site for the Tax Rolls of Medieval Paris Digital Edition.</p>
 
       </div>
    </body>

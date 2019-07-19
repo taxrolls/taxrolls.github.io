@@ -117,10 +117,12 @@
                                                 </a>
                                             </xsl:when>
                                         </xsl:choose>
-                                        <xsl:variable name="source" select="substring(@source, 2)"/>
-                                        <xsl:variable name="doc" select="base-uri(collection('?select=taxroll_*.xml')[descendant::item[@xml:id = $source] | descendant::head[@xml:id = $source]])"/>
-                                        <xsl:variable name="date" select="document($doc)//date/@when"/>
-                                        <xsl:copy-of select="tei:source(@source, $date)"/>
+                                        <xsl:if test="@source">
+                                            <xsl:variable name="source" select="substring(@source, 2)"/>
+                                            <xsl:variable name="doc" select="base-uri(collection('?select=taxroll_*.xml')[descendant::item[@xml:id = $source] | descendant::head[@xml:id = $source]])"/>
+                                            <xsl:variable name="date" select="document($doc)//date/@when"/>
+                                            <xsl:copy-of select="tei:source(@source, $date)"/>
+                                        </xsl:if>
                                     </p>
 
                                 </xsl:for-each>

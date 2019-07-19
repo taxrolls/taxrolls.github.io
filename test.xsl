@@ -25,23 +25,30 @@
                 <!-- Header Section -->
                 <div class="container">
                     <h2><xsl:value-of select=".//msIdentifier/msName"/></h2>
-                    <xsl:value-of select=".//msIdentifier/settlement"/>, <xsl:value-of
-                        select=".//msIdentifier/country"/><br/>
-                    <xsl:value-of select=".//msIdentifier/institution"/><br/>
+                    <p class="no-margin">
+                        <xsl:value-of select=".//msIdentifier/settlement"/>
+                        <xsl:text>, </xsl:text> 
+                        <xsl:value-of select=".//msIdentifier/country"/>
+                    </p>
+                    <p class="no-margin"><xsl:value-of select=".//msIdentifier/institution"/></p>
                     <xsl:choose>
                         <xsl:when test=".//msIdentifier[repository]">
-                            <xsl:value-of select=".//msIdentifier/repository"/>, <xsl:value-of
-                                select=".//msIdentifier/collection"/>&#160;<xsl:value-of
-                                    select=".//msIdentifier/idno"/>
+                            <p class="no-margin">
+                                <xsl:value-of select=".//msIdentifier/repository"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select=".//msIdentifier/collection"/>
+                                <xsl:text>&#160;</xsl:text>
+                                <xsl:value-of select=".//msIdentifier/idno"/>
+                            </p>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:value-of
-                                select=".//msIdentifier/collection"/>&#160;<xsl:value-of
-                                    select=".//msIdentifier/idno"/>
+                            <p class="no-margin"><xsl:value-of select=".//msIdentifier/collection"/>
+                                <xsl:text>&#160;</xsl:text>
+                                <xsl:value-of select=".//msIdentifier/idno"/>
+                            </p>
                         </xsl:otherwise>
                     </xsl:choose>
                  
-                    <br/><br/>
                     <hr/>
                     <xsl:apply-templates select="/TEI/text/body"/>
                 </div>

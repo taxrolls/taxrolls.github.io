@@ -24,10 +24,7 @@
 							<collection>Supplément français</collection>
 							<idno>178</idno>
 						</altIdentifier>
-						<msName>Le livre de la taille des dis mile livres deuz au Roy nostre sires
-							pour la chevalerie le roy de Navarre, son ainzné filz, assise en la
-							meson Estienne Barbete,... l'an de grace mil trois cenz et
-							troize</msName>
+						<msName>Le livre de la taille de Paris, l'an 1313</msName>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
@@ -282,7 +279,7 @@
 										<nameLink>du</nameLink>
 										<surname><placeName ref="#geo_Til">tilg</placeName></surname>
 									</persName>
-									<roleName ref="#GT02" role="tailleur_de_pierre" type="occupation"> taillieur de pierre </roleName>. </seg><seg type="payment"><measureGrp><measure quantity="4" unit="sous">iiii.s</measure>.<measure quantity="6" unit="deniers">vi d. </measure></measureGrp></seg><seg type="status">p</seg></item>
+									<roleName ref="#GT02" role="tailleur de pierre" type="occupation"> taillieur de pierre </roleName>. </seg><seg type="payment"><measureGrp><measure quantity="4" unit="sous">iiii.s</measure>.<measure quantity="6" unit="deniers">vi d. </measure></measureGrp></seg><seg type="status">p</seg></item>
 							<lb/>
 							<item ana="#bk:entry" xml:id="item_ad5_2zg_ghb"><seg type="entry"><persName ref="#PB01" ana="#bk:from">
 										<forename>Pierre</forename>
@@ -439,7 +436,7 @@
 											<placeName ref="#geo_Ville_Neuve">ville nueve</placeName>
 										</surname>
 									</persName>
-									<roleName ref="#JVN01" role="maître_des_aveugles" type="occupation"> mestre des a<g type="W">vu</g>egles </roleName>
+									<roleName ref="#JVN01" role="maître des aveugles" type="occupation"> mestre des a<g type="W">vu</g>egles </roleName>
 									<g type="tyronian_et">et</g>
 									<rs ref="#ANON006" type="person" subtype="anon_sing" ana="#bk:from">son gend<ex>r</ex><seg rend="superscript">e</seg></rs>. </seg><seg type="payment"><measure quantity="30" unit="sous">xxx s</measure></seg><note place="inline" resp="#bib_mich01" ana="bk:status"><unclear reason="facsimile">p <measure commodity="currency" quantity="20" unit="sous">xx s.</measure></unclear></note></item>
 							<note place="inline"><unclear reason="facsimile"/></note>
@@ -615,7 +612,6 @@
 
 							<lb/>
 
-							<!-- Need to redo this guy -->
 							<item ana="#bk:entry" xml:id="item_l25_2zg_ghb"><seg type="entry"><rs ref="#ANON001" type="person" subtype="anon_sing" ana="#bk:from"><nameLink>Le</nameLink> <roleName ref="#ANON001" role="concierge" type="occupation">concierge</roleName></rs> a <rs ref="#R05" type="person"><roleName ref="#R05" type="office" role="count">Conte de <placeName ref="#geo_Dreus">dreus</placeName></roleName></rs>. </seg><seg type="payment"><measure quantity="18" unit="deniers"
 									>xviii.d</measure></seg><seg type="status"> p.</seg></item>
 
@@ -15933,6 +15929,7 @@
 						<place type="street" subtype="streetSeg"
 							xml:id="streetSeg_Rue_St-Honoré_dedans">
 							<placeName>Rue St-Honoré dedans les murs</placeName>
+							<placeName when="1313">Rue de la Croix du Trahoir</placeName>
 							<desc xml:lang="en">Rue St-Honoré, from Porte St-Honoré to the Croix du
 								Trahoir</desc>
 							<location>
@@ -16153,7 +16150,6 @@
 
 					<place type="street" xml:id="street_Rue_lArbre_Sec">
 						<placeName>Rue l'Arbre Sec</placeName>
-						<placeName when="1313">Rue de la Croix du Trahoir</placeName>
 						<desc>From the Croix du Trahoir to the Place aux Marchands</desc>
 						<location>
 							<district type="quête" ref="#st_germain_lauxerrois_Q2">Deuxième quête

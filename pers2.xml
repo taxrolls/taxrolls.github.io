@@ -534,7 +534,7 @@
                      <placeName ref="#geo_Échauffour">dechaufour</placeName>
                   </surname>
                </persName>
-               <occupation source="#item_tpc_qgn_3hb" when="1296" role="marchand_de_boeuf">
+               <occupation source="#item_tpc_qgn_3hb" when="1296" role="marchand de boeuf">
                   <desc type="source">marchaant de bues</desc>
                </occupation>
             </person>
@@ -1130,7 +1130,7 @@
                      <placeName ref="#geo_Til">tilg</placeName>
                   </surname>
                </persName>
-               <occupation source="#item_zc5_2zg_ghb" when="1313" role="tailleur_de_pierre">
+               <occupation source="#item_zc5_2zg_ghb" when="1313" role="tailleur de pierre">
                   <desc type="source">taillieur de pierre</desc>
                </occupation>
             </person>
@@ -2097,7 +2097,7 @@
                      <placeName ref="#geo_Ville_Neuve">ville neuve</placeName>
                   </surname>
                </persName>
-               <occupation source="#item_pd5_2zg_ghb" when="1313" role="maître_des_aveugles">
+               <occupation source="#item_pd5_2zg_ghb" when="1313" role="maître des aveugles">
                   <desc type="source">mestre des avuegles</desc>
                </occupation>
             </person>

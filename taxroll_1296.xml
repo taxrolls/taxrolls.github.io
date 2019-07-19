@@ -20,7 +20,7 @@
                         <collection>KK 283</collection>
                         <idno>ff. 1-36</idno>
 
-                        <msName>Ci est le livre de la taille des cent mille livres tornois a recevoir pour la quarte annee</msName>
+                        <msName>Le livre de la taille de Paris, l'an 1296</msName>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -136,7 +136,7 @@
                                 <seg type="entry">
                                     <persName ref="#ED02" ana="#bk:from"><forename>Estienne</forename>
                                         <surname><placeName ref="#geo_Échauffour">dechaufour</placeName></surname></persName>
-                                    <roleName ref="#ED02" type="occupation" role="marchand_de_boeuf" cert="low">marchaant de bues</roleName></seg>
+                                    <roleName ref="#ED02" type="occupation" role="marchand de boeuf" cert="low">marchaant de bues</roleName></seg>
                                 <seg type="payment"><measure quantity="36" unit="sous">xxxvi s</measure></seg>
                                 <seg type="status">p</seg></item>
                             <item xml:id="item_upc_qgn_3hb" ana="#bk:entry">

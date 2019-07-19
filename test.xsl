@@ -28,9 +28,20 @@
                     <xsl:value-of select=".//msIdentifier/settlement"/>, <xsl:value-of
                         select=".//msIdentifier/country"/><br/>
                     <xsl:value-of select=".//msIdentifier/institution"/><br/>
-                    <xsl:value-of select=".//msIdentifier/repository"/>, <xsl:value-of
-                        select=".//msIdentifier/collection"/>&#160;<xsl:value-of
-                        select=".//msIdentifier/idno"/><br/><br/>
+                    <xsl:choose>
+                        <xsl:when test=".//msIdentifier[repository]">
+                            <xsl:value-of select=".//msIdentifier/repository"/>, <xsl:value-of
+                                select=".//msIdentifier/collection"/>&#160;<xsl:value-of
+                                    select=".//msIdentifier/idno"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of
+                                select=".//msIdentifier/collection"/>&#160;<xsl:value-of
+                                    select=".//msIdentifier/idno"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                 
+                    <br/><br/>
                     <hr/>
                     <xsl:apply-templates select="/TEI/text/body"/>
                 </div>
@@ -218,7 +229,7 @@
     
 
     <!-- Marginal IIIF Thumbnails -->
-    <xsl:template match="pb">
+    <xsl:template match="pb[@facs]">
         <div class="container thumbnail">
             <xsl:choose>
                 <xsl:when test="@type = 'recto'">

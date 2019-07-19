@@ -22,8 +22,7 @@
                     <p>Total Unique Entries: <xsl:value-of select="count(.//person)"/></p>
                     <hr/>
                     <xsl:for-each select="//person">
-                        <xsl:sort select="normalize-space(./persName[1]/forename[1])" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes;"/>
-                        <xsl:sort select="normalize-space(./persName[1]/surname[1])" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes"/>
+                        <xsl:sort select="(./persName[1]/@key, normalize-space(./persName[1]/forename[1]), normalize-space(./persName[1]/surname[1]))[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes;"/>
                         <xsl:variable name="fullID" select="./@xml:id"/>
                         <xsl:variable name="refID" select="concat('#', $fullID)"/>
 
@@ -64,7 +63,7 @@
                                                 <xsl:apply-templates select="./desc[@type='reg']"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:apply-templates select="./desc[@type='source']"/>
+                                                <xsl:apply-templates select="@role"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                         <xsl:copy-of select="tei:source(@source, @when)"/>

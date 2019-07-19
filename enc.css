@@ -56,13 +56,6 @@
             padding: 0 20px;
         }
 
-
-        .sum {
-            font-weight: bold;
-            padding: 1em 0;
-        }
-
-
         .num {
             font-variant: small-caps;
         /*    font-size: 80%;*/
@@ -109,6 +102,12 @@
 
         td.table_amount {
             width: 20%;
+        }
+
+        table.sum {
+            font-weight: bold;
+            margin: 1em 0;
+            border-spacing: 0;
         }
 
 

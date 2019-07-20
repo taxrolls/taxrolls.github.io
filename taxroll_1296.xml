@@ -82,7 +82,7 @@
                                     <persName ref="#JG06" ana="#bk:from"><forename>Jehan</forename>
                                         <nameLink>de</nameLink>
                                         <surname>gonnesse</surname></persName>
-                                    <roleName ref="#JG06" type="occupation" role="çavatier">cavetier</roleName></seg>
+                                    <roleName ref="#JG06" type="occupation" role="savetier">cavetier</roleName></seg>
                                 <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>
                                 <seg type="status">p</seg></item>
                             <item xml:id="item_npc_qgn_3hb" ana="#bk:entry">
@@ -143,7 +143,7 @@
                                 <seg type="entry">
                                     <persName ref="#GC08" ana="#bk:from"><forename>Guillaume</forename>
                                         <surname>culpercie</surname></persName>
-                                    <roleName ref="#GC08" type="occupation" role="çavatier">cavetier</roleName></seg>
+                                    <roleName ref="#GC08" type="occupation" role="savetier">cavetier</roleName></seg>
                                 <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>
                                 <seg type="status">p</seg></item>
                             <item xml:id="item_vpc_qgn_3hb" ana="#bk:entry">

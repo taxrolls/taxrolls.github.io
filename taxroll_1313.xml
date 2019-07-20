@@ -154,7 +154,7 @@
 											<roleName>queue levee</roleName>
 										</surname>
 									</persName>
-									<roleName ref="#EQL01" role="cavatier" type="occupation"> cavatier </roleName></seg>
+									<roleName ref="#EQL01" role="savetier" type="occupation"> cavatier </roleName></seg>
 								<seg type="payment"><measure quantity="18" unit="deniers">xviii.d</measure></seg><seg type="status"> p</seg>
 							</item>
 							<lb/>
@@ -858,7 +858,7 @@
 										<surname><addName>ladre</addName></surname></persName></seg>
 								<seg type="payment"><measure quantity="9" unit="livres">.ix.lb.</measure></seg>
 								<!-- THIS IS NOT CLEAR AT ALL IN THE MS -->
-								<note place="inline" resp="#bib_mich01">vii l<lb/> x.s p <lb/>p<ex>ar</ex>son <lb/>serreme<ex>n</ex>t</note>
+								<note place="inline" resp="#bib_mich01">vii l<lb/> x.s p <lb/>p<ex>ar</ex> son <lb/>serreme<ex>n</ex>t</note>
 							</item>
 							<item ana="#bk:entry" xml:id="item_uf5_2zg_ghb"><seg type="entry"><persName ref="#TC01" ana="#bk:from"><forename>Thiebaut</forename>
 										<nameLink>le</nameLink>
@@ -1382,7 +1382,7 @@
 							<item ana="#bk:entry" xml:id="item_yj5_2zg_ghb"><seg type="entry"><persName ref="#JM06" ana="#bk:from"><forename>Jaques</forename>
 										<nameLink>de</nameLink>
 										<surname><placeName ref="#geo_Mante">Mante</placeName></surname></persName>
-									<roleName ref="#JM06" role="cavatier" type="occupation">Cavatier</roleName>
+									<roleName ref="#JM06" role="savetier" type="occupation">Cavatier</roleName>
 								</seg><seg type="payment"><measure quantity="3" unit="sous">iii.s</measure></seg><seg type="status"> p.</seg></item> 
 							<item ana="#bk:entry" xml:id="item_zj5_2zg_ghb"><seg type="entry"><persName ref="#ASJ01" ana="#bk:from"><forename>Aalis</forename>
 										<nameLink>de</nameLink>
@@ -1396,7 +1396,7 @@
 								</seg><seg type="payment"><measure quantity="60" unit="sous">lx.s</measure></seg><seg type="status"> p.</seg></item> 
 							<item ana="#bk:entry" xml:id="item_bk5_2zg_ghb"><seg type="entry"><persName ref="#GC05" ana="#bk:from"><forename>Guiot</forename>
 										<nameLink>le</nameLink>
-										<surname><roleName ref="#GC05" role="cavatier" type="occupation">Cavatier</roleName></surname></persName>
+										<surname><roleName ref="#GC05" role="savetier" type="occupation">Cavatier</roleName></surname></persName>
 								</seg><seg type="payment"><measureGrp>.<measure quantity="2" unit="sous">ii.s</measure>.<measure quantity="6" unit="deniers">vi d</measure></measureGrp></seg><seg type="status"> p.</seg></item> 
 							<item ana="#bk:entry" xml:id="item_ck5_2zg_ghb"><seg type="entry"><persName ref="#GF05" ana="#bk:from"><forename>Guill<ex>aum</ex>e</forename>
 										<nameLink>le</nameLink>

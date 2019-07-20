@@ -176,6 +176,7 @@
   background-color: white;
   color: black;
   text-align: center;
+  margin: 0 5px;
   padding: 5px 10px;
   border-radius: 0px;
   box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
@@ -209,7 +210,6 @@
 /* Thumbnails */
         .container .thumbnail {
             margin-left: -245px;
-/*            margin-top: 1.33em;*/
             float: left;
             margin-top: 0;
             padding: 12px;

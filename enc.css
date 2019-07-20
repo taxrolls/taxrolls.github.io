@@ -9,15 +9,59 @@
             background-color: whitesmoke;
         }
 
+        .header {
+            background-color: white;
+            text-align: center;
+            border: black solid 1px;
+            padding: 10px;
+        }
+
+/*  Flexbox  */
+        .flexbox {
+          display: flex;
+          justify-content: center;
+          background-color: whitesmoke;
+        }
+        
         .container {
-            margin: auto;
             margin-top: 30px;
-            max-width: 550px;
             border: 1px solid;
-            padding: 20px 50px;
             box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
             background-color: white;
         }
+
+        .main {
+            width: 650px;
+            margin-left: 30px ;
+            margin-right: 30px;
+        }
+     
+        .side {
+            flex: 1;
+        }
+
+        .main>.container {
+            padding: 20px 50px;
+        }
+
+        .side>.container {
+            padding: 20px;
+        }
+
+        .side>.toc {
+            float: right;
+        }
+
+        .toc>h3 {
+            margin-top: 0px;
+        }
+
+        ul.ul-toc {
+            list-style-type: disc;
+        }
+        
+        
+
 
         p.incipit {
             font-style: italic;
@@ -180,13 +224,7 @@
             margin: 0px;
         }
 
-/* Header */
-        .header {
-            background-color: white;
-            text-align: center;
-            border: black solid 1px;
-            padding: 10px;
-        }
+
 
 .initial {
   float: left;
@@ -206,3 +244,6 @@
     font-family: KJV1611;
     font-size: .75rem;
 }
+
+
+

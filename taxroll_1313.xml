@@ -1040,7 +1040,7 @@
 										<nameLink>de</nameLink>
 										<surname>gaigni</surname></persName> et <rs ref="#ANON009" type="person" subtype="anon_sing" ana="#bk:from">sa fame</rs>.</seg>
 								<seg type="payment"><measure quantity="60" unit="sous">lx.s</measure></seg><seg type="status"> p</seg>
-								<note place="inline">p<ex>ou</ex>r elle <seg type="payment"><measure quantity="30" unit="sous">xxx s<ex>ous</ex></measure></seg></note>
+								<note place="inline">p<ex>ou</ex>r elle <measure quantity="30" unit="sous">xxx s<ex>ous</ex></measure></note>
 							</item>
 							<item ana="#bk:entry" xml:id="item_gh5_2zg_ghb"><seg type="entry"><persName ref="#SG01" ana="#bk:from"><forename>Symo<ex>n</ex></forename>
 										<surname>Gencien</surname></persName>

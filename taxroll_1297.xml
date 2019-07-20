@@ -88,7 +88,7 @@
                                 </seg>
                                 <seg type="payment"><measure quantity="20" unit="sous">xx s</measure></seg>
                                 <seg type="status">p</seg></item>
-                            <item ana="#bk:entry" xml:id="item_rcj_d5h_3hb"><note rend="between the lines"/>
+                            <item ana="#bk:entry" xml:id="item_rcj_d5h_3hb" rend="between_lines">
                                 <seg type="entry">
                                     <persName ref="#TA01" ana="#bk:from"><forename>Tibaut</forename>
                                         <nameLink>d</nameLink><surname><placeName ref="#geo_aubigny">aubigni</placeName></surname></persName>

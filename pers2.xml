@@ -564,7 +564,7 @@
                      <roleName>queue levee</roleName>
                   </surname>
                </persName>
-               <occupation source="#item_lc5_2zg_ghb" when="1313" role="cavatier">
+               <occupation source="#item_lc5_2zg_ghb" when="1313" role="savetier">
                   <desc type="source">cavatier</desc>
                </occupation>
             </person>
@@ -753,7 +753,7 @@
                   </surname>
                </persName>
                <sex value="male"/>
-               <occupation source="#item_bk5_2zg_ghb" when="1313" role="cavatier">
+               <occupation source="#item_bk5_2zg_ghb" when="1313" role="savetier">
                   <desc type="source">Cavatier</desc>
                </occupation>
             </person>
@@ -798,7 +798,7 @@
                   <forename>Guillaume</forename>
                   <surname>culpercie</surname>
                </persName>
-               <occupation source="#item_upc_qgn_3hb" when="1296" role="çavatier">
+               <occupation source="#item_upc_qgn_3hb" when="1296" role="savetier">
                   <desc type="source">cavetier</desc>
                </occupation>
             </person>
@@ -1685,7 +1685,7 @@
                   <nameLink>de</nameLink>
                   <surname>gonnesse</surname>
                </persName>
-               <occupation source="#item_mpc_qgn_3hb" when="1296" role="çavatier">
+               <occupation source="#item_mpc_qgn_3hb" when="1296" role="savetier">
                   <desc type="source">cavetier</desc>
                </occupation>
             </person>
@@ -1854,7 +1854,7 @@
                      <placeName ref="#geo_Mante">Mante</placeName>
                   </surname>
                </persName>
-               <occupation source="#item_yj5_2zg_ghb" when="1313" role="cavatier">
+               <occupation source="#item_yj5_2zg_ghb" when="1313" role="savetier">
                   <desc type="source">Cavatier</desc>
                </occupation>
             </person>

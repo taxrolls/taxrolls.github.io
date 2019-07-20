@@ -21,15 +21,14 @@
 
                 <!-- Person Index -->
                 <div class="container">
-                    <h2>People</h2>
+                    <h2>People (by ID)</h2>
                     <p>Unique Entries: <xsl:value-of select="count(distinct-values($refs/@xml:id))"/></p>
                     <ul class="name_index">
                         <xsl:for-each select="$refs">
                             <xsl:sort select="@xml:id"/>
                             <li>
-                                <xsl:value-of select="concat('#',@xml:id)"/>
-                                <xsl:text> </xsl:text>
-                                <xsl:value-of select="normalize-space(persName[1])"/>
+                                <xsl:value-of select="concat('#',@xml:id, ' ')"/>
+                                <a href="./personography.html#{@xml:id}"><xsl:value-of select="normalize-space(persName[1])"/></a>
                             </li>
                         </xsl:for-each>
                     </ul>

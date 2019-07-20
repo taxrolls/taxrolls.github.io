@@ -17,139 +17,140 @@
                 <xsl:copy-of select="document('./html/header.html')"/>
 
                 <!-- Header Section -->
-                <div class="container">
-                    <h1>Personography</h1>
-                    <p>Total Unique Entries: <xsl:value-of select="count(.//person)"/></p>
-                    <hr/>
-                    <xsl:for-each select="//person">
-                        <xsl:sort select="(./persName[1]/@key, normalize-space(./persName[1]/forename[1]), normalize-space(./persName[1]/surname[1]))[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes;"/>
-                        <xsl:variable name="fullID" select="./@xml:id"/>
-                        <xsl:variable name="refID" select="concat('#', $fullID)"/>
-
-                        <div class="person">
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="$fullID"/>
-                            </xsl:attribute>
-                            <h3>
-                                <xsl:choose>
-                                    <xsl:when test="persName[@type][@key]">
-                                        <xsl:value-of select="./persName[@type][1]/@key"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:apply-templates select="./persName[1]"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </h3>
-                            <p>ID: <xsl:value-of select="$refID"/></p>
-                            <xsl:if test="./sex">
-                                <p>Gender: <xsl:value-of select="./sex/@value"/></p>
-                            </xsl:if>
-                            <xsl:if test="./birth">
-                                <p>Birth: <xsl:value-of select="./birth/@when"/><xsl:if test="not(./birth/@when)"><xsl:value-of select="./birth/@from"/> &#8211; <xsl:value-of select="./birth/@to"/></xsl:if></p>
-                            </xsl:if>
-                            <xsl:if test="./death">
-                                <p>Death: <xsl:value-of select="./death/@when"/><xsl:if test="not(./death/@when) and ./death/@notAfter">before <xsl:value-of select="./death/@notAfter"/></xsl:if></p>
-                            </xsl:if>
-                            <xsl:if test="./state[@type = 'office']">
-                                <xsl:for-each select="./state[@type = 'office']">
-                                    <p>Office: <xsl:value-of select="./label"/> (<xsl:value-of select="@from"/> &#8211; <xsl:value-of select="@to"/>)</p>
-                                </xsl:for-each>
-                            </xsl:if>
-                            <xsl:if test="./occupation">
-                                <xsl:for-each select="./occupation">
-                                    <p>Occupation:
+                <div class="flexbox">
+                    <div class="main">
+                        <div class="container">
+                            <h1>Personography</h1>
+                            <p>Total Unique Entries: <xsl:value-of select="count(.//person)"/></p>
+                            <hr/>
+                            <xsl:for-each select="//person">
+                                <xsl:sort select="(./persName[1]/@key, normalize-space(./persName[1]/forename[1]), normalize-space(./persName[1]/surname[1]))[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes;"/>
+                                <xsl:variable name="fullID" select="./@xml:id"/>
+                                <xsl:variable name="refID" select="concat('#', $fullID)"/>
+        
+                                <div class="person">
+                                    <xsl:attribute name="id">
+                                        <xsl:value-of select="$fullID"/>
+                                    </xsl:attribute>
+                                    <h3>
                                         <xsl:choose>
-                                            <xsl:when test="./desc[@type='reg']">
-                                                <xsl:apply-templates select="./desc[@type='reg']"/>
+                                            <xsl:when test="persName[@type][@key]">
+                                                <xsl:value-of select="./persName[@type][1]/@key"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:apply-templates select="@role"/>
+                                                <xsl:apply-templates select="./persName[1]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                        <xsl:copy-of select="tei:source(@source, @when)"/>
-                                    </p>
-                                </xsl:for-each>
-                            </xsl:if>
-
-                            <!-- Add Relations, if any -->
-                            <xsl:if test="(document('relationships.xml')//listRelation/relation[@* = $refID] | document('relationships.xml')//listRelation/relation[contains(@mutual, $refID)])">
-                                <h4>Relationships</h4>
-                                <xsl:for-each select="(document('relationships.xml')//listRelation/relation[@* = $refID] | document('relationships.xml')//listRelation/relation[contains(@mutual, $refID)])">
-
-                                    <p>
-                                        <xsl:variable name="pers1Ref">
-                                            <xsl:choose>
-                                                <xsl:when test="@mutual">
-                                                    <xsl:value-of select="substring-before(./@mutual, ' ')"/>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                    <xsl:value-of select="@active"/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:variable>
-
-                                        <xsl:variable name="pers2Ref">
-                                            <xsl:choose>
-                                                <xsl:when test="@mutual">
-                                                    <xsl:value-of select="substring-after(./@mutual, ' ')"/>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                    <xsl:value-of select="@passive"/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:variable>
-
-                                        <xsl:variable name="relType" select="@name"/>
-
-                                        <xsl:choose>
-                                            <xsl:when test="$pers1Ref = $refID">
-                                                <xsl:value-of select="//category[@xml:id = substring($relType, 2)]/catDesc"/>
-                                                <xsl:text>: </xsl:text>
-                                                <a href="{$pers2Ref}">
-                                                    <xsl:value-of select="tei:getName($pers2Ref, 'short')"/>
-                                                </a>
-                                            </xsl:when>
-                                            <xsl:when test="$pers2Ref = $refID">
-                                                <xsl:value-of select="//category[@corresp = $relType]/catDesc"/>
-                                                <xsl:text>: </xsl:text>
-                                                <a href="{$pers1Ref}">
-                                                    <xsl:value-of select="tei:getName($pers1Ref, 'short')"/>
-                                                </a>
-                                            </xsl:when>
-                                        </xsl:choose>
-                                        <xsl:if test="@source">
-                                            <xsl:variable name="source" select="substring(@source, 2)"/>
-                                            <xsl:variable name="doc" select="base-uri(collection('?select=taxroll_*.xml')[descendant::item[@xml:id = $source] | descendant::head[@xml:id = $source]])"/>
-                                            <xsl:variable name="date" select="document($doc)//date/@when"/>
-                                            <xsl:copy-of select="tei:source(@source, $date)"/>
-                                        </xsl:if>
-                                    </p>
-
-                                </xsl:for-each>
-
-                            </xsl:if>
-
-                            <!-- Add Transactions, if any -->
-                            <xsl:if test="document('transactions.xml')//event/desc/@corresp = $refID">
-                                <!--<h4>Transactions</h4>-->
-                                <details>
-                                    <xsl:if test="count(document('transactions.xml')//event/desc[@corresp = $refID]) lt 5">
-                                        <xsl:attribute name="open"/>
+                                    </h3>
+                                    <p>ID: <xsl:value-of select="$refID"/></p>
+                                    <xsl:if test="./sex">
+                                        <p>Gender: <xsl:value-of select="./sex/@value"/></p>
                                     </xsl:if>
-                                    <summary>Transactions</summary>
+                                    <xsl:if test="./birth">
+                                        <p>Birth: <xsl:value-of select="./birth/@when"/><xsl:if test="not(./birth/@when)"><xsl:value-of select="./birth/@from"/> &#8211; <xsl:value-of select="./birth/@to"/></xsl:if></p>
+                                    </xsl:if>
+                                    <xsl:if test="./death">
+                                        <p>Death: <xsl:value-of select="./death/@when"/><xsl:if test="not(./death/@when) and ./death/@notAfter">before <xsl:value-of select="./death/@notAfter"/></xsl:if></p>
+                                    </xsl:if>
+                                    <xsl:if test="./state[@type = 'office']">
+                                        <xsl:for-each select="./state[@type = 'office']">
+                                            <p>Office: <xsl:value-of select="./label"/> (<xsl:value-of select="@from"/> &#8211; <xsl:value-of select="@to"/>)</p>
+                                        </xsl:for-each>
+                                    </xsl:if>
+                                    <xsl:if test="./occupation">
+                                        <xsl:for-each select="./occupation">
+                                            <p>Occupation:
+                                                <xsl:choose>
+                                                    <xsl:when test="./desc[@type='reg']">
+                                                        <xsl:apply-templates select="./desc[@type='reg']"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:apply-templates select="@role"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                                <xsl:copy-of select="tei:source(@source, @when)"/>
+                                            </p>
+                                        </xsl:for-each>
+                                    </xsl:if>
+        
+                                    <!-- Add Relations, if any -->
+                                    <xsl:if test="(document('relationships.xml')//listRelation/relation[@* = $refID] | document('relationships.xml')//listRelation/relation[contains(@mutual, $refID)])">
+                                        <h4>Relationships</h4>
+                                        <xsl:for-each select="(document('relationships.xml')//listRelation/relation[@* = $refID] | document('relationships.xml')//listRelation/relation[contains(@mutual, $refID)])">
+        
+                                            <p>
+                                                <xsl:variable name="pers1Ref">
+                                                    <xsl:choose>
+                                                        <xsl:when test="@mutual">
+                                                            <xsl:value-of select="substring-before(./@mutual, ' ')"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="@active"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:variable>
+        
+                                                <xsl:variable name="pers2Ref">
+                                                    <xsl:choose>
+                                                        <xsl:when test="@mutual">
+                                                            <xsl:value-of select="substring-after(./@mutual, ' ')"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="@passive"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:variable>
+        
+                                                <xsl:variable name="relType" select="@name"/>
+        
+                                                <xsl:choose>
+                                                    <xsl:when test="$pers1Ref = $refID">
+                                                        <xsl:value-of select="//category[@xml:id = substring($relType, 2)]/catDesc"/>
+                                                        <xsl:text>: </xsl:text>
+                                                        <a href="{$pers2Ref}">
+                                                            <xsl:value-of select="tei:getName($pers2Ref, 'short')"/>
+                                                        </a>
+                                                    </xsl:when>
+                                                    <xsl:when test="$pers2Ref = $refID">
+                                                        <xsl:value-of select="//category[@corresp = $relType]/catDesc"/>
+                                                        <xsl:text>: </xsl:text>
+                                                        <a href="{$pers1Ref}">
+                                                            <xsl:value-of select="tei:getName($pers1Ref, 'short')"/>
+                                                        </a>
+                                                    </xsl:when>
+                                                </xsl:choose>
+                                                <xsl:if test="@source">
+                                                    <xsl:variable name="source" select="substring(@source, 2)"/>
+                                                    <xsl:variable name="doc" select="base-uri(collection('?select=taxroll_*.xml')[descendant::item[@xml:id = $source] | descendant::head[@xml:id = $source]])"/>
+                                                    <xsl:variable name="date" select="document($doc)//date/@when"/>
+                                                    <xsl:copy-of select="tei:source(@source, $date)"/>
+                                                </xsl:if>
+                                            </p>
+        
+                                        </xsl:for-each>
+        
+                                    </xsl:if>
+        
+                                    <!-- Add Transactions, if any -->
+                                    <xsl:if test="document('transactions.xml')//event/desc/@corresp = $refID">
+                                        <!--<h4>Transactions</h4>-->
+                                        <details>
+                                            <xsl:if test="count(document('transactions.xml')//event/desc[@corresp = $refID]) lt 5">
+                                                <xsl:attribute name="open"/>
+                                            </xsl:if>
+                                            <summary>Transactions</summary>
+        
+                                            <xsl:for-each select="document('transactions.xml')//event/desc[@corresp = $refID]">
+                                                <p>
+                                                    <xsl:apply-templates select="./ancestor::event" mode="trans"/>
+                                                </p>
+                                            </xsl:for-each>
+                                        </details>
+                                    </xsl:if>
+                                </div>
+                            </xsl:for-each>
 
-                                    <xsl:for-each select="document('transactions.xml')//event/desc[@corresp = $refID]">
-                                        <p>
-                                            <xsl:apply-templates select="./ancestor::event" mode="trans"/>
-                                        </p>
-                                    </xsl:for-each>
-                                </details>
-                            </xsl:if>
-                        </div>
-                        <br/>
-                    </xsl:for-each>
-
-                </div>
+                </div></div></div>
             </body>
         </html>
 

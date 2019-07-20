@@ -245,5 +245,7 @@
     font-size: .75rem;
 }
 
-
+div.person {
+    padding-bottom: 15px;
+}
 

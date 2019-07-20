@@ -6,7 +6,8 @@
 
     <xsl:key name="persID" match="persName" use="@ref"/>
 
-<!--    <xsl:strip-space elements="*"/>-->
+    <!--<xsl:strip-space elements="*"/>
+    <xsl:preserve-space elements="persName"/>-->
 
     <xsl:template match="/">
 
@@ -99,7 +100,7 @@
         </a>
     </xsl:template>
 
-    <xsl:template match="item/seg[@type='entry']/descendant::lb">
+    <xsl:template match="item/seg[@type = 'entry']/descendant::lb">
         <br/><xsl:apply-templates/>
     </xsl:template>
     
@@ -153,14 +154,14 @@
     
 
     <xsl:template match="measure">
-        <xsl:analyze-string select="." regex="[ivxlLcC]+[^b]">
+        <xsl:analyze-string select="." regex="[ivxlL£cC]+[^b]">
             <xsl:matching-substring>
                 <span class="num">
-                    <xsl:value-of select="replace(.,'\.',' ')"/>
+                    <xsl:apply-templates select="replace(.,'\.',' ')"/>
                 </span>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
-                <xsl:value-of select="replace(.,'\.',' ')"/>
+                <xsl:apply-templates select="replace(replace(.,'\.',' '),'lb','£')"/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
@@ -189,22 +190,58 @@
 
     <xsl:template match="item/seg[@type = 'entry']">
         <td class="table_item">
-            <xsl:apply-templates/>
+            <xsl:call-template name="marginalia"/>
         </td>
     </xsl:template>
 
     <xsl:template match="seg[@type = 'payment']">
         <td class="table_amount">
-            <xsl:apply-templates/>
+            <xsl:call-template name="marginalia"/>
         </td>
     </xsl:template>
 
     <xsl:template match="seg[@type = 'status']">
         <td class="status">
-            <xsl:apply-templates/>
+            <xsl:call-template name="marginalia"/>
         </td>
     </xsl:template>
     
+    <xsl:template name="marginalia">
+        <xsl:if test="preceding-sibling::*[1][self::note]">
+
+            <span class="tooltip">
+                <span class="tooltip-marker">*</span><span class="tooltiptext"><xsl:apply-templates select="preceding-sibling::note" mode="margins"/></span>
+            </span>
+            <!--<xsl:text>&#160;</xsl:text>-->
+        </xsl:if>
+        <xsl:apply-templates/>
+        <xsl:if test="following-sibling::*[1][self::note]">
+            <!--<xsl:text>&#160;</xsl:text>-->
+            <span class="tooltip">
+                <span class="tooltip-marker">*</span><span class="tooltiptext"><xsl:apply-templates select="following-sibling::note" mode="margins"/></span>
+            </span>
+
+        </xsl:if>        
+    </xsl:template>
+    
+    <xsl:template match="note/lb" mode="margins">
+        <br/><xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="note"/>
+
+<!--    <xsl:template match="measure">
+        <!-\-<xsl:value-of select="replace(., 'lb', '£')"/>-\->
+        <xsl:apply-templates select="replace(., 'lb', '£')"/>
+    </xsl:template>
+-->
+    
+<!--    <xsl:template match="note[ancestor::item]">
+        <span class="tooltip">
+            <xsl:text>*</xsl:text><span class="tooltiptext"><xsl:apply-templates/></span>
+        </span>
+    </xsl:template>
+-->    
 
 <!--    <xsl:template match="measure[not(parent::measureGrp)]">
         <td class="table_amount">

@@ -42,7 +42,7 @@
                             </h3>
                             <p>ID: <xsl:value-of select="$refID"/></p>
                             <xsl:if test="./sex">
-                                <p>Sex: <xsl:value-of select="./sex/@value"/></p>
+                                <p>Gender: <xsl:value-of select="./sex/@value"/></p>
                             </xsl:if>
                             <xsl:if test="./birth">
                                 <p>Birth: <xsl:value-of select="./birth/@when"/><xsl:if test="not(./birth/@when)"><xsl:value-of select="./birth/@from"/> &#8211; <xsl:value-of select="./birth/@to"/></xsl:if></p>

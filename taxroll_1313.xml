@@ -858,7 +858,7 @@
 										<surname><addName>ladre</addName></surname></persName></seg>
 								<seg type="payment"><measure quantity="9" unit="livres">.ix.lb.</measure></seg>
 								<!-- THIS IS NOT CLEAR AT ALL IN THE MS -->
-								<note place="inline" resp="#bib_mich01">vii l<lb/> x.s p <lb/>p<ex>ar</ex>son <lb/>serreme<ex>n</ex>t</note>
+								<note place="inline" resp="#bib_mich01">vii l<lb/> x.s p <lb/>p<ex>ar</ex> son <lb/>serreme<ex>n</ex>t</note>
 							</item>
 							<item ana="#bk:entry" xml:id="item_uf5_2zg_ghb"><seg type="entry"><persName ref="#TC01" ana="#bk:from"><forename>Thiebaut</forename>
 										<nameLink>le</nameLink>

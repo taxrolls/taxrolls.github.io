@@ -13,7 +13,9 @@
             background-color: white;
             text-align: center;
             border: black solid 1px;
-            padding: 10px;
+            max-width: 1198px;
+            margin: auto;
+            padding: 10px 0;
         }
 
 /*  Flexbox  */
@@ -22,7 +24,7 @@
           justify-content: center;
           background-color: whitesmoke;
         }
-        
+
         .container {
             margin-top: 30px;
             border: 1px solid;
@@ -35,7 +37,7 @@
             margin-left: 30px ;
             margin-right: 30px;
         }
-     
+
         .side {
             flex: 1;
         }
@@ -59,8 +61,8 @@
         ul.ul-toc {
             list-style-type: disc;
         }
-        
-        
+
+
 
 
         p.incipit {
@@ -153,11 +155,11 @@
             margin: 1em 0;
             border-spacing: 0;
         }
-        
+
         td.status {
             width: 22px;
         }
-        
+
 /* Tooltip container */
 .tooltip {
 /*  position: relative;
@@ -180,7 +182,7 @@
   padding: 5px 10px;
   border-radius: 0px;
   box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
- 
+
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
@@ -248,4 +250,3 @@
 div.person {
     padding-bottom: 15px;
 }
-

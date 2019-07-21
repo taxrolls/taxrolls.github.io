@@ -23,7 +23,7 @@
           text-align: center;
         }
 
-        a.site-title, .site-title:visited {
+        a.site-title, .site-title:visited, .site-title:hover {
           text-decoration: none;
           font-family: "Old Standard TT", Garamond, serif;
           font-size: 3em;
@@ -41,7 +41,7 @@
           display: inline-block;
           text-align: center;
           float: none;
-          border-bottom-style: none;
+          border-bottom: none;
          }
 
         .sub-heading {

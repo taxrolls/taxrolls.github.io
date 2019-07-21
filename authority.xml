@@ -158,6 +158,11 @@
                     <death notAfter="1313" source="#item_lh5_2zg_ghb"/>
                 </person>
                 
+                <person corresp="#RC01" resp="#ND">
+                    <death notAfter="1313" source="#item_rh5_2zg_ghb"/>
+                </person>
+                
+                
             </listPerson>
         </body>
     </text>

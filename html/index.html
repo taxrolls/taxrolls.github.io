@@ -4,88 +4,12 @@
 <html xmlns="http://www.w3.org/1999" xmlns:tei="http://www.tei-c.org/ns/1.0">
    <head>
       <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+      <meta charset="utf-8" />
+      <title>The Tax Rolls of Medieval Paris</title>
       <link rel="stylesheet" type="text/css" href="../enc.css"/>
-      <style media="screen">
-        body {
-          margin-top: 0px;
-        }
-
-        /* .wrapper {
-          max-width: -webkit-calc(800px - (30px * 2));
-          max-width: calc(800px - (30px * 2));
-          margin-right: auto;
-          margin-left: auto;
-          padding-right: 30px;
-          padding-left: 30px; }
-          @media screen and (max-width: 800px) {
-            .wrapper {
-              max-width: -webkit-calc(800px - (30px));
-              max-width: calc(800px - (30px));
-              padding-right: 15px;
-              padding-left: 15px; } } */
-
-        div.banner {
-          background-image: url("../assets/banner.png");
-          background-position: center;
-          background-repeat: no-repeat;
-          max-width: 1200px;
-          min-height: 180px;
-          margin: auto;
-          margin-bottom: 5px;
-          padding: 0;
-          border-bottom: 3px solid #424242;
-          border-top: 5px solid #424242;
-          text-align: center;
-        }
-
-        a.site-title, .site-title:visited {
-          text-decoration: none;
-          font-family: "Old Standard TT", Garamond, serif;
-          font-size: 3em;
-          color: white;
-          font-weight: bold;
-          background-color: #11111199;
-          padding: 20px 40px;
-          max-width: -webkit-calc(800px - (30px * 2));
-          max-width: calc(800px - (30px * 2));
-          margin-right: auto;
-          margin-left: auto;
-          margin-top: 15px;
-          box-shadow: 0px 4px 16px 2px rgba(0, 0, 0, 0.5);
-          z-index: 1;
-          display: inline-block;
-          text-align: center;
-          float: none;
-          border-bottom-style: none;
-         }
-
-        .sub-heading {
-          font-size: 28px;
-          font-weight: normal;
-          display: block; }
-
-        .nav-bar {
-          max-width: 1198px;
-          margin: auto;
-          padding: 10px 0;
-        }
-
-        .full-page {
-            max-width: -webkit-calc(800px - (30px * 2));
-            max-width: calc(800px - (30px * 2));
-            margin-right: auto;
-            margin-left: auto;
-            padding-right: 30px;
-            padding-left: 30px; }
-            @media screen and (max-width: 800px) {
-              .full.page {
-                max-width: -webkit-calc(800px - (30px));
-                max-width: calc(800px - (30px));
-                padding-right: 15px;
-                padding-left: 15px; } }
-        }
-
-      </style>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+      <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    </head>
    <body>
       <div class="banner">
@@ -93,7 +17,7 @@
             <span class="sub-heading">A Digital Edition</span>
           </a>
       </div>
-      <div class="nav-bar header">
+      <div class="nav-bar">
         <a href="index.html">Home</a> ||
         <a href="about.html">About</a> ||
         Rolls:
@@ -104,12 +28,177 @@
         <a href="persIndex.html">Index</a>
       </div>
       <div class="flexbox">
-        <div class="main">
+        <div class="main wide">
           <div class="container">
             <h2>Welcome</h2>
-            <p>Welcome to this prototype site for the Tax Rolls of Medieval Paris Digital Edition.</p>
+            <p>Welcome to the Tax Rolls of Medieval Paris prototype website. This project aims to be a complete digital edition of the seven surving <i>taille</i> (tax) rolls that were levied on the citizens of Paris by <a href="../html/personography.html#P04">King Philip IV</a> between 1292-1300 and again in 1313. These documents provide a wealth of information about the individual people, demographics, and topography of the city.</p>
+            <h3 class="news">How to Get Started</h3>
+            <ul class="ul-disc">
+              <li>Browse the edited tax rolls. Currently, the most complete is the <a href="../html/roll_1313.html">1313 tax roll</a>.</li>
+              <li>Information about the individual people mentioned in the rolls is found in the <a href="../html/personography.html">Personography</a>.</li>
+              <li>View the <a href="../html/persIndex.html">Index</a> for lists of occupations, given names, and toponyms.</li>
+              <li>Learn about the markup and editorial choices on the <a href="../html/about.html">About</a> page.</li>
+              <li>(7/2019) <a href="../public/ACH2019/poster.pdf">View the Poster</a> presented at the ACH conference in Pittsburgh, PA.</li>
+            </ul>
+            <h3 class="news">Progress</h3>
+            <p>For the <a href="../html/roll_1313.html">1313</a> <i>taille</i> roll, the first two <i>quêtes</i> (administrative districts) of the <i>St-Germain l'Auxerrois</i> parish have been completed. For the <a href="../html/roll_1296.html">1296</a> and <a href="../html/roll_1297.html">1297</a> roles, currently only the first street, <i>Rue St-Honoré</i>, has been edited. See map below:</p>
+            <div id="mapid"></div>
+            <h3 class="news">Contact</h3>
+            <p>Questions? Comments? Bug reports? Contact the editor at <a href="mailto:nathan.daniels@jhu.edu" target="_blank">nathan.daniels@jhu.edu</a> or via Twitter at <a href="http://www.twitter.com/nathanadaniels" target="_blank">@nathanadaniels</a>.</p>
           </div>
         </div>
+
       </div>
-   </body>
+
+
+
+      <div class="footer flexbox">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">Tax Rolls of Medieval Paris</li>
+            <li><a class="u-email" href="mailto:nathan.daniels@jhu.edu">nathan.daniels@jhu.edu</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            <li><a href="https://github.com/nadaniels"><svg class="svg-icon">
+                  <use xlink:href="../assets/minima-social-icons.svg#github"></use>
+                </svg> <span class="username">nadaniels</span></a></li>
+            <li><a href="https://www.twitter.com/nathanadaniels"><svg class="svg-icon">
+                  <use xlink:href="../assets/minima-social-icons.svg#twitter"></use>
+                </svg> <span class="username">nathanadaniels</span></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+          <ul class="license">
+            <li><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></li>
+            <!-- <li>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons <br/> Attribution-ShareAlike 4.0 International License</a>.</li> -->
+          <ul>
+        </div>
+
+      </div>
+
+      <script>
+      // Load BaseMap
+        var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>; &copy; <a href="https://carto.com/attributions">CARTO</a>;<br> &copy; <a href="https://alpage.huma-num.fr">ALPAGE</a>: C. Bourlet, A-L Bethe',
+          maxZoom: 19
+        });
+
+      // Load street data
+        $.getJSON("../geoJSON/smallstreets2.json", function(data) {
+          var geojson = L.geoJson(data, {
+            onEachFeature: function (feature, layer) {
+              layer.on({
+          			mouseover: highlightFeature,
+          			mouseout: resetHighlight,
+          			click: zoomToFeature
+          		});
+            },
+            style: style
+          });
+
+          var mymap = L.map('mapid').fitBounds(geojson.getBounds());
+          CartoDB_PositronNoLabels.addTo(mymap);
+          geojson.addTo(mymap);
+
+        // control that shows state info on hover
+          var info = L.control();
+
+          info.onAdd = function (mymap) {
+            this._div = L.DomUtil.create('div', 'info');
+            this.update();
+            return this._div;
+          };
+
+          info.update = function (props) {
+            this._div.innerHTML = '<h4>What is this Street?</h4>' +  (props ?
+              '<b>' + props.name + '</b><br />'
+              : 'Hover over a street');
+          };
+
+          info.addTo(mymap);
+
+        // Mouseover
+          function highlightFeature(e) {
+        		var layer = e.target;
+
+        		layer.setStyle({
+        			weight: 4,
+        			color: 'red',
+        		});
+
+        		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        			layer.bringToFront();
+        		}
+
+        		info.update(layer.feature.properties);
+        	}
+
+        // Mouseoff
+          function resetHighlight(e) {
+        		geojson.resetStyle(e.target);
+        		info.update();
+        	}
+
+        // Zoom on Click
+        	function zoomToFeature(e) {
+        		mymap.fitBounds(e.target.getBounds());
+        	}
+
+          // get color depending on population density value
+        	function getColor(d, n) {
+        		return n == 1 ? '#009900' :
+                   d == 1 ? '#000088' :
+        		   		 d == 2 ? '#000088' :
+        					    	 	 '#000';
+        	}
+
+          function style(feature) {
+        		return {
+        			color: getColor(feature.properties.district, feature.properties.id),
+        		};
+        	}
+
+          var legend = L.control({position: 'bottomleft'});
+
+        	legend.onAdd = function (mymap) {
+
+        		var div = L.DomUtil.create('div', 'info legend'),
+        			grades = [],
+        			labels = [
+                '<i style="background: #009900"></i> ' + 'Complete (1296, 1297, & 1313)',
+                '<i style="background: #000088"></i> ' + 'Complete (1313)',
+                '<i style="background: #888"></i> ' + 'In progress',
+              ];
+
+        		div.innerHTML = labels.join('<br>');
+        		return div;
+        	};
+
+        	legend.addTo(mymap);
+
+          $.getJSON("../geoJSON/streets1300.json", function(data) {
+            var geojson2 = L.geoJson(data, {
+              style: {
+                color: '#888',
+                weight: 2,
+                opacity: 1,
+              }
+            });
+
+            geojson2.addTo(mymap);
+            geojson2.bringToBack();
+          });
+
+      });
+
+
+
+
+      </script>
+
+</body>
 </html>

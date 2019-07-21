@@ -23,36 +23,20 @@
                     <div class="side">
                         <div class="toc container">
                             <h3>Contents</h3>
-                            <ul class="ul-toc">
-                                <li><a href="#people">People</a></li>
+                            <ul class="ul-disc">
                                 <li><a href="#occupations">Occupations</a></li>
                                 <li><a href="#names">Names</a></li>
-                                <ul class="ul-toc">
+                                <ul class="ul-disc">
                                     <li><a href="#given">Given Names</a></li>
                                     <li><a href="#toponyms">Toponyms</a></li>
                                 </ul>
+                                <li><a href="#people">Person IDs</a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Person Index -->
-                    <div class="main">
-                        <div class="container" id="people">
-                            <h2>People (by ID)</h2>
-                            <p>Unique Entries: <xsl:value-of select="count(distinct-values($refs/@xml:id))"/></p>
-                            <ul class="name_index">
-                                <xsl:for-each select="$refs">
-                                    <xsl:sort select="@xml:id"/>
-                                    <li>
-                                        <xsl:value-of select="concat('#', @xml:id, ' ')"/>
-                                        <a href="./personography.html#{@xml:id}">
-                                            <xsl:value-of select="normalize-space(persName[1])"/>
-                                        </a>
-                                    </li>
-                                </xsl:for-each>
-                            </ul>
-                        </div>
 
+                    <div class="main">
 
                         <!-- Occupation Index -->
                         <div class="container" id="occupations">
@@ -102,7 +86,6 @@
                             </ul>
                         </div>
 
-
                         <!-- Names Index -->
                         <div class="container" id="names">
                             <h2>Names</h2>
@@ -134,6 +117,24 @@
                                 </xsl:for-each-group>
                             </ul>
                         </div>
+                  
+                        <!-- Person Index -->
+                        <div class="container" id="people">
+                            <h2>People (by ID)</h2>
+                            <p>Unique Entries: <xsl:value-of select="count(distinct-values($refs/@xml:id))"/></p>
+                            <ul class="name_index">
+                                <xsl:for-each select="$refs">
+                                    <xsl:sort select="@xml:id"/>
+                                    <li>
+                                        <xsl:value-of select="concat('#', @xml:id, ' ')"/>
+                                        <a href="./personography.html#{@xml:id}">
+                                            <xsl:value-of select="normalize-space(persName[1])"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </div>
+                    
                     </div>
                     <div class="side"></div>
                 </div>

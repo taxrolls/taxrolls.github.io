@@ -22,7 +22,6 @@
                         <div class="container">
                             <h1>Personography</h1>
                             <p>Total Unique Entries: <xsl:value-of select="count(.//person)"/></p>
-                            <hr/>
                             <xsl:for-each select="//person">
                                 <xsl:sort select="(./persName[1]/@key, normalize-space(./persName[1]/forename[1]), normalize-space(./persName[1]/surname[1]))[1]" collation="http://www.w3.org/2013/collation/UCA?lang=fr;strength=secondary;backwards=yes;"/>
                                 <xsl:variable name="fullID" select="./@xml:id"/>
@@ -41,8 +40,12 @@
                                                 <xsl:apply-templates select="./persName[1]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
+                                        <xsl:if test="idno[@type='viaf']"><a class="external-id" href="{idno[@type='viaf']}"><img src="../assets/logo-viaf.png"/></a></xsl:if>
+                                        <xsl:if test="idno[@type='wikidata']"><a class="external-id" href="{idno[@type='wikidata']}"><img src="../assets/Wikidata-logo.svg"/></a></xsl:if>
                                     </h3>
-                                    <p>ID: <xsl:value-of select="$refID"/></p>
+                                    <p>ID: <xsl:value-of select="$refID"/>
+
+                                    </p>
                                     <xsl:if test="./sex">
                                         <p>Gender: <xsl:value-of select="./sex/@value"/></p>
                                     </xsl:if>

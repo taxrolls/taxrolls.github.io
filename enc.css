@@ -399,3 +399,14 @@ ul.license li a {
   color: black;
   border-bottom: 0px solid black;
 }
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11pt;
+  /* background-color: #ececec; */
+}
+
+h4.about {
+  font-weight: normal;
+  font-style: italic;
+}

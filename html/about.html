@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compact">
+<html xmlns="http://www.w3.org/1999" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+      <meta charset="utf-8" />
+      <title>The Tax Rolls of Medieval Paris | About</title>
+      <link rel="stylesheet" type="text/css" href="../enc.css"/>
+   </head>
+   <body>
+      <div class="banner">
+          <a class="site-title" href="./">The Tax Rolls of Medieval Paris
+            <span class="sub-heading">A Digital Edition</span>
+          </a>
+      </div>
+      <div class="nav-bar">
+        <a href="index.html">Home</a> ||
+        <a href="about.html">About</a> ||
+        Rolls:
+        <a href="roll_1296.html">1296</a> |
+        <a href="roll_1297.html">1297</a> |
+        <a href="roll_1313.html">1313</a> ||
+        <a href="personography.html">Personography</a> ||
+        <a href="persIndex.html">Index</a>
+      </div>
+      <div class="flexbox">
+        <div class="main wide">
+          <div class="container">
+            <h2 id="about">About</h2>
+            <p>The Tax Rolls of Medieval Paris is a TEI-based digital edition of the seven extant tax rolls from the <em>taille</em> levied on the city of Paris by Philip the Fair between 1292 and 1313. These documents provide a wealth of information about the individual people, demographics, and history of the city.</p>
+            <p>The organization of the tax rolls is relatively simple: by parish and <em>quête</em> (district), and containing a list of taxpayers and the amount of tax paid (or owed). However, a closer look reveals personal, occupational, topographical, and financial data, which the TEI markup can make available for searching, cross-referencing, mapping, tabulating, and exporting.</p>
+            <h3 id="background">Background</h3>
+            <h4 class="about" id="historical-background">Historical Background</h4>
+            <p>As part of his efforts to deal with ongoing conflicts in England, Aragon, and Flanders, <a href="../html/personography.html#P04">Philip IV of France</a> was frequently short on funds. In 1292, he levied a <em>taille</em>, a tax on personal wealth, on all of the cities in northern France. The city of Paris negotiated with the crown in order to pay 100,000 <em>livres tournois</em> in 10,000 <em>livre</em> installments over ten years (although it seems to have only been collected for eight). How to assess and distribute the collection of these funds, was therefore left up to the city the decide.</p>
+            <p>In 1313, Philip again levied a 10,000 <em>livre</em> tax on the city, this time to pay for the ceremony and festival surrounding the knighting of the king&#39;s eldest son, the future <a href="../html/personography.html#L10">Louis X</a>. The eight-day festival was held in the city the week of Pentecost in 1313, and included multiple banquets for the nobility of France and England, a hastily constructed boat bridge, a renewed call to go on crusade, processions across the city, and theatrical tableaus staged by various trade guilds.</p>
+            <h4 class="about" id="tax-rolls">Tax Rolls</h4>
+            <p>Unfortunately, not all of the tax rolls are still extant, nor are they all complete. The rolls for 1292 and 1313 are held in the <em>Bibliothèque naitonale de France</em> (<em>BNF</em>) as <a href="https://gallica.bnf.fr/ark:/12148/btv1b107205344">Ms fr. 6220 (1292)</a> and <a href="https://gallica.bnf.fr/ark:/12148/btv1b9063202d">Ms fr. 6736 (1313)</a>, and have been fully digitized. The rolls for 1296-1300 are available in Paris at the <em>Archives nationales de France</em> as microfilm under shelf mark KK 283. The rolls for 1293-1295 are no longer extant.</p>
+            <p>Some of the rolls have previously been edited and published:</p>
+            <ul>
+            <li>1292 - H. Géraud, <em>Paris sous Philippe-le-Bel</em> (1887) [reprinted w/index by C. Bourlet and L. Fossier (1991)]</li>
+            <li>1296 - K. Michaëlsson, <em>Le Livre de la taille de Paris l&#39;an 1296</em> (1958)</li>
+            <li>1297 - K. Michaëlsson, <em>Le Livre de la taille de Paris l&#39;an 1297</em> (1962)</li>
+            <li>1313 - J.A. Buchon, <em>Chronique métrique de Godefroy de Paris, suivie de la taille de Paris, en 1313</em> (1827)</li>
+            <li>1313 - K. Michaëlsson, <em>Le Livre de la taille de Paris l&#39;an de grace 1313</em> (1951)</li>
+            </ul>
+            <h3 id="digital-edition-tei-markup">Digital Edition &amp; TEI Markup</h3>
+            <p>The goal of the Tax Rolls of Medieval Paris is to create a digital edition that presents a faithful transcription of the text while also extracting historical data that can be structured, normalized, and disambiguated.  Consequently, it can be classified as an &quot;assertive edition,&quot; what Georg Vogeler (2019) describes as &quot;scholarly representations of historical documents in which the information on facts asserted by the transcription is in the focus of editorial work.&quot; While the ultimate goal of interoperability within the semantic web remains in the future, this edition nevertheless works to identify historical data, while preserving the original text.</p>
+            <p>To this end, the focus of the markup of the tax rolls falls on named entities (people, places, organizations/institutions) and the relationships between them. But it also attempts to pay attention to codicology and palaeography, marking folios and columns, noting (and expanding) abbreviations, indicating erasures, additions and corrections, and transcribing marginalia.</p>
+            <p>The basic TEI Markup of the individual tax payments in the rolls currently includes the following:</p>
+            <h4 class="about" id="people">People</h4>
+            <p>Named persons are tagged with the following:</p>
+            <ul>
+            <li><code>&lt;persName&gt;</code> - with a <code>@ref</code> attribute to the XML ID of the person, and any relevant child elements:<ul>
+            <li><code>&lt;forename&gt;</code></li>
+            <li><code>&lt;nameLink&gt;</code></li>
+            <li><code>&lt;surname&gt;</code></li>
+            <li><code>&lt;placeName&gt;</code></li>
+            <li><code>&lt;roleName&gt;</code></li>
+            <li><code>&lt;addName&gt;</code></li>
+            </ul>
+            </li>
+            </ul>
+            <p>Unnamed persons are tagged with the <code>&lt;rs&gt;</code> element, with attributes and relevant child elements as above.</p>
+            <h4 class="about" id="occupations">Occupations</h4>
+            <p>Occupations tied to individual people are noted by the <code>&lt;roleName&gt;</code> tag with the following attributes:</p>
+            <ul>
+            <li><code>@ref</code> - Referring to the XML ID of the related person</li>
+            <li><code>@role</code> - A normalized rendering/spelling of the occupation</li>
+            <li><code>@type</code> - <code>occupation</code></li>
+            </ul>
+            <p>An occupational surname that does not appear to indicate occupation (e.g. <code>ferpier</code> (<em>fripier</em>) in <code>Phelippe le ferpier tavernier</code>) is placed within a <code>&lt;roleName&gt;</code> tag without the additional attributes.</p>
+            <h4 class="about" id="tax-payments">Tax Payments</h4>
+            <p>Tax payments are tagged with <code>&lt;measure&gt;</code> or <code>&lt;measureGrp&gt;</code> (with multiple <code>&lt;measure&gt;</code> elements, if containing multiple units) and the following attributes:</p>
+            <ul>
+            <li><code>@commodity</code> - <code>currency</code></li>
+            <li><code>@unit</code> - Either <code>livres</code>, <code>sous</code>, or <code>deniers</code></li>
+            <li><code>@quantity</code> - The numbered amount of the unit</li>
+            </ul>
+            <h4 class="about" id="transactions">Transactions</h4>
+            <p>Markup for transactions is based on the <a href="http://gams.uni-graz.at/o:depcha.bookkeeping">Bookkeeping Ontology</a> developed by the Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA) led by Kathryn Tomasak (Wheaton College) and Georg Vogeler (University of Graz). This project uses the following <code>bookkeeping</code> tags within the  <code>@ana</code> attribute of relevant elements:</p>
+            <ul>
+            <li><code>bk:entry</code></li>
+            <li><code>bk:date</code></li>
+            <li><code>bk:from</code></li>
+            <li><code>bk:to</code></li>
+            <li><code>bk:money</code></li>
+            <li><code>bk:status</code></li>
+            </ul>
+            <h4 class="about" id="relationships">Relationships</h4>
+            <p>The TEI does not allow for encoding relationships within the body of a text, instead holding it in external <code>&lt;listRelation&gt;</code> elements. Both personal and professional relationships expressed within the tax rolls are encoded in a separate <code>relationships.xml</code> file, expressed through a simple relationship taxonomy (e.g. <code>#hasParent</code>, <code>#hasEmployer</code>).</p>
+            <h4 class="about" id="geodata">GeoData</h4>
+            <p>Geographic locations are currently given placeholder XML IDs; ultimately these will connect to GeoNames or a similar Linked Open Data authority file. GeoData for the streets of Paris is available from the <a href="https://alpage.huma-num.fr">ALPAGE Project</a>, and has been converted to geoJSON for mapping. At the moment, however, there is not yet interoperability between this data and the edited rolls.</p>
+            <h3 id="sample-markup">Sample Markup</h3>
+            <p>The markup for a typical entry, e.g.:</p>
+            <p><code>Bertaut de compiegne poullaillier ii.s. vi.d p.</code></p>
+            <p>is rendered as:</p>
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">item</span> <span class="hljs-attr">ana</span>=<span class="hljs-string">"#bk:entry"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">persName</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">"#BC01"</span> <span class="hljs-attr">ana</span>=<span class="hljs-string">"#bk:from"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">forename</span>&gt;</span>Bertaut<span class="hljs-tag">&lt;/<span class="hljs-name">forename</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">nameLink</span>&gt;</span>de<span class="hljs-tag">&lt;/<span class="hljs-name">nameLink</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">surname</span>&gt;</span>compiegne<span class="hljs-tag">&lt;/<span class="hljs-name">surname</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">persName</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">roleName</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">"#BC01"</span> <span class="hljs-attr">role</span>=<span class="hljs-string">"poulailler"</span>
+    <span class="hljs-attr">type</span>=<span class="hljs-string">"occupation"</span>&gt;</span>poullaillier<span class="hljs-tag">&lt;/<span class="hljs-name">roleName</span>&gt;</span>.
+  <span class="hljs-tag">&lt;<span class="hljs-name">measureGrp</span> <span class="hljs-attr">ana</span>=<span class="hljs-string">"bk:money"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">measure</span> <span class="hljs-attr">quantity</span>=<span class="hljs-string">"2"</span> <span class="hljs-attr">unit</span>=<span class="hljs-string">"sous"</span>&gt;</span>ii.s.<span class="hljs-tag">&lt;/<span class="hljs-name">measure</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">measure</span> <span class="hljs-attr">quantity</span>=<span class="hljs-string">"6"</span> <span class="hljs-attr">unit</span>=<span class="hljs-string">"deniers"</span>&gt;</span>vi.d<span class="hljs-tag">&lt;/<span class="hljs-name">measure</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">measureGrp</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">seg</span> <span class="hljs-attr">ana</span>=<span class="hljs-string">"bk:status"</span>&gt;</span>p.<span class="hljs-tag">&lt;/<span class="hljs-name">seg</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">item</span>&gt;</span></code></pre>
+            <p>NB: Additional markup for rendering the digital edition (including <code>&lt;seg&gt;</code> elements and <code>@type</code> attributes) is not included here. Some of the bookkeeping markup is also added later via XSLT.</p>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="footer flexbox">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">The Tax Rolls of Medieval Paris</li>
+            <li><a class="u-email" href="mailto:nathan.daniels@jhu.edu">nathan.daniels@jhu.edu</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            <li><a href="https://github.com/nadaniels" target="_blank"><svg class="svg-icon">
+                  <use xlink:href="../assets/minima-social-icons.svg#github"></use>
+                </svg> <span class="username">nadaniels</span></a></li>
+            <li><a href="https://www.twitter.com/nathanadaniels" target="_blank"><svg class="svg-icon">
+                  <use xlink:href="../assets/minima-social-icons.svg#twitter"></use>
+                </svg> <span class="username">nathanadaniels</span></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+          <ul class="license">
+            <li><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></li>
+            <!-- <li>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons <br/> Attribution-ShareAlike 4.0 International License</a>.</li> -->
+          <ul>
+        </div>
+
+      </div>
+
+</body>
+</html>

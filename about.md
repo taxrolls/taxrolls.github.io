@@ -1,8 +1,8 @@
 ## About
 
-The Tax Rolls of Medieval Paris is a TEI-based digital edition of the seven extant tax rolls from the *taille* levied on the city of Paris by Philip the Fair between 1292 and 1313. These documents provide a wealth of information about the individual people, demographics, and history of the city.
+The Tax Rolls of Medieval Paris is a TEI (Text Encoding Initiative)-based digital edition of the seven extant tax rolls from the *tailles* levied on the city of Paris by [Philip the Fair](../html/personography.html#P04) between 1292 and 1313. These documents provide a wealth of information about the individual people, demographics, and history of the city.
 
-The organization of the tax rolls is relatively simple: by parish and *quête* (district), and containing a list of taxpayers and the amount of tax paid (or owed). However, a closer look reveals personal, occupational, topographical, and financial data, which the TEI markup can make available for searching, cross-referencing, mapping, tabulating, and exporting.
+The information presented in the tax rolls appears relatively simple at first glance, organized by parish and *quête* (district), and containing lists of taxpayers and the amount of tax paid (or owed). However, a closer look reveals personal, occupational, topographical, and financial data, which the TEI markup can make available for searching, cross-referencing, mapping, tabulating, and exporting.
 
 ### Background
 
@@ -22,9 +22,9 @@ Some of the rolls have previously been edited and published:
 * 1313 - K. Michaëlsson, *Le Livre de la taille de Paris l'an de grace 1313* (1951)
 
 ### Digital Edition & TEI Markup
-The goal of the Tax Rolls of Medieval Paris is to create a digital edition that presents a faithful transcription of the text while also extracting historical data that can be structured, normalized, and disambiguated.  Consequently, it can be classified as an "assertive edition," what Georg Vogeler (2019) describes as "scholarly representations of historical documents in which the information on facts asserted by the transcription is in the focus of editorial work." While the ultimate goal of interoperability within the semantic web remains in the future, this edition nevertheless works to identify historical data, while preserving the original text.
+The goal of the Tax Rolls of Medieval Paris is to create a digital edition that presents a faithful transcription of the text while also extracting historical data that can be structured, normalized, and disambiguated.  Consequently, it takes inspiration from Georg Vogeler's "assertive editions," which he describes as "scholarly representations of historical documents in which the information on facts asserted by the transcription is in the focus of editorial work" (2019). While the ultimate goal of interoperability within the semantic web remains in the future, this edition nevertheless works to identify historical data, while preserving the original text.
 
-To this end, the focus of the markup of the tax rolls falls on named entities (people, places, organizations/institutions) and the relationships between them. But it also attempts to pay attention to codicology and palaeography, marking folios and columns, noting (and expanding) abbreviations, indicating erasures, additions and corrections, and transcribing marginalia.
+To this end, the focus of the markup of the tax rolls falls on named entities (people, places, organizations/institutions) and the relationships between them. But it also attempts to pay attention to codicology and palaeography, marking folios and columns, noting (and expanding) abbreviations, indicating erasures, additions, and corrections, and transcribing marginalia.
 
 The basic TEI Markup of the individual tax payments in the rolls currently includes the following:
 

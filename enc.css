@@ -10,7 +10,7 @@
         }
 
         div.banner {
-          background-image: url("../assets/banner.png");
+          background-image: url("./assets/banner.png");
           background-position: center;
           background-repeat: no-repeat;
           max-width: 1200px;

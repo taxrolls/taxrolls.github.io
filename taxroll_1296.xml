@@ -46,7 +46,7 @@
             </div>
             <div type="parish">
                 <div type="quête" n="1">
-                    <head type="quête_title" xml:id="head_jpc_qgn_3hb"><rs ref="#st_germain_lauxerrois_Q1">La p<ex>re</ex>miere queste S<ex>aint</ex> G<ex>er</ex>main</rs> lauceurrois faite p<ex>ar</ex>
+                    <head type="quête_title" xml:id="head_jpc_qgn_3hb"><rs ref="#st_germain_lauxerrois_Q1">La p<ex>re</ex>miere queste S<ex>aint</ex> G<ex>er</ex>main lauceurrois</rs> faite p<ex>ar</ex>
                         <persName ref="#RP01"><forename>Rogier</forename>
                             <surname>Piquet</surname></persName>
                         <persName ref="#RP05"><forename>Robert</forename>
@@ -287,6 +287,44 @@
                                     <roleName ref="#GB06" type="occupation" role="tavernier">tav<ex>er</ex>nier</roleName></seg>
                                 <seg type="payment"><measure quantity="6" unit="sous">vi s</measure></seg>
                                 <seg type="status">p</seg></item>
+                        </list>
+                    </div>
+                    <div type="street">
+                        <head xml:id="head_q41_tdf_t3b"><rs ref="#street_Rue_du_Coq #streetSeg_Rue_du_Coq_E">La Rue de Richebourc le coste dev<ex>ers</ex> <rs ref="#topo_Porte_St-Honoré">la porte s<ex>aint</ex> honore</rs></rs></head>
+                        
+                        <list type="payers">
+                            <item ana="#bk:entry" xml:id="item_tf2_qdf_t3b">
+                                <seg type="entry">
+                                    <persName ref="#EP01" ana="#bk:from"><forename>Estienne</forename>
+                                        <surname>paon</surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>.</item>
+                            <item ana="#bk:entry" xml:id="item_s41_tdf_t3b">
+                                <seg type="entry">
+                                    <persName ref="#MC02" ana="#bk:from"><forename>Mahi</forename>
+                                        <nameLink>de</nameLink>
+                                        <surname ref="#geo_Caus">caus</surname></persName>
+                                    <roleName ref="#MC02" type="occupation" role="messager">mesag<ex>ier</ex></roleName>
+                                    <persName ref="#CV01"><roleName>mons<ex>eigneur</ex></roleName>
+                                        <forename>Charles</forename></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>.</item>
+                            <item ana="#bk:entry" xml:id="item_t41_tdf_t3b">
+                                <seg type="entry">
+                                    <persName ref="#MN01" ana="#bk:from">
+                                        <forename>Maheut</forename>
+                                        <nameLink>la</nameLink>
+                                        <surname><placeName ref="#geo_Normandy">normande</placeName></surname></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>.</item>
+                            <item ana="#bk:entry" xml:id="item_u41_tdf_t3b">
+                                <seg type="entry"><rs ref="#ANON015" type="person" subtype="anon_sing" ana="#bk:from"><nameLink>Le</nameLink>
+                                        <roleName ref="#ANON015" type="occupation" role="maréchal">mareschal</roleName></rs> a <rs ref="#MA01" type="person">la fame</rs>
+                                    <persName ref="#CV01"><roleName>mons<ex>eigneur</ex></roleName>
+                                        <forename>Charles</forename></persName>
+                                </seg>
+                                <seg type="payment"><measure quantity="7" unit="sous">vii s</measure></seg>.
+                                <seg type="status">p.</seg></item>
                         </list>
                     </div>
                 </div>

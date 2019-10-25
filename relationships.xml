@@ -57,12 +57,15 @@
                 <relation source="#item_zj5_2zg_ghb" type="personal" name="#hasCompanion" mutual="#ASJ01 #ANON012"/>
                 <!--1297-->
                 <relation source="#item_ocj_d5h_3hb" type="professional" name="#hasEmployer" active="#GM02" passive="#MP04" cert="low"/>
-                <relation source="#item_fdj_d5h_3hb" type="personal" name="#hasSpouse" mutual="#ANON013 #AP02"></relation>
+                <relation source="#item_fdj_d5h_3hb" type="personal" name="#hasSpouse" mutual="#ANON013 #AP02"/>
                 <relation source="#item_jdj_d5h_3hb" type="professional" name="#hasEmployer" active="#R03" passive="#TB03"/>
                 <!--1296-->
                 <relation source="#item_ypc_qgn_3hb" type="personal" name="#hasChild" active="#PP06" passive="#ANON014"/>
                 <relation source="#item_dqc_qgn_3hb" type="personal" name="#hasChild" active="#JCC01" passive="#N01"/>
                 <relation source="#item_hqc_qgn_3hb" type="personal" name="#hasChild" active="#JA02" passive="#J02"/>
+                <relation source="#item_s41_tdf_t3b" type="professional" name="#hasEmployer" active="#MC02" passive="#CV01"/>
+                <relation source="#item_u41_tdf_t3b" type="professional" name="#hasEmployer" active="#ANON015" passive="#MA01"/>
+                <relation source="#item_u41_tdf_t3b" type="personal" name="#hasSpouse" mutual="#MA01 #CV01" from="1290-08-16"/>
             </listRelation>
         </body>
     </text>

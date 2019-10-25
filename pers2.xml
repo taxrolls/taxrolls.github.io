@@ -276,6 +276,22 @@
                <sex value="female"/>
             </person>
 
+            <person xml:id="ANON015">
+               <persName type="anonymous"
+                         key="Unnamed Person (#ANON015)"
+                         source="#item_u41_tdf_t3b"
+                         when="1296">
+                  <nameLink>Le</nameLink>
+                  <roleName>mareschal</roleName>
+               </persName>
+               <sex value="male"/>
+               <occupation source="#item_u41_tdf_t3b" when="1296" role="maréchal">
+                  <desc type="source">mareschal</desc>
+                  <desc type="reg">maréchal to <persName ref="#MA01">Marguerite d'Anjou</persName>
+                  </desc>
+               </occupation>
+            </person>
+
             <person xml:id="AP01">
                <persName source="#item_qd5_2zg_ghb" when="1313">
                   <forename>Aalis</forename>
@@ -412,6 +428,32 @@
                <occupation source="#item_sg5_2zg_ghb" when="1313" role="couturier">
                   <desc type="source">cousturier</desc>
                </occupation>
+            </person>
+
+            <person xml:id="CV01">
+               <persName type="reg" key="Charles de Valois">
+                        <forename>Charles</forename>
+                        <nameLink>de</nameLink>
+                        <placeName>Valois</placeName>
+                    </persName>
+               <persName source="#item_s41_tdf_t3b" when="1296">
+                  <roleName>monseigneur</roleName>
+                  <forename>Charles</forename>
+               </persName>
+               <persName source="#item_u41_tdf_t3b" when="1296">
+                  <roleName>monseigneur</roleName>
+                  <forename>Charles</forename>
+               </persName>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q270438</idno>
+               <idno type="viaf">https://viaf.org/viaf/197982108</idno>
+               <sex value="male"/>
+               <birth datingMethod="#julian_France"
+                      when-custom="1269-03-12"
+                      when="1270-03-12"/>
+               <death when="1325-12-16"/>
+               <state type="office" from="1285" to="1325-12-16">
+                  <label type="style">Conte de Valois</label>
+               </state>
             </person>
 
             <person xml:id="DC01">
@@ -555,6 +597,13 @@
                <occupation source="#head_gd4_qbh_ghb" when="1313" role="talemelier">
                   <desc type="source">talmelier</desc>
                </occupation>
+            </person>
+
+            <person xml:id="EP01">
+               <persName source="#item_tf2_qdf_t3b" when="1296">
+                  <forename>Estienne</forename>
+                  <surname>paon</surname>
+               </persName>
             </person>
 
             <person xml:id="EQL01">
@@ -2178,6 +2227,27 @@
                </occupation>
             </person>
 
+            <person xml:id="MA01">
+               <persName type="reg" key="Marguerite d'Anjou">
+                        <forename>Marguerite</forename>
+                        <nameLink>d'</nameLink>
+                        <placeName>Anjou</placeName>
+                    </persName>
+               <persName source="#item_u41_tdf_t3b" when="1296">la fame</persName>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q241350</idno>
+               <sex value="female"/>
+               <birth type="circa" when="1273" cert="medium"/>
+               <death when="1299-12-31"/>
+               <state type="office" from="1290-08-13" to="1299-12-31">
+                  <label type="style">Comptesse d'<placeName ref="#geo_Anjou">Anjou</placeName>
+                  </label>
+               </state>
+               <state type="office" from="1290-08-13" to="1299-12-31">
+                  <label type="style">Comptesse de <placeName ref="#geo_Maine">Maine</placeName>
+                  </label>
+               </state>
+            </person>
+
             <person xml:id="MB01">
                <persName source="#item_w35_2zg_ghb" when="1313">
                   <forename>Martin</forename>
@@ -2241,6 +2311,19 @@
                </occupation>
             </person>
 
+            <person xml:id="MC02">
+               <persName source="#item_s41_tdf_t3b" when="1296">
+                  <forename>Mahi</forename>
+                  <nameLink>de</nameLink>
+                  <surname ref="#geo_Caus">caus</surname>
+               </persName>
+               <occupation source="#item_s41_tdf_t3b" when="1296" role="messager">
+                  <desc type="source">mesagier</desc>
+                  <desc type="reg">messager to <persName ref="#CV01">Charles de Valois</persName>
+                  </desc>
+               </occupation>
+            </person>
+
             <person xml:id="MCP01">
                <persName source="#item_zk5_2zg_ghb" when="1313">
                   <forename>Macy</forename>
@@ -2269,6 +2352,17 @@
                      <placeName ref="#geo_Lorrez">lorrez</placeName>
                   </surname>
                </persName>
+            </person>
+
+            <person xml:id="MN01">
+               <persName source="#item_t41_tdf_t3b" when="1296">
+                  <forename>Maheut</forename>
+                  <nameLink>la</nameLink>
+                  <surname>
+                     <placeName ref="#geo_Normandy">normande</placeName>
+                  </surname>
+               </persName>
+               <sex value="female"/>
             </person>
 
             <person xml:id="MP01">
@@ -2878,8 +2972,7 @@
                </persName>
                <occupation source="#item_jdj_d5h_3hb" when="1297" role="vallet">
                   <desc type="source">vallet</desc>
-                  <desc type="reg">vallet to <persName ref="#TB03">Tierri
-                                            biaudehors</persName>
+                  <desc type="reg">vallet to <persName ref="#TB03"/>
                   </desc>
                </occupation>
             </person>
@@ -3190,8 +3283,7 @@
                </persName>
                <occupation source="#item_sd5_2zg_ghb" when="1313" role="vallet">
                   <desc type="source">vallet</desc>
-                  <desc type="reg">vallet to <persName ref="#JE01">jehan
-											lescuillier</persName>
+                  <desc type="reg">vallet to <persName ref="#JE01"/>
                   </desc>
                </occupation>
             </person>

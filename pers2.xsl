@@ -130,7 +130,8 @@
                                                                 <xsl:value-of select="document('authority.xml')//person[@corresp = $empl]/persName/@key"/>
                                                             </xsl:when>
                                                             <xsl:otherwise>
-                                                                <xsl:value-of select="//persName[@ref = $empl] | //rs[@ref = $empl]"/>
+                                                                <!--this is still weird-->
+                                                                <xsl:value-of select="//persName[@ref = $empl][ancestor::item[@xml:id = $source] | ancestor::head[@xml:id = $source]] | //rs[@ref = $empl]"/>
                                                             </xsl:otherwise>
                                                         </xsl:choose>
                                                     </xsl:element>

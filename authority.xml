@@ -151,9 +151,49 @@
                     <state type="office" from="1309" datingMethod="#julian_France" to-custom="1329-03-22" to="1330-03-22">
                         <label type="style">Comte de <placeName ref="#geo_Dreux">Dreux</placeName></label>
                     </state>
-                    
                 </person>
-                
+
+                <person corresp="#CV01" resp="#ND">
+                    <persName type="reg" key="Charles de Valois">
+                        <forename>Charles</forename>
+                        <nameLink>de</nameLink>
+                        <placeName>Valois</placeName>
+                    </persName>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q270438</idno>
+                    <idno type="viaf">https://viaf.org/viaf/197982108</idno>
+
+                    <sex value="male"/>
+                    <birth datingMethod="#julian_France" when-custom="1269-03-12" when="1270-03-12"/>
+                    <death when="1325-12-16"/>
+                    
+                    <!-- Unclear what the start date is; have seen 1284-86 -->
+                    <state type="office" from="1285" to="1325-12-16">
+                        <label type="style">Conte de Valois</label>
+                    </state>
+
+                </person>
+
+                <person corresp="#MA01" resp="#ND">
+                    <persName type="reg" key="Marguerite d'Anjou">
+                        <forename>Marguerite</forename>
+                        <nameLink>d'</nameLink>
+                        <placeName>Anjou</placeName>
+                    </persName>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q241350</idno>
+                    
+                    <sex value="female"/>
+                    <!-- English Wiki has 1272; French has 1273 -->
+                    <birth type="circa" when="1273" cert="medium"/>
+                    <death when="1299-12-31"></death>
+                    
+                    <state type="office" from="1290-08-13" to="1299-12-31">
+                        <label type="style">Comptesse d'<placeName ref="#geo_Anjou">Anjou</placeName></label>
+                    </state>
+                    <state type="office" from="1290-08-13" to="1299-12-31">
+                        <label type="style">Comptesse de <placeName ref="#geo_Maine">Maine</placeName></label>
+                    </state>
+                </person>
+
                 <person corresp="#GB02" resp="#ND">
                     <death notAfter="1313" source="#item_lh5_2zg_ghb"/>
                 </person>
